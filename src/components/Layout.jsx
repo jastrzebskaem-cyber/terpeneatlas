@@ -20,18 +20,18 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border">
+      <header className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-md">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center transition-transform group-hover:scale-105">
+              <div className="w-9 h-9 rounded-xl bg-primary-foreground/15 border border-primary-foreground/25 flex items-center justify-center transition-transform group-hover:scale-105">
                 <Leaf className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <span className="font-playfair font-semibold text-lg text-foreground leading-none">
+                <span className="font-playfair font-semibold text-lg text-primary-foreground leading-none">
                   TerpenMap
                 </span>
-                <span className="block text-[10px] text-muted-foreground leading-tight tracking-wide uppercase">
+                <span className="block text-[10px] text-primary-foreground/60 leading-tight tracking-wide uppercase">
                   Profile terpenowe
                 </span>
               </div>
@@ -48,8 +48,8 @@ export default function Layout() {
                     to={link.to}
                     className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                       active
-                        ? "bg-primary text-primary-foreground"
-                        : "text-muted-foreground hover:text-foreground hover:bg-accent"
+                        ? "bg-primary-foreground/20 text-primary-foreground"
+                        : "text-primary-foreground/70 hover:text-primary-foreground hover:bg-primary-foreground/10"
                     }`}
                   >
                     <Icon className="w-4 h-4" />
@@ -62,7 +62,7 @@ export default function Layout() {
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg hover:bg-accent transition-colors"
+              className="md:hidden p-2 rounded-lg hover:bg-primary-foreground/10 text-primary-foreground transition-colors"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
@@ -81,8 +81,8 @@ export default function Layout() {
                     onClick={() => setMobileMenuOpen(false)}
                     className={`flex items-center gap-2 px-4 py-3 rounded-lg text-sm font-medium transition-all ${
                       active
-                        ? "bg-primary text-primary-foreground"
-                        : "text-muted-foreground hover:text-foreground hover:bg-accent"
+                        ? "bg-primary-foreground/20 text-primary-foreground"
+                        : "text-primary-foreground/70 hover:text-primary-foreground hover:bg-primary-foreground/10"
                     }`}
                   >
                     <Icon className="w-4 h-4" />
