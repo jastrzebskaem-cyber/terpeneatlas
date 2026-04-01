@@ -60,8 +60,8 @@ export default function Disclaimer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-border text-xs text-muted-foreground text-center">
-          <p>Dane o odmianach pochodzą z publicznie dostępnych źródeł. Strona nie jest powiązana z żadnym producentem ani dystrybutorem.</p>
-          <p className="mt-1">TerpenMap © {new Date().getFullYear()} — Wyłącznie charakter informacyjny</p>
+          <p>Dane o odmianach pochodzą z publicznie dostępnych źródeł. Strona nie jest powiązana z żadnym producentem ani dystrybutorem. Autorką i właścicielką strony jest Indywidualna Praktyka Lekarska Ewa Jastrzębska</p>
+          <p className="mt-1">Strona TerpenMap © {new Date().getFullYear()} ma wyłącznie charakter informacyjny.</p>
         </div>
       </div>
     </footer>
