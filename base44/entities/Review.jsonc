@@ -1,0 +1,24 @@
+{
+  "name": "Review",
+  "type": "object",
+  "properties": {
+    "strainId": {
+      "type": "string",
+      "description": "ID of the reviewed strain"
+    },
+    "rating": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Rating from 1 to 5"
+    },
+    "opinion": {
+      "type": "string",
+      "description": "User's review text"
+    }
+  },
+  "required": [
+    "strainId",
+    "rating"
+  ]
+}

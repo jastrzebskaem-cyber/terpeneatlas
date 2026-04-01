@@ -8,6 +8,7 @@ import TerpeneBar from "../components/TerpeneBar";
 import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart } from "lucide-react";
 import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
+import ReviewSection from "../components/ReviewSection";
 
 export default function StrainDetail() {
   const { id } = useParams();
@@ -176,6 +177,9 @@ export default function StrainDetail() {
           * Dane o dostępności mają charakter orientacyjny. Przed wizytą skontaktuj się z apteką, aby potwierdzić aktualny stan magazynowy.
         </p>
       </div>
+
+      {/* Reviews */}
+      <ReviewSection strainId={strain.id} />
 
       {/* Similar strains */}
       <div>
