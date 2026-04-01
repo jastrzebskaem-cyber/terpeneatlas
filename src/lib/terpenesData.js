@@ -320,7 +320,7 @@ export const TERPENES = [
       "Odstraszanie owadów (mszyc)",
       "Właściwości antybakteryjne"
     ],
-    description: "Farnezen jest terpenem o delikatnym, jabłkowym aromacie. W przyrodzie pełni ważną rolę – jest naturalnym ferormonem alarmowym mszyc. Jabłka wydzielają go w trakcie dojrzewania, nadając im charakterystyczny zielony zapach. W konopiach występuje w niewielkich ilościach, wzbogacając profil zapachowy o subtelne, owocowe nuty.",
+    description: "Farnezen jest terpenem o delikatnym, jabłkowym aromacie. W przyrodzie pełni ważną rolę – jest naturalnym ferormonem alarmowym mszyc. Jabłka wydzielają go w trakcie dojrzewania, nadając im charakterystyczny zielony zapach. W konopiach występuje w niewielkich ilościach, wzbogacając profil zapachowy o subtelne, owocowe nuty. Na ludzi działa przeciwzapalnie, ale również sedacyjnie i uspokajająco.",
     color: "lime"
   },
   {
