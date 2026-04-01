@@ -58,11 +58,7 @@ export default function StrainCard({ strain, similarity }) {
           </div>
         )}
 
-        {/* Effect */}
-        <div className="flex items-center justify-between pt-3 mt-2">
-          <span className="text-xs text-muted-foreground">
-            {strain.effect}
-          </span>
+        <div className="flex items-center justify-end pt-3 mt-2">
           <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
         </div>
       </div>
