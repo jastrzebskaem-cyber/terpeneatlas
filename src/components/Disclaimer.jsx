@@ -1,4 +1,4 @@
-import { AlertTriangle, ExternalLink } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 export default function Disclaimer() {
   return (
@@ -23,12 +23,11 @@ export default function Disclaimer() {
           <p>
             <strong className="text-foreground">Marihuana, niezależnie czy pochodzenia czarnorynkowego czy taka zakupiona w aptece, jest narkotykiem i ma potencjał uzależniający</strong>, a jej używanie wiąże się z ryzykiem pojawienia się skutków ubocznych.
           </p>
-
         </div>
 
         <div className="mt-8 pt-6 border-t border-border text-xs text-muted-foreground text-center">
           <p>Dane o odmianach pochodzą z publicznie dostępnych źródeł. Strona nie jest powiązana z żadnym producentem ani dystrybutorem. Autorką i właścicielką strony jest Indywidualna Praktyka Lekarska Ewa Jastrzębska</p>
-          <p className="mt-1">Strona Terpene Atlas © 2026 ma wyłącznie charakter informacyjny.</p> © 2026 ma wyłącznie charakter informacyjny.</p> © 2026 ma wyłącznie charakter informacyjny.</p> © {new Date().getFullYear()} ma wyłącznie charakter informacyjny.</p>
+          <p className="mt-1">Strona Terpene Atlas &copy; {new Date().getFullYear()} ma wyłącznie charakter informacyjny.</p>
         </div>
       </div>
     </footer>
