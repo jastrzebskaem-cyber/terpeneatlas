@@ -40,7 +40,10 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<TerpenesEncyclopedia />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/odmiana/:id" element={<StrainDetail />} />
+        <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
+        <Route path="/terpeny/:id" element={<TerpeneDetail />} />
+        <Route path="/ulubione" element={<Favorites />} />
         <Route path="/odmiana/:id" element={<StrainDetail />} />
         <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
         <Route path="/terpeny/:id" element={<TerpeneDetail />} />
