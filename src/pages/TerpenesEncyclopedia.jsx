@@ -66,7 +66,7 @@ function TerpeneCard({ terpene }) {
 
       <div className="flex items-center justify-between pt-3 border-t border-border">
         <span className="text-xs text-muted-foreground line-clamp-1">
-          {terpene.effects[0]}
+          <span className="font-medium">Działanie:</span> {terpene.effects[0]}
         </span>
         <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
       </div>
