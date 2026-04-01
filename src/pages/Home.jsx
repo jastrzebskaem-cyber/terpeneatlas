@@ -6,16 +6,31 @@ import { Search, SlidersHorizontal, Leaf, X } from "lucide-react";
 const GENETICS_OPTIONS = ["Wszystkie", "Indica", "Sativa", "Hybryda", "Hybryda/Indica", "Hybryda/Sativa"];
 const EFFECT_OPTIONS = ["Wszystkie", "Pobudzające", "Relaksujące", "Zrównoważone"];
 const AVAILABILITY_OPTIONS = ["Wszystkie", "Wysoka", "Niska", "Brak", "Wycofana"];
+const THC_OPTIONS = ["Wszystkie", "do 18%", "18%", "22%", "powyżej 22%"];
+const SORT_OPTIONS = [
+  { value: "name-asc", label: "Nazwa (A-Z)" },
+  { value: "name-desc", label: "Nazwa (Z-A)" },
+  { value: "thc-desc", label: "THC (malejąco)" },
+  { value: "thc-asc", label: "THC (rosnąco)" },
+];
 
 export default function Home() {
   const [search, setSearch] = useState("");
   const [genetics, setGenetics] = useState("Wszystkie");
   const [effect, setEffect] = useState("Wszystkie");
   const [availability, setAvailability] = useState("Wszystkie");
+  const [producer, setProducer] = useState("Wszystkie");
+  const [thcRange, setThcRange] = useState("Wszystkie");
+  const [sortBy, setSortBy] = useState("name-asc");
   const [showFilters, setShowFilters] = useState(false);
 
+  const producerOptions = useMemo(() => {
+    const unique = [...new Set(STRAINS.map(s => s.producer))].sort();
+    return ["Wszystkie", ...unique];
+  }, []);
+
   const filteredStrains = useMemo(() => {
-    return STRAINS.filter((s) => {
+    let results = STRAINS.filter((s) => {
       const matchesSearch =
         !search ||
         s.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -26,16 +41,38 @@ export default function Home() {
         effect === "Wszystkie" || s.effect === effect;
       const matchesAvailability =
         availability === "Wszystkie" || s.availability === availability;
-      return matchesSearch && matchesGenetics && matchesEffect && matchesAvailability;
+      const matchesProducer =
+        producer === "Wszystkie" || s.producer === producer;
+      const matchesThc = (() => {
+        if (thcRange === "Wszystkie") return true;
+        if (thcRange === "do 18%") return s.thc < 18;
+        if (thcRange === "18%") return s.thc === 18;
+        if (thcRange === "22%") return s.thc === 22;
+        if (thcRange === "powyżej 22%") return s.thc > 22;
+        return true;
+      })();
+      return matchesSearch && matchesGenetics && matchesEffect && matchesAvailability && matchesProducer && matchesThc;
     });
-  }, [search, genetics, effect, availability]);
 
-  const hasActiveFilters = genetics !== "Wszystkie" || effect !== "Wszystkie" || availability !== "Wszystkie";
+    results = [...results].sort((a, b) => {
+      if (sortBy === "name-asc") return a.name.localeCompare(b.name, "pl");
+      if (sortBy === "name-desc") return b.name.localeCompare(a.name, "pl");
+      if (sortBy === "thc-desc") return b.thc - a.thc;
+      if (sortBy === "thc-asc") return a.thc - b.thc;
+      return 0;
+    });
+
+    return results;
+  }, [search, genetics, effect, availability, producer, thcRange, sortBy]);
+
+  const hasActiveFilters = genetics !== "Wszystkie" || effect !== "Wszystkie" || availability !== "Wszystkie" || producer !== "Wszystkie" || thcRange !== "Wszystkie";
 
   const clearFilters = () => {
     setGenetics("Wszystkie");
     setEffect("Wszystkie");
     setAvailability("Wszystkie");
+    setProducer("Wszystkie");
+    setThcRange("Wszystkie");
     setSearch("");
   };
 
@@ -91,7 +128,7 @@ export default function Home() {
 
         {showFilters && (
           <div className="bg-card rounded-xl border border-border p-4 sm:p-5 space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <FilterSelect
                 label="Genetyka"
                 value={genetics}
@@ -103,6 +140,18 @@ export default function Home() {
                 value={effect}
                 onChange={setEffect}
                 options={EFFECT_OPTIONS}
+              />
+              <FilterSelect
+                label="Producent"
+                value={producer}
+                onChange={setProducer}
+                options={producerOptions}
+              />
+              <FilterSelect
+                label="Zawartość THC"
+                value={thcRange}
+                onChange={setThcRange}
+                options={THC_OPTIONS}
               />
               <FilterSelect
                 label="Dostępność"
@@ -123,11 +172,20 @@ export default function Home() {
         )}
       </div>
 
-      {/* Results count */}
+      {/* Results count + sort */}
       <div className="flex items-center justify-between mb-6">
         <p className="text-sm text-muted-foreground">
           {filteredStrains.length} {filteredStrains.length === 1 ? "odmiana" : filteredStrains.length < 5 ? "odmiany" : "odmian"}
         </p>
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+          className="text-sm px-3 py-1.5 rounded-lg border border-border bg-card focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+        >
+          {SORT_OPTIONS.map(opt => (
+            <option key={opt.value} value={opt.value}>{opt.label}</option>
+          ))}
+        </select>
       </div>
 
       {/* Strain grid */}
