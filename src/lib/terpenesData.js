@@ -73,7 +73,7 @@ export const TERPENES = [
       "Rozmaryn"
     ],
     effects: [
-      "Działanie przeciwzapalne (bezpośrednio aktywuje receptor CB2)",
+      "Działanie: przeciwzapalne, przeciwbólowe i gastroprotekcyjne",
       "Właściwości przeciwbólowe",
       "Działanie gastroprotekcyjne (ochrona żołądka)",
       "Potencjał w terapii uzależnień od alkoholu",
