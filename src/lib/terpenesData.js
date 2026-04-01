@@ -314,7 +314,7 @@ export const TERPENES = [
       "Rumianek"
     ],
     effects: [
-      "Działanie uspokajające",
+      "Działanie: przeciwzapalne, uspokajające i sedacyjne",
       "Właściwości przeciwzapalne",
       "Działanie antyoksydacyjne",
       "Odstraszanie owadów (mszyc)",
