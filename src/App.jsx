@@ -5,7 +5,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageNotFound from './lib/PageNotFound';
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
-// Add page imports here
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import TerpenesEncyclopedia from './pages/TerpenesEncyclopedia';
+import StrainDetail from './pages/StrainDetail';
+import TerpeneDetail from './pages/TerpeneDetail';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -33,8 +37,13 @@ const AuthenticatedApp = () => {
   // Render the main app
   return (
     <Routes>
-      {/* Add your page Route elements here */}
-      <Route path="*" element={<PageNotFound />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/odmiana/:id" element={<StrainDetail />} />
+        <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
+        <Route path="/terpeny/:id" element={<TerpeneDetail />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Route>
     </Routes>
   );
 };
