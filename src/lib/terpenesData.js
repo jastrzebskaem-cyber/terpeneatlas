@@ -212,7 +212,7 @@ export const TERPENES = [
       "Estragon"
     ],
     effects: [
-      "Działanie przeciwzapalne",
+      "Działanie: przeciwwirusowe, antyseptyczne, przeciwzapalne",
       "Właściwości przeciwwirusowe",
       "Działanie antyseptyczne",
       "Właściwości dekongestantne (udrażnianie dróg oddechowych)",
