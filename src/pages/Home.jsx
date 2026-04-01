@@ -82,7 +82,7 @@ export default function Home() {
       <div className="text-center mb-10">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent text-sm text-accent-foreground mb-4">
           <Leaf className="w-4 h-4" />
-          Medyczna marihuana w Polsce
+          Medyczne konopie w Polsce
         </div>
         <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3">
           Porównaj profile terpenowe
