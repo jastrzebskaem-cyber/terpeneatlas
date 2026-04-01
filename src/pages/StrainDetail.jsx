@@ -5,13 +5,15 @@ import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpeneBar from "../components/TerpeneBar";
-import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store } from "lucide-react";
+import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart } from "lucide-react";
+import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
 
 export default function StrainDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const strain = STRAINS.find((s) => s.id === id);
+  const { toggleFavorite, isFavorite } = useFavorites();
   const pharmacies = strain ? getPharmacies(strain.id) : [];
 
   if (!strain) {
@@ -49,7 +51,19 @@ export default function StrainDetail() {
             </h1>
             <p className="text-muted-foreground">{strain.producer}</p>
           </div>
-          <AvailabilityBadge availability={strain.availability} />
+          <div className="flex items-center gap-2">
+            <AvailabilityBadge availability={strain.availability} />
+            <button
+              onClick={() => toggleFavorite(strain.id)}
+              className={`p-2 rounded-xl border transition-all ${
+                isFavorite(strain.id)
+                  ? "bg-rose-50 border-rose-200 text-rose-500"
+                  : "border-border text-muted-foreground hover:border-rose-200 hover:text-rose-400"
+              }`}
+            >
+              <Heart className={`w-5 h-5 ${isFavorite(strain.id) ? "fill-rose-500" : ""}`} />
+            </button>
+          </div>
         </div>
 
         {/* Stats */}

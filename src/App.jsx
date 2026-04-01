@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import TerpenesEncyclopedia from './pages/TerpenesEncyclopedia';
 import StrainDetail from './pages/StrainDetail';
 import TerpeneDetail from './pages/TerpeneDetail';
+import Favorites from './pages/Favorites';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -43,6 +44,7 @@ const AuthenticatedApp = () => {
         <Route path="/odmiana/:id" element={<StrainDetail />} />
         <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
         <Route path="/terpeny/:id" element={<TerpeneDetail />} />
+        <Route path="/ulubione" element={<Favorites />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

@@ -3,6 +3,7 @@ import { STRAINS } from "../lib/strainsData";
 import StrainCard from "../components/StrainCard";
 import CompareTable from "../components/CompareTable";
 import { Search, SlidersHorizontal, Leaf, X, GitCompare } from "lucide-react";
+import { useFavorites } from "../hooks/useFavorites";
 
 const GENETICS_OPTIONS = ["Wszystkie", "Indica", "Sativa", "Hybryda", "Hybryda/Indica", "Hybryda/Sativa"];
 const AVAILABILITY_OPTIONS = ["Wszystkie", "Wysoka", "Niska", "Brak", "Wycofana"];
@@ -24,6 +25,7 @@ export default function Home() {
   const [showFilters, setShowFilters] = useState(false);
   const [compareIds, setCompareIds] = useState([]);
   const [showCompare, setShowCompare] = useState(false);
+  const { toggleFavorite, isFavorite } = useFavorites();
 
   const toggleCompare = (id) => {
     setCompareIds((prev) =>
@@ -205,6 +207,8 @@ export default function Home() {
               isComparing={compareIds.includes(strain.id)}
               onToggleCompare={() => toggleCompare(strain.id)}
               canAddMore={compareIds.length < 4}
+              isFavorite={isFavorite(strain.id)}
+              onToggleFavorite={() => toggleFavorite(strain.id)}
             />
           ))}
         </div>
