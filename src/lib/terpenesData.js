@@ -19,8 +19,7 @@ export const TERPENES = [
       "Werbena cytrynowa"
     ],
     effects: [
-      "Działanie relaksujące i uspokajające",
-      "Właściwości przeciwzapalne",
+      "Działanie uspokajające, relaksujące i przeciwzapalne",
       "Działanie przeciwbólowe (analgetyczne)",
       "Wspomaganie snu",
       "Działanie miorelaksujące (rozluźnianie mięśni)",
