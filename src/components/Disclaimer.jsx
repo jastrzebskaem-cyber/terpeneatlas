@@ -24,39 +24,6 @@ export default function Disclaimer() {
             <strong className="text-foreground">Marihuana, niezależnie czy pochodzenia czarnorynkowego czy taka zakupiona w aptece, jest narkotykiem i ma potencjał uzależniający</strong>, a jej używanie wiąże się z ryzykiem pojawienia się skutków ubocznych.
           </p>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-4">
-            <p className="text-amber-900 font-medium mb-2">
-              Podejrzewasz u siebie uzależnienie od marihuany?
-            </p>
-            <p className="text-amber-800">
-              Jeśli podejrzewasz u siebie uzależnienie, zgłoś się do:
-            </p>
-            <ul className="mt-2 space-y-2 text-amber-800">
-              <li className="flex items-start gap-2">
-                <span className="text-amber-600 mt-0.5">•</span>
-                <span>
-                  <strong>Poradni Leczenia Uzależnień</strong> — skierowanie nie jest w Polsce potrzebne, terminy wizyt można sprawdzić na stronie:{" "}
-                  <a
-                    href="https://swiatprzychodni.pl/swiadczenia/leczenie-uzaleznien/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline font-medium inline-flex items-center gap-1 hover:text-amber-900 transition-colors"
-                  >
-                    swiatprzychodni.pl
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-amber-600 mt-0.5">•</span>
-                <span>Swojego <strong>Lekarza Podstawowej Opieki Zdrowotnej</strong></span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-amber-600 mt-0.5">•</span>
-                <span><strong>Izby Przyjęć</strong> najbliższego Szpitala Psychiatrycznego</span>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-border text-xs text-muted-foreground text-center">
