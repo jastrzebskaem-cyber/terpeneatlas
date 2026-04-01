@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
 import { STRAINS } from "../lib/strainsData";
 import StrainCard from "../components/StrainCard";
-import { Search, SlidersHorizontal, Leaf, X } from "lucide-react";
+import CompareTable from "../components/CompareTable";
+import { Search, SlidersHorizontal, Leaf, X, GitCompare } from "lucide-react";
 
 const GENETICS_OPTIONS = ["Wszystkie", "Indica", "Sativa", "Hybryda", "Hybryda/Indica", "Hybryda/Sativa"];
 const AVAILABILITY_OPTIONS = ["Wszystkie", "Wysoka", "Niska", "Brak", "Wycofana"];
@@ -21,6 +22,16 @@ export default function Home() {
 
   const [sortBy, setSortBy] = useState("name-asc");
   const [showFilters, setShowFilters] = useState(false);
+  const [compareIds, setCompareIds] = useState([]);
+  const [showCompare, setShowCompare] = useState(false);
+
+  const toggleCompare = (id) => {
+    setCompareIds((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : prev.length < 4 ? [...prev, id] : prev
+    );
+  };
+
+  const compareStrains = STRAINS.filter((s) => compareIds.includes(s.id));
 
   const producerOptions = useMemo(() => {
     const unique = [...new Set(STRAINS.map(s => s.producer))].sort();
@@ -165,11 +176,36 @@ export default function Home() {
         </select>
       </div>
 
+      {/* Compare button */}
+      {compareIds.length > 0 && (
+        <div className="mb-4 flex items-center gap-3">
+          <button
+            onClick={() => setShowCompare(true)}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            <GitCompare className="w-4 h-4" />
+            Porównaj ({compareIds.length})
+          </button>
+          <button
+            onClick={() => setCompareIds([])}
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Wyczyść wybór
+          </button>
+        </div>
+      )}
+
       {/* Strain grid */}
       {filteredStrains.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           {filteredStrains.map((strain) => (
-            <StrainCard key={strain.id} strain={strain} />
+            <StrainCard
+              key={strain.id}
+              strain={strain}
+              isComparing={compareIds.includes(strain.id)}
+              onToggleCompare={() => toggleCompare(strain.id)}
+              canAddMore={compareIds.length < 4}
+            />
           ))}
         </div>
       ) : (
@@ -181,6 +217,7 @@ export default function Home() {
           </button>
         </div>
       )}
+
     </div>
   );
 }
