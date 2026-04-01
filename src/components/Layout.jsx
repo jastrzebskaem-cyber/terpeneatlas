@@ -8,9 +8,8 @@ export default function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { to: "/", label: "Odmiany", icon: Leaf },
+    { to: "/", label: "Baza wiedzy - odmiany", icon: Leaf },
     { to: "/terpeny", label: "Encyklopedia terpenów", icon: FlaskConical },
-    { to: "/ulubione", label: "Ulubione", icon: Heart },
   ];
 
   const isActive = (path) => {
