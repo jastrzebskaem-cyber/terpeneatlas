@@ -17,7 +17,7 @@ export default function Disclaimer() {
           </p>
 
           <p>
-            Każdorazowa decyzja o włączeniu terapii fragmentami roślin <em>Cannabis sativa</em> L., tzw. medyczną marihuaną, powinna być podjęta przez <strong className="text-foreground">Lekarza posiadającego wiedzę i doświadczenie w tym zakresie</strong> i powinna być poprzedzona konsultacją medyczną, zapoznaniem się z historią choroby, przeprowadzeniem badania przed- i podmiotowego Pacjenta oraz określeniem ryzyka uzależnienia i wykluczeniem ewentualnych przeciwwskazań do takiej formy terapii.
+            Każdorazowa decyzja o włączeniu terapii fragmentami roślin Cannabis sativa L., tzw. medyczną marihuaną, powinna być podjęta przez <strong className="text-foreground">Lekarza posiadającego wiedzę i doświadczenie w tym zakresie</strong> i poprzedzona konsultacją medyczną, zapoznaniem się z historią choroby, przeprowadzeniem badania przed- i podmiotowego Pacjenta oraz określeniem ryzyka uzależnienia i wykluczeniem ewentualnych przeciwwskazań do takiej formy terapii.
           </p>
 
           <p>
