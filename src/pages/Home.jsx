@@ -5,7 +5,7 @@ import { Search, SlidersHorizontal, Leaf, X } from "lucide-react";
 
 const GENETICS_OPTIONS = ["Wszystkie", "Indica", "Sativa", "Hybryda", "Hybryda/Indica", "Hybryda/Sativa"];
 const AVAILABILITY_OPTIONS = ["Wszystkie", "Wysoka", "Niska", "Brak", "Wycofana"];
-const THC_OPTIONS = ["Wszystkie", "do 18%", "18%", "22%", "powyżej 22%"];
+
 const SORT_OPTIONS = [
   { value: "name-asc", label: "Nazwa (A-Z)" },
   { value: "name-desc", label: "Nazwa (Z-A)" },
@@ -18,7 +18,7 @@ export default function Home() {
   const [genetics, setGenetics] = useState("Wszystkie");
   const [availability, setAvailability] = useState("Wszystkie");
   const [producer, setProducer] = useState("Wszystkie");
-  const [thcRange, setThcRange] = useState("Wszystkie");
+
   const [sortBy, setSortBy] = useState("name-asc");
   const [showFilters, setShowFilters] = useState(false);
 
@@ -39,15 +39,7 @@ export default function Home() {
         availability === "Wszystkie" || s.availability === availability;
       const matchesProducer =
         producer === "Wszystkie" || s.producer === producer;
-      const matchesThc = (() => {
-        if (thcRange === "Wszystkie") return true;
-        if (thcRange === "do 18%") return s.thc < 18;
-        if (thcRange === "18%") return s.thc === 18;
-        if (thcRange === "22%") return s.thc === 22;
-        if (thcRange === "powyżej 22%") return s.thc > 22;
-        return true;
-      })();
-      return matchesSearch && matchesGenetics && matchesAvailability && matchesProducer && matchesThc;
+      return matchesSearch && matchesGenetics && matchesAvailability && matchesProducer;
     });
 
     results = [...results].sort((a, b) => {
@@ -59,15 +51,15 @@ export default function Home() {
     });
 
     return results;
-  }, [search, genetics, availability, producer, thcRange, sortBy]);
+  }, [search, genetics, availability, producer, sortBy]);
 
-  const hasActiveFilters = genetics !== "Wszystkie" || availability !== "Wszystkie" || producer !== "Wszystkie" || thcRange !== "Wszystkie";
+  const hasActiveFilters = genetics !== "Wszystkie" || availability !== "Wszystkie" || producer !== "Wszystkie";
 
   const clearFilters = () => {
     setGenetics("Wszystkie");
     setAvailability("Wszystkie");
     setProducer("Wszystkie");
-    setThcRange("Wszystkie");
+
     setSearch("");
   };
 
@@ -137,12 +129,7 @@ export default function Home() {
                 onChange={setProducer}
                 options={producerOptions}
               />
-              <FilterSelect
-                label="Zawartość THC"
-                value={thcRange}
-                onChange={setThcRange}
-                options={THC_OPTIONS}
-              />
+
               <FilterSelect
                 label="Dostępność"
                 value={availability}
