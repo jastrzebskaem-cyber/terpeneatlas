@@ -184,7 +184,7 @@ export const TERPENES = [
       "Ginseng"
     ],
     effects: [
-      "Działanie przeciwzapalne",
+      "Działanie: przeciwzapalne, tłumiące apetyt, antybakteryjne",
       "Właściwości tłumiące apetyt (w przeciwieństwie do THC)",
       "Działanie antybakteryjne",
       "Potencjalne działanie antynowotworowe",
