@@ -6,6 +6,7 @@ import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpeneBar from "../components/TerpeneBar";
 import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store } from "lucide-react";
+import TerpeneRadarChart from "../components/TerpeneRadarChart";
 
 export default function StrainDetail() {
   const { id } = useParams();
@@ -85,6 +86,12 @@ export default function StrainDetail() {
           <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy</h2>
         </div>
 
+        {/* Radar chart */}
+        <div className="mb-6">
+          <TerpeneRadarChart strain={strain} />
+        </div>
+
+        {/* Terpene bars */}
         <div className="space-y-3 mb-6">
           {sortedTerpenes.map(([name, value]) => (
             <TerpeneBar key={name} name={name} value={value} maxValue={10} />
