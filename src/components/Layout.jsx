@@ -29,7 +29,7 @@ export default function Layout() {
               </div>
               <div>
                 <span className="font-playfair font-semibold text-lg text-primary-foreground leading-none">
-                  TerpenMap
+                  Terpene Map
                 </span>
                 <span className="block text-[10px] text-primary-foreground/60 leading-tight tracking-wide uppercase">
                   Profile terpenowe
