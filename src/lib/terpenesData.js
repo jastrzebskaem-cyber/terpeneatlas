@@ -101,7 +101,7 @@ export const TERPENES = [
       "Sosna"
     ],
     effects: [
-      "Działanie sedatywne (uspokajające) w wyższych dawkach",
+      "Działanie: sedatywne (w wyższych dawkach), antyoksydacyjne, antybakteryjne i przeciwgrzybicze",
       "Właściwości przeciwutleniające",
       "Działanie antybakteryjne i przeciwgrzybicze",
       "Potencjalne działanie antynowotworowe",
