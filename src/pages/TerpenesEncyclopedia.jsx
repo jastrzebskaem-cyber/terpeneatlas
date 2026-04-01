@@ -15,8 +15,7 @@ export default function TerpenesEncyclopedia() {
           Terpeny w konopiach
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-          Terpeny to związki aromatyczne odpowiedzialne za zapach, smak i&nbsp;część efektów terapeutycznych konopi.
-          Poznaj każdy z nich.
+          Terpeny to naturalne związki aromatyczne, wytwarzane przez konopie i wiele innych roślin. Poznaj niektóre z nich.
         </p>
       </div>
 
