@@ -88,7 +88,7 @@ export default function Home() {
           Porównaj profile terpenowe
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-          Wybierz odmianę, aby zobaczyć jej profil terpenowy i odkryć odmiany o&nbsp;najbardziej zbliżonym składzie terpenów.
+          Wybierz odmianę, aby zobaczyć jej profil terpenowy i odkryć odmiany o najbardziej zbliżonym do siebie składzie terpenów.
         </p>
       </div>
 
