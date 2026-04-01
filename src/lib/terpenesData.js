@@ -263,7 +263,7 @@ export const TERPENES = [
       "Neroli (kwiat pomarańczy)"
     ],
     effects: [
-      "Silne działanie uspokajające i nasenne",
+      "Działanie: silnie uspokajające i nasenne, przeciwgrzybizcze",
       "Właściwości przeciwpasożytnicze (leiszmanioza, malaria)",
       "Działanie antybakteryjne i przeciwgrzybicze",
       "Wspomaganie przenikania substancji przez skórę",
