@@ -39,6 +39,7 @@ const AuthenticatedApp = () => {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/odmiana/:id" element={<StrainDetail />} />
         <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
         <Route path="/terpeny/:id" element={<TerpeneDetail />} />
