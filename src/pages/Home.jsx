@@ -88,7 +88,7 @@ export default function Home() {
           Profile terpenowe konopi
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-          Wybierz odmianę suszu, aby zobaczyć jej profil terpenowy i odkryj alternatywy, o podobnym działaniu, aby zobaczyć jej profil terpenowy i odkryć odmiany o najbardziej zbliżonym do siebie składzie terpenów.
+          Wybierz odmianę suszu, aby zobaczyć jej profil terpenowy i odkryj alternatywy, o podobnym działaniu, aby zobaczyć jej profil terpenowy i odkryj alternatywy, o podobnym działaniu, aby zobaczyć jej profil terpenowy i odkryć odmiany o najbardziej zbliżonym do siebie składzie terpenów.
         </p>
       </div>
 
