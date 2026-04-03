@@ -85,7 +85,7 @@ export default function Home() {
           Medyczne konopie w Polsce
         </div>
         <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3">
-          Porównaj profile terpenowe
+          Profile terpenowe konopi
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
           Wybierz odmianę, aby zobaczyć jej profil terpenowy i odkryć odmiany o najbardziej zbliżonym do siebie składzie terpenów.
