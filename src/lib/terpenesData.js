@@ -129,7 +129,7 @@ export const TERPENES = [
       "Żywica drzew iglastych"
     ],
     effects: [
-      "Działanie: poprawia koncentrację i pamięć krótkotrwałą, rozszerza oskrzela",
+      "Poprawia koncentrację i pamięć krótkotrwałą",
       "Właściwości rozszerzające oskrzela (wspomaganie oddychania)",
       "Działanie przeciwzapalne",
       "Działanie antybakteryjne (przeciwko MRSA)",
