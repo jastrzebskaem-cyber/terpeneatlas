@@ -15,8 +15,7 @@ export const TERPENES = [
       "Trawa cytrynowa",
       "Tymianek",
       "Bazylia",
-      "Liście laurowe",
-      "Werbena cytrynowa"
+      "Liście laurowe"
     ],
     effects: [
       "Działanie uspokajające, relaksujące i przeciwzapalne",
