@@ -106,7 +106,7 @@ export const TERPENES = [
       "Antybakteryjne",
       "Potencjalne działanie antynowotworowe",
       "Lekko pobudzające w niższych stężeniach",
-      "Odstraszanie owadów"
+      "Odstrasza owady"
     ],
     description: "Terpinolen występuje w mniejszych ilościach w wielu odmianach, ale gdy dominuje, nadaje charakterystyczny sosnowo-ziołowy profil. Jest dominującym terpenem w wielu odmianach sativa o pobudzającym działaniu, jak Ghost Train Haze czy Jack Haze. W wyższych stężeniach paradoksalnie może działać uspokajająco. Stosowany jest w przemyśle jako składnik mydła i środków odstraszających owady.",
     color: "teal"
