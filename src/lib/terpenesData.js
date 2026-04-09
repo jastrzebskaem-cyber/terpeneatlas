@@ -124,8 +124,6 @@ export const TERPENES = [
       "Rozmaryn",
       "Bazylia",
       "Koper włoski",
-      "Eucalyptus",
-      "Szałwia",
       "Żywica drzew iglastych"
     ],
     effects: [
