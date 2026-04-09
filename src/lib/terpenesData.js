@@ -160,7 +160,7 @@ export const TERPENES = [
       "Silnie uspokajające, przeciwlękowe",
       "Właściwości przeciwdrgawkowe (potencjał w epilepsji)",
       "Analgetyczne (przeciwbólowe)",
-      "Działanie przeciwdepresyjne",
+      "Usuwa wolne rodniki z komórek",
       "Wspomaganie układu odpornościowego",
       "Właściwości znieczulające miejscowo"
     ],
