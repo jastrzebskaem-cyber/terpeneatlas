@@ -161,7 +161,7 @@ export const TERPENES = [
       "Właściwości przeciwdrgawkowe (potencjał w epilepsji)",
       "Analgetyczne (przeciwbólowe)",
       "Usuwa wolne rodniki z komórek",
-      "Wspomaganie układu odpornościowego",
+      "Wspomaga układ odpornościowy",
       "Właściwości znieczulające miejscowo"
     ],
     description: "Linalol jest terpenem odpowiedzialnym za charakterystyczny zapach lawendy. Od wieków stosowany w aromaterapii ze względu na właściwości uspokajające. Badania wykazały, że wdychanie linalolu zmniejsza poziom lęku u myszy bez wpływu na zdolności motoryczne. W medycynie ludowej stosowany jako środek uspokajający i przeciwbólowy. Jest kluczowym składnikiem wielu odmian konopi o profilu relaksującym.",
