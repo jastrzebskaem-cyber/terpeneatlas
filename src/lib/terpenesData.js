@@ -22,7 +22,7 @@ export const TERPENES = [
       "Analgetyczne (przeciwbólowe)",
       "Poprawia jakość snu",
       "Działanie miorelaksujące (rozluźnianie mięśni)",
-      "Może nasilać przenikanie kannabinoidów przez barierę krew-mózg"
+      "Ujędrnia skórę, opóźnia jej starzenie"
     ],
     description: "Mircen to najczęściej występujący terpen w konopiach. Jest odpowiedzialny za ziemisty, piżmowy aromat wielu odmian indica. Badania sugerują, że mircen może nasilać działanie THC poprzez ułatwianie jego przenikania przez barierę krew-mózg. Jest głównym składnikiem olejku z trawy cytrynowej, który w tradycyjnej medycynie brazylijskiej stosowany był jako środek uspokajający i przeciwbólowy.",
     color: "emerald"
