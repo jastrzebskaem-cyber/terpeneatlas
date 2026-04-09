@@ -188,7 +188,7 @@ export const TERPENES = [
       "Właściwości tłumiące apetyt (w przeciwieństwie do THC)",
       "Hamuje wydzielanie histaminy, co pomaga przy chorobach alergicznych",
       "Gastroprotekcyjnie (ochronnie na układ pokarmowy)",
-      "Właściwości przeciwbólowe",
+      "Poprawia jakość snu",
       "Wspomaganie procesów alergicznych"
     ],
     description: "Humulen (α-kariofilen) jest izomerem β-kariofilenu i często występuje razem z nim w konopiach. Jest głównym terpenem w chmielu, nadając piwo jego charakterystyczny gorzki aromat. Co ciekawe, humulen jest jednym z nielicznych terpenów, który może tłumić apetyt – co stanowi kontrast z ogólnie apetytostymulującym działaniem konopi.",
