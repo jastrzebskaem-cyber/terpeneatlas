@@ -157,7 +157,7 @@ export const TERPENES = [
       "Róża"
     ],
     effects: [
-      "Działanie: silnie uspokajające, przeciwlękowe, przeciwdrgawkowe",
+      "Silnie uspokajające, przeciwlękowe",
       "Właściwości przeciwdrgawkowe (potencjał w epilepsji)",
       "Działanie przeciwbólowe",
       "Działanie przeciwdepresyjne",
