@@ -186,7 +186,7 @@ export const TERPENES = [
     effects: [
       "Przeciwzapalne, tłumiące aptetyt, antybakteryjne",
       "Właściwości tłumiące apetyt (w przeciwieństwie do THC)",
-      "Działanie antybakteryjne",
+      "Hamuje wydzielanie histaminy, co pomaga przy chorobach alergicznych",
       "Potencjalne działanie antynowotworowe",
       "Właściwości przeciwbólowe",
       "Wspomaganie procesów alergicznych"
