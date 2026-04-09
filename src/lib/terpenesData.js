@@ -78,7 +78,7 @@ export const TERPENES = [
       "Przeciwlękowe, redukujące stres",
       "Może wspierać ochronę komórek nerwowych, co czyni go obiektem badań w kontekstu zaburzeń neurologicznych",
       "Ma właściwości antyoksydacyjne (przeciwutleniające)",
-      "Wiąże się bezpośrednio z receptorami CB2"
+      "Wiąże się bezpośrednio z receptorami CB2 (odpowiedzialnymi za odporność i ból), omijając receptory CB1"
     ],
     description: "Kariofilen jest unikatowy wśród terpenów, ponieważ jest jedynym terpenem, który bezpośrednio aktywuje receptory endokannabinoidowe CB2. Dzięki temu wykazuje silne właściwości przeciwzapalne bez efektów psychoaktywnych. Jest jednym z głównych składników olejku z czarnego pieprzu i goździków. FDA uznaje go za bezpieczny dodatek do żywności.",
     color: "orange"
