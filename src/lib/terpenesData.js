@@ -77,7 +77,7 @@ export const TERPENES = [
       "Gastroprotekcyjne (ochrona układu pokarmowego)",
       "Przeciwlękowe, redukujące stres",
       "Neuroprotekcyjne",
-      "Właściwości przeciwutleniające",
+      "Ma właściwości antyoksydacyjne (przeciwutleniające)",
       "Redukcja lęku i depresji"
     ],
     description: "Kariofilen jest unikatowy wśród terpenów, ponieważ jest jedynym terpenem, który bezpośrednio aktywuje receptory endokannabinoidowe CB2. Dzięki temu wykazuje silne właściwości przeciwzapalne bez efektów psychoaktywnych. Jest jednym z głównych składników olejku z czarnego pieprzu i goździków. FDA uznaje go za bezpieczny dodatek do żywności.",
