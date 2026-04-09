@@ -74,7 +74,7 @@ export const TERPENES = [
     ],
     effects: [
       "Przeciwzapalne i przeciwbólowe",
-      "Właściwości przeciwbólowe",
+      "Gastroprotekcyjne (ochrona układu pokarmowego)",
       "Działanie gastroprotekcyjne (ochrona żołądka)",
       "Potencjał w terapii uzależnień od alkoholu",
       "Właściwości przeciwutleniające",
