@@ -102,8 +102,8 @@ export const TERPENES = [
     ],
     effects: [
       "Sedatywne (w wyższych dawkach) i antyoksydacyjne",
-      "Właściwości przeciwutleniające",
-      "Działanie antybakteryjne i przeciwgrzybicze",
+      "Przeciwgrzybicze",
+      "Antybakteryjne",
       "Potencjalne działanie antynowotworowe",
       "Lekko pobudzające w niższych stężeniach",
       "Odstraszanie owadów"
