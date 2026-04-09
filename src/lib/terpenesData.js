@@ -130,7 +130,7 @@ export const TERPENES = [
       "Poprawia koncentrację i pamięć krótkotrwałą",
       "Właściwości rozszerzające oskrzela (wspomaganie oddychania)",
       "Działanie przeciwzapalne",
-      "Działanie antybakteryjne (przeciwko MRSA)",
+      "Antybakteryjnie",
       "Może przeciwdziałać upośledzeniu pamięci wywołanemu przez THC",
       "Właściwości przeciwlękowe"
     ],
