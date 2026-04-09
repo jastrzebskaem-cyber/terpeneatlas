@@ -19,7 +19,7 @@ export const TERPENES = [
     ],
     effects: [
       "Uspokajające, relaksujące i przeciwzapalne",
-      "Działanie przeciwbólowe (analgetyczne)",
+      "Analgetyczne (przeciwbólowe)",
       "Wspomaganie snu",
       "Działanie miorelaksujące (rozluźnianie mięśni)",
       "Może nasilać przenikanie kannabinoidów przez barierę krew-mózg"
