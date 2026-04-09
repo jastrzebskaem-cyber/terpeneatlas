@@ -18,7 +18,7 @@ export const TERPENES = [
       "Liście laurowe"
     ],
     effects: [
-      "Działanie uspokajające, relaksujące i przeciwzapalne",
+      "Uspokajające, relaksujące i przeciwzapalne",
       "Działanie przeciwbólowe (analgetyczne)",
       "Wspomaganie snu",
       "Działanie miorelaksujące (rozluźnianie mięśni)",
