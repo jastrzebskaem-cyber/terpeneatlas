@@ -177,8 +177,7 @@ export default function StrainDetail() {
         </p>
       </div>
 
-      {/* Reviews */}
-      <ReviewSection strainId={strain.id} />
+
 
       {/* Similar strains */}
       <div>
