@@ -325,7 +325,7 @@ export const TERPENES = [
     id: "selinadien",
     name: "Selinadien (β-selinadien)",
     shortName: "Selinadien",
-    emoji: "🌾",
+    emoji: "🥬",
     scent: "Ziołowy, korzenny, lekko słodki z nutami chmielowymi",
     boilingPoint: 130,
     boilingPointUnit: "°C",
