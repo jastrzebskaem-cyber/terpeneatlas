@@ -234,7 +234,7 @@ export const TERPENES = [
       "Niektóre gatunki astru"
     ],
     effects: [
-      "Działanie: kojące i łagodzące na skórę, antybakteryjne",
+      "Kojące i łagodzące na skórę, antybakteryjne",
       "Właściwości kojące i łagodzące na skórę",
       "Działanie antybakteryjne",
       "Właściwości przeciwdrażniące",
