@@ -31,7 +31,7 @@ export default function TerpeneBar({ name, value, maxValue = 100 }) {
           style={{ width: `${percentage}%` }}
         />
       </div>
-      <span className="text-xs font-medium text-foreground w-10 text-right">{value}%</span>
+      <span className="text-xs font-medium text-foreground w-10 text-right">{Math.round(value)}%</span>
     </div>
   );
 }

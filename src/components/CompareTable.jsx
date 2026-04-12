@@ -109,7 +109,7 @@ export default function CompareTable({ strains, onRemove, onClose }) {
                                 />
                               </div>
                               <span className={`text-xs w-10 text-right ${val === maxVal && maxVal > 0 ? "text-primary font-semibold" : "text-muted-foreground"}`}>
-                                {val}%
+                                {Math.round(val)}%
                               </span>
                             </div>
                           ) : (
