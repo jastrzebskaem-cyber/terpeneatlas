@@ -85,7 +85,7 @@ export default function Home() {
           Medyczne konopie w Polsce
         </div>
         <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3">
-          Porównaj profile terpenowe
+          Odkryj różnice pomiędzy odmianami
         </h1>
         
 
