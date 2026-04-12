@@ -286,7 +286,7 @@ export const TERPENES = [
       "Jałowiec"
     ],
     effects: [
-      "Działanie: przeciwzapalne, antybakteryjne i moczopędne",
+      "Przeciwzapalne, antybakteryjne i moczopędne",
       "Właściwości antybakteryjne",
       "Działanie moczopędne",
       "Potencjalne działanie antynowotworowe",
