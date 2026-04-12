@@ -74,7 +74,7 @@ export const TERPENES = [
     ],
     effects: [
       "Przeciwzapalne i przeciwbólowe",
-      "Gastroprotekcyjne (ochrona układu pokarmowego)",
+      "Potencjalne działanie neuroprotekcyjne",
       "Przeciwlękowe, redukujące stres",
       "Może wspierać ochronę komórek nerwowych, co czyni go obiektem badań w kontekstu zaburzeń neurologicznych",
       "Ma właściwości antyoksydacyjne (przeciwutleniające)",
