@@ -197,7 +197,7 @@ export const TERPENES = [
     name: "Ocymen",
     shortName: "Ocymen",
     emoji: "🌱",
-    scent: "Słodki, ziołowy, drzewny z nutami cytrusowymi",
+    scent: "Słodki, ziołowy, drzewny z nutami cytrusowymi i lekko słodkimi",
     boilingPoint: 65,
     boilingPointUnit: "°C",
     naturalOccurrence: [
@@ -210,7 +210,7 @@ export const TERPENES = [
       "Estragon"
     ],
     effects: [
-      "Działanie: przeciwwirusowe, antyseptyczne, przeciwzapalne",
+      "Przeciwwirusowe, przeciwzapalne i antyseptyczne",
       "Właściwości przeciwwirusowe",
       "Działanie antyseptyczne",
       "Właściwości dekongestantne (udrażnianie dróg oddechowych)",
