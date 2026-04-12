@@ -239,7 +239,7 @@ export const TERPENES = [
       "Uspokajające i przeciwlękowe",
       "Właściwości przeciwdrażniące",
       "Wspomaganie gojenia ran",
-      "Działanie przeciwbólowe"
+      "Zmniejsza odczuwanie bólu"
     ],
     description: "Bisabolol jest głównym składnikiem olejku z rumianku i od wieków stosowany jest w kosmetyce i dermatologii. Charakteryzuje się delikatnym, kwiatowym aromatem. W konopiach występuje w mniejszych ilościach, ale jego właściwości kojące i przeciwzapalne czynią go cennym składnikiem profilu terpenowego, szczególnie w odmianach o działaniu relaksującym.",
     color: "pink"
