@@ -212,7 +212,7 @@ export const TERPENES = [
     effects: [
       "Przeciwwirusowe, przeciwzapalne i antyseptyczne",
       "Wspomaga udrażnianie dróg oddechowych",
-      "Działanie antyseptyczne",
+      "Przeciwgrzybicze",
       "Właściwości dekongestantne (udrażnianie dróg oddechowych)",
       "Działanie przeciwgrzybicze"
     ],
