@@ -48,7 +48,7 @@ export const TERPENES = [
       "Przeciwpasożytnicze nastrój, redukuje stres i wspomaga trawienie",
       "Właściwości przeciwlękowe",
       "Działanie przeciwzapalne",
-      "Właściwości przeciwgrzybicze i antybakteryjne",
+      "Poprawia absorbcję (wchłanianie) substancji przez skórę",
       "Wspomaganie trawienia",
       "Potencjalne działanie antynowotworowe (badania przedkliniczne)"
     ],
