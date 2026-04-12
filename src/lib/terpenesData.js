@@ -266,7 +266,7 @@ export const TERPENES = [
       "Antybakteryjne",
       "Wspomaganie przenikania substancji przez skórę",
       "Potwierdzone właściwości przeciwutleniające",
-      "Potencjalne działanie przeciwlękowe"
+      "Zmniejsza odczuwanie bólu"
     ],
     description: "Nerolidol jest terpenem seskwiterpenowym o subtelnym, kwiatowym aromacie. Jest stosowany w perfumerii i kosmetyce jako składnik zapachowy. W badaniach wykazał silne właściwości przeciwpasożytnicze. Jego zdolność do wspomagania przenikania substancji przez skórę czyni go interesującym w kontekście transdermalnych aplikacji konopi.",
     color: "rose"
