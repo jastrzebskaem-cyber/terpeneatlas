@@ -87,7 +87,7 @@ export const TERPENES = [
     id: "terpinolen",
     name: "Terpinolen",
     shortName: "Terpinolen",
-    emoji: "🌿",
+    emoji: "💐",
     scent: "Sosnowy, kwiatowy, ziołowy z nutami cytrusowymi i lekko słodkimi",
     boilingPoint: 186,
     boilingPointUnit: "°C",
