@@ -5,7 +5,7 @@ export const TERPENES = [
     id: "mircen",
     name: "Mircen (β-myrcen)",
     shortName: "Mircen",
-    emoji: "🌿",
+    emoji: "🥭",
     scent: "Ziemisty, piżmowy, ziołowy z nutami mango i goździka",
     boilingPoint: 167,
     boilingPointUnit: "°C",
