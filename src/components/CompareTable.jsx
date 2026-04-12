@@ -1,9 +1,17 @@
-import { X, Leaf } from "lucide-react";
+import { X, Leaf, BarChart2, Radar } from "lucide-react";
+import { useState } from "react";
+import {
+  RadarChart, Radar as ReRadar, PolarGrid, PolarAngleAxis, ResponsiveContainer, Legend, Tooltip,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid
+} from "recharts";
 import { getCbdDisplay } from "../lib/strainsData";
 import { Link } from "react-router-dom";
 import { TERPENES_LIST } from "../lib/strainsData";
 
+const CHART_COLORS = ["hsl(var(--primary))", "hsl(var(--chart-4))", "hsl(var(--chart-2))", "hsl(var(--chart-5))"];
+
 export default function CompareTable({ strains, onRemove, onClose }) {
+  const [chartType, setChartType] = useState("radar");
   if (strains.length === 0) return null;
 
   // All terpenes that appear in at least one selected strain
@@ -25,6 +33,66 @@ export default function CompareTable({ strains, onRemove, onClose }) {
           >
             <X className="w-4 h-4" />
           </button>
+        </div>
+
+        {/* Chart */}
+        <div className="py-4 border-b border-border">
+          <div className="flex items-center justify-between mb-3">
+            <span className="text-xs font-medium text-muted-foreground">Wizualizacja profilu terpenowego</span>
+            <div className="flex gap-1">
+              <button
+                onClick={() => setChartType("radar")}
+                className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+                  chartType === "radar" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                <Radar className="w-3 h-3" /> Radar
+              </button>
+              <button
+                onClick={() => setChartType("bar")}
+                className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+                  chartType === "bar" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                <BarChart2 className="w-3 h-3" /> Słupkowy
+              </button>
+            </div>
+          </div>
+          {(() => {
+            const activeTerpenes = TERPENES_LIST.filter(t => strains.some(s => s.terpenes[t] > 0));
+            const data = activeTerpenes.map(t => {
+              const entry = { terpene: t.charAt(0).toUpperCase() + t.slice(1) };
+              strains.forEach(s => { entry[s.name] = s.terpenes[t] || 0; });
+              return entry;
+            });
+            if (chartType === "radar") return (
+              <ResponsiveContainer width="100%" height={220}>
+                <RadarChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 20 }}>
+                  <PolarGrid stroke="hsl(var(--border))" />
+                  <PolarAngleAxis dataKey="terpene" tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 10 }} />
+                  <Tooltip contentStyle={{ background: "hsl(var(--card))", border: "1px solid hsl(var(--border))", borderRadius: "0.5rem", fontSize: "12px" }} formatter={v => [`${v}%`]} />
+                  {strains.map((s, i) => (
+                    <ReRadar key={s.id} name={s.name} dataKey={s.name} stroke={CHART_COLORS[i]} fill={CHART_COLORS[i]} fillOpacity={0.2} strokeWidth={2} />
+                  ))}
+                  <Legend wrapperStyle={{ fontSize: "11px" }} />
+                </RadarChart>
+              </ResponsiveContainer>
+            );
+            return (
+              <ResponsiveContainer width="100%" height={220}>
+                <BarChart data={data} margin={{ top: 5, right: 10, bottom: 40, left: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                  <XAxis dataKey="terpene" tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 10 }} angle={-35} textAnchor="end" interval={0} />
+                  <YAxis tick={{ fill: "hsl(var(--muted-foreground))", fontSize: 10 }} unit="%" />
+                  <Tooltip contentStyle={{ background: "hsl(var(--card))", border: "1px solid hsl(var(--border))", borderRadius: "0.5rem", fontSize: "12px" }} formatter={v => [`${v}%`]} />
+                  {strains.map((s, i) => (
+                    <Bar key={s.id} name={s.name} dataKey={s.name} fill={CHART_COLORS[i]} radius={[3, 3, 0, 0]} />
+                  ))}
+                  <Legend wrapperStyle={{ fontSize: "11px" }} />
+                </BarChart>
+              </ResponsiveContainer>
+            );
+          })()}
         </div>
 
         {/* Table */}
@@ -91,13 +159,13 @@ export default function CompareTable({ strains, onRemove, onClose }) {
                 ))}
               </tr>
               {/* Terpenes */}
-              {activeTerpenes.map((terpene) => {
+              {TERPENES_LIST.filter(t => strains.some(s => (s.terpenes[t] || 0) > 0)).map((terpene) => {
                 const values = strains.map((s) => s.terpenes[terpene] || 0);
                 const maxVal = Math.max(...values);
                 return (
                   <tr key={terpene} className="border-t border-border">
                     <td className="pr-4 py-2 text-xs text-muted-foreground font-medium capitalize">{terpene}</td>
-                    {strains.map((s, i) => {
+                    {strains.map((s) => {
                       const val = s.terpenes[terpene] || 0;
                       return (
                         <td key={s.id} className="px-3 py-2">
