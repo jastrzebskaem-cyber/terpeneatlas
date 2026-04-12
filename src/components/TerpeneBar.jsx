@@ -16,7 +16,7 @@ const TERPENE_COLORS = {
   selinadien: "bg-emerald-600"
 };
 
-export default function TerpeneBar({ name, value, maxValue = 10 }) {
+export default function TerpeneBar({ name, value, maxValue = 1 }) {
   const terpene = getTerpeneByShortName(name);
   const displayName = terpene ? terpene.shortName : name;
   const percentage = (value / maxValue) * 100;
@@ -31,7 +31,7 @@ export default function TerpeneBar({ name, value, maxValue = 10 }) {
           style={{ width: `${percentage}%` }}
         />
       </div>
-      <span className="text-xs font-medium text-foreground w-6 text-right">{value}</span>
+      <span className="text-xs font-medium text-foreground w-10 text-right">{value}%</span>
     </div>
   );
 }

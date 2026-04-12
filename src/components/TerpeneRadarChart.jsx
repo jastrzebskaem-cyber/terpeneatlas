@@ -88,6 +88,7 @@ export default function TerpeneRadarChart({ strain }) {
               borderRadius: "0.5rem",
               fontSize: "12px",
             }}
+            formatter={(value) => [`${value}%`]}
           />
           <Radar
             name={strain.name}
