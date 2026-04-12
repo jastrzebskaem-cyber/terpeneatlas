@@ -12,7 +12,7 @@ export default function TerpenesEncyclopedia() {
           Encyklopedia
         </div>
         <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-3">
-          Terpeny w konopiach
+          Terpeny - zapach i moc konopi
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
           Za wyjątkowym aromatem i właściwościami konopi stoją terpeny — naturalne związki obecne w świecie roślin od milionów lat. Poznaj je bliżej.
