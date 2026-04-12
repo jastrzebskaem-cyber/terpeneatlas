@@ -5,7 +5,7 @@ import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpenePieChart from "../components/TerpenePieChart";
-import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart } from "lucide-react";
+import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart, Globe } from "lucide-react";
 import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
 import ReviewSection from "../components/ReviewSection";
@@ -68,11 +68,12 @@ export default function StrainDetail() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
           <StatBox label="THC" value={`${strain.thc}%`} />
           <StatBox label="CBD" value={`${strain.cbd}%`} />
           <StatBox label="Genetyka" value={strain.genetics} />
           <StatBox label="Opakowanie" value={strain.packaging} />
+          {strain.country && <StatBox label="Kraj pochodzenia" value={strain.country} icon="🌍" />}
         </div>
 
         {/* Description */}
@@ -193,11 +194,11 @@ export default function StrainDetail() {
   );
 }
 
-function StatBox({ label, value }) {
+function StatBox({ label, value, icon }) {
   return (
     <div className="bg-accent/50 rounded-xl p-3.5">
       <span className="block text-xs text-muted-foreground mb-1">{label}</span>
-      <span className="block text-lg font-semibold text-foreground">{value}</span>
+      <span className="block text-lg font-semibold text-foreground">{icon && <span className="mr-1">{icon}</span>}{value}</span>
     </div>
   );
 }
