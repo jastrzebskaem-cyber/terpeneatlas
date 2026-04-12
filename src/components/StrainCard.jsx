@@ -34,11 +34,9 @@ export default function StrainCard({ strain, similarity, isComparing, onToggleCo
           <span className="text-sm font-medium text-foreground">
             THC {strain.thc}%
           </span>
-          {strain.cbd > 1 && (
-            <span className="text-sm text-muted-foreground">
-              CBD {strain.cbd}%
-            </span>
-          )}
+          <span className="text-sm text-muted-foreground">
+            CBD {strain.cbd}%
+          </span>
         </div>
 
         {/* Main terpenes */}
