@@ -1,123 +1,143 @@
-import { useParams, Link, useNavigate } from "react-router-dom";
-import { getTerpeneById, TERPENES } from "../lib/terpenesData";
+import { useParams, Link } from "react-router-dom";
+import { getTerpeneByShortName, TERPENES } from "../lib/terpenesData";
 import { STRAINS } from "../lib/strainsData";
+import { ArrowLeft, Leaf } from "lucide-react";
 import StrainCard from "../components/StrainCard";
-import { ArrowLeft, Thermometer, TreePine, Zap, Leaf, FlaskConical } from "lucide-react";
 
 export default function TerpeneDetail() {
   const { id } = useParams();
-  const navigate = useNavigate();
-  const terpene = getTerpeneById(id);
+  const terpene = TERPENES.find((t) => t.id === id);
 
   if (!terpene) {
     return (
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 text-center">
-        <FlaskConical className="w-12 h-12 text-muted-foreground/30 mx-auto mb-4" />
+        <Leaf className="w-12 h-12 text-muted-foreground/30 mx-auto mb-4" />
         <h2 className="font-playfair text-xl font-semibold mb-2">Terpen nie znaleziony</h2>
         <Link to="/terpeny" className="text-primary hover:underline text-sm">
-          Wróć do encyklopedii terpenów
+          Wróć do encyklopedii
         </Link>
       </div>
     );
   }
 
-  // Find strains that contain this terpene, sorted by amount
-  const strainsWithTerpene = STRAINS
-    .filter((s) => s.terpenes[terpene.id] && s.terpenes[terpene.id] > 0)
-    .sort((a, b) => (b.terpenes[terpene.id] || 0) - (a.terpenes[terpene.id] || 0));
+  const strainsByTerpene = STRAINS
+    .filter(s => s.terpenes[terpene.shortName.toLowerCase()] > 0)
+    .sort((a, b) => (b.terpenes[terpene.shortName.toLowerCase()] || 0) - (a.terpenes[terpene.shortName.toLowerCase()] || 0));
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+    <div className="min-h-screen bg-background">
       {/* Back button */}
-      <button
-        onClick={() => navigate('/terpeny')}
-        className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
-      >
-        <ArrowLeft className="w-4 h-4" />
-        Powrót
-      </button>
-
-      {/* Terpene header */}
-      <div className="bg-card rounded-2xl border border-border p-6 sm:p-8 mb-8">
-        <div className="flex items-start gap-4 mb-6">
-          <span className="text-5xl">{terpene.emoji}</span>
-          <div>
-            <h1 className="font-playfair text-3xl sm:text-4xl font-bold text-foreground">
-              {terpene.name}
-            </h1>
-          </div>
+      <div className="sticky top-0 z-40 bg-background/80 backdrop-blur-sm border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+          <Link
+            to="/terpeny"
+            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Encyklopedia terpenów
+          </Link>
         </div>
+      </div>
 
-        {/* Key info */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-          <div className="bg-accent/50 rounded-xl p-4">
-            <div className="flex items-center gap-2 mb-2">
-              <Thermometer className="w-4 h-4 text-primary" />
-              <span className="text-xs font-medium text-muted-foreground">Temperatura parowania</span>
+      {/* Hero section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 lg:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Left: Emoji and basic info */}
+          <div className="flex flex-col justify-center">
+            <div className="mb-8">
+              <div className="text-8xl mb-6">{terpene.emoji}</div>
+              <h1 className="font-playfair text-5xl lg:text-6xl font-bold text-foreground mb-3">
+                {terpene.name}
+              </h1>
+              <p className="text-lg text-muted-foreground">{terpene.shortName}</p>
             </div>
-            <span className="text-2xl font-bold text-foreground">{terpene.boilingPoint}°C</span>
-          </div>
-          <div className="bg-accent/50 rounded-xl p-4">
-            <div className="flex items-center gap-2 mb-2">
-              <Leaf className="w-4 h-4 text-primary" />
-              <span className="text-xs font-medium text-muted-foreground">Zapach</span>
+
+            {/* Key properties */}
+            <div className="space-y-4">
+              <div className="border-t border-border pt-4">
+                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
+                  Punkt wrzenia
+                </p>
+                <p className="text-2xl font-semibold text-foreground">
+                  {terpene.boilingPoint}°C
+                </p>
+              </div>
+              <div className="border-t border-border pt-4">
+                <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
+                  Zapach
+                </p>
+                <p className="text-base text-foreground leading-relaxed">
+                  {terpene.scent}
+                </p>
+              </div>
             </div>
-            <span className="text-sm font-medium text-foreground">{terpene.scent}</span>
+          </div>
+
+          {/* Right: Description and effects */}
+          <div className="space-y-8">
+            <div>
+              <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
+                O terpenie
+              </h2>
+              <p className="text-lg leading-relaxed text-foreground">
+                {terpene.description}
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
+                Właściwości i efekty
+              </h2>
+              <ul className="space-y-2">
+                {terpene.effects.map((effect, idx) => (
+                  <li key={idx} className="flex gap-3">
+                    <span className="text-primary mt-1 flex-shrink-0">•</span>
+                    <span className="text-foreground">{effect}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
+                Naturalne źródła
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {terpene.naturalOccurrence.map((source) => (
+                  <span
+                    key={source}
+                    className="px-3 py-1.5 bg-accent text-accent-foreground text-xs font-medium rounded-full"
+                  >
+                    {source}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* Description */}
-        <p className="text-sm text-muted-foreground leading-relaxed">
-          {terpene.description}
-        </p>
       </div>
 
-      {/* Natural occurrence */}
-      <div className="bg-card rounded-2xl border border-border p-6 sm:p-8 mb-8">
-        <div className="flex items-center gap-2 mb-5">
-          <TreePine className="w-5 h-5 text-primary" />
-          <h2 className="font-playfair text-xl font-semibold text-foreground">Gdzie występuje w przyrodzie</h2>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {terpene.naturalOccurrence.map((item) => (
-            <span key={item} className="inline-flex items-center px-4 py-2 rounded-xl bg-accent text-sm font-medium text-accent-foreground">
-              {item}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      {/* Effects */}
-      <div className="bg-card rounded-2xl border border-border p-6 sm:p-8 mb-8">
-        <div className="flex items-center gap-2 mb-5">
-          <Zap className="w-5 h-5 text-primary" />
-          <h2 className="font-playfair text-xl font-semibold text-foreground">Działanie</h2>
-        </div>
-        <ul className="space-y-3">
-          {terpene.effects.map((effect, i) => (
-            <li key={i} className="flex items-start gap-3">
-              <span className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                <span className="text-xs font-semibold text-primary">{i + 1}</span>
-              </span>
-              <span className="text-sm text-foreground">{effect}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {/* Strains with this terpene */}
-      {strainsWithTerpene.length > 0 && (
-        <div>
-          <div className="flex items-center gap-2 mb-6">
-            <FlaskConical className="w-5 h-5 text-primary" />
-            <h2 className="font-playfair text-xl font-semibold text-foreground">
+      {/* Strains section */}
+      {strainsByTerpene.length > 0 && (
+        <div className="border-t border-border py-16 lg:py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <h2 className="font-playfair text-3xl lg:text-4xl font-bold text-foreground mb-12">
               Odmiany z tym terpenem
             </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
-            {strainsWithTerpene.map((s) => (
-              <StrainCard key={s.id} strain={s} />
-            ))}
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {strainsByTerpene.slice(0, 6).map((strain) => (
+                <StrainCard key={strain.id} strain={strain} />
+              ))}
+            </div>
+
+            {strainsByTerpene.length > 6 && (
+              <div className="text-center mt-12">
+                <p className="text-muted-foreground mb-4">
+                  Razem dostępnych odmian z tym terpenem: {strainsByTerpene.length}
+                </p>
+              </div>
+            )}
           </div>
         </div>
       )}
