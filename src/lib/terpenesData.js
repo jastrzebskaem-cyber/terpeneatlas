@@ -338,7 +338,7 @@ export const TERPENES = [
     ],
     effects: [
       "Przeciwzapalne i przeciwbakteryjne",
-      "Potencjalne właściwości hepatoprotekcyjne (chroniące hepatocyty, czyli komórki wątroby).",
+      "Potencjalne właściwości hepatoprotekcyjne (chroniące hepatocyty, czyli komórki wątroby)",
       "Działanie przeciwbakteryjne",
       "Zmniejsza stres oksydacyjny"
     ],
