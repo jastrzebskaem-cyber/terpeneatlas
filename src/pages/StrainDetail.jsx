@@ -1,11 +1,13 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import { STRAINS, getSimilarStrains, getCbdDisplay } from "../lib/strainsData";
 import { getTerpeneByShortName } from "../lib/terpenesData";
 import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpenePieChart from "../components/TerpenePieChart";
-import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart, Globe } from "lucide-react";
+import { ArrowLeft, Leaf, Beaker, Heart, GitCompare, X } from "lucide-react";
+import CompareTable from "../components/CompareTable";
 import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
 import ReviewSection from "../components/ReviewSection";
@@ -15,7 +17,8 @@ export default function StrainDetail() {
   const navigate = useNavigate();
   const strain = STRAINS.find((s) => s.id === id);
   const { toggleFavorite, isFavorite } = useFavorites();
-  const pharmacies = strain ? getPharmacies(strain.id) : [];
+  const [compareId, setCompareId] = useState(null);
+  const compareStrain = compareId ? STRAINS.find(s => s.id === compareId) : null;
 
   if (!strain) {
     return (
@@ -146,10 +149,25 @@ export default function StrainDetail() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           {similarStrains.map((s) => (
-            <StrainCard key={s.id} strain={s} similarity={s.similarity} />
+            <StrainCard
+              key={s.id}
+              strain={s}
+              similarity={s.similarity}
+              isComparing={compareId === s.id}
+              onToggleCompare={() => setCompareId(prev => prev === s.id ? null : s.id)}
+              canAddMore={!compareId || compareId === s.id}
+            />
           ))}
         </div>
       </div>
+
+      {compareStrain && (
+        <CompareTable
+          strains={[strain, compareStrain]}
+          onRemove={(rid) => { if (rid === compareStrain.id) setCompareId(null); }}
+          onClose={() => setCompareId(null)}
+        />
+      )}
     </div>
   );
 }
