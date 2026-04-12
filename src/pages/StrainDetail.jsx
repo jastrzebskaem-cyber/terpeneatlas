@@ -83,10 +83,7 @@ export default function StrainDetail() {
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
-          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium">
-            <Sparkles className="w-3 h-3" />
-            {strain.effect}
-          </span>
+
           {strain.aromas.map((aroma) => (
             <span key={aroma} className="px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium">
               {aroma}
