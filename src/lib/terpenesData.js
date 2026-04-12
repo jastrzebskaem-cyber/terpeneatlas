@@ -261,7 +261,7 @@ export const TERPENES = [
       "Kwiat pomarańczy"
     ],
     effects: [
-      "Silnie uspokajające i nasenne, przeciwgrzybiczne",
+      "Silnie uspokajające i nasenne, przeciwgrzybizcze",
       "PrzeciwpasoŻytnicze, przykładowo przeciwko zarodźcowi malarycznemu lub pierwotniakami z rodzaju <i>Leishmania</i>",
       "Antybakteryjne",
       "Wspomaganie przenikania substancji przez skórę",
