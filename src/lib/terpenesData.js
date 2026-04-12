@@ -49,7 +49,7 @@ export const TERPENES = [
       "Właściwości przeciwlękowe",
       "Działanie przeciwzapalne",
       "Poprawia absorbcję (wchłanianie) substancji przez skórę",
-      "Wspomaganie trawienia",
+      "Wspomaga w depresji",
       "Potencjalne działanie antynowotworowe (badania przedkliniczne)"
     ],
     description: "Limonen jest drugim najczęstszym terpenem w przyrodzie i dominującym terpenem w wielu odmianach konopi. Odpowiada za świeży, cytrusowy aromat. Badania kliniczne wskazują na jego potencjał w redukcji lęku i depresji. Limonen zwiększa wchłanianie innych terpenów i substancji chemicznych przez skórę i błony śluzowe.",
