@@ -314,7 +314,7 @@ export const TERPENES = [
     effects: [
       "Przeciwzapalne, uspokajające i sedacyjne",
       "Potencjalne działanie neuroprotekcyjne",
-      "Działanie antyoksydacyjne",
+      "Modulator niektórych szlaków zapalnych",
       "Odstraszanie owadów (mszyc)",
       "Właściwości antybakteryjne"
     ],
