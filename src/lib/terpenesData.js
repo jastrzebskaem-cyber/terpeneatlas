@@ -236,7 +236,7 @@ export const TERPENES = [
     effects: [
       "Kojące i łagodzące na skórę, antybakteryjne",
       "Przeciwzapalne",
-      "Działanie antybakteryjne",
+      "Uspokajające i przeciwlękowe",
       "Właściwości przeciwdrażniące",
       "Wspomaganie gojenia ran",
       "Działanie przeciwbólowe"
