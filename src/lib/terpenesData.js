@@ -263,7 +263,7 @@ export const TERPENES = [
     effects: [
       "Silnie uspokajające i nasenne, przeciwgrzybiczne",
       "PrzeciwpasoŻytnicze, przykładowo przeciwko zarodźcowi malarycznemu lub pierwotniakami z rodzaju <i>Leishmania</i>",
-      "Działanie antybakteryjne i przeciwgrzybicze",
+      "Antybakteryjne",
       "Wspomaganie przenikania substancji przez skórę",
       "Właściwości przeciwutleniające",
       "Potencjalne działanie przeciwlękowe"
