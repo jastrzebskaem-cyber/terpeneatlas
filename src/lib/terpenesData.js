@@ -340,7 +340,7 @@ export const TERPENES = [
       "Przeciwzapalne i przeciwbakteryjne",
       "Potencjalne właściwości hepatoprotekcyjne (chroniące hepatocyty, czyli komórki wątroby)",
       "Działanie przeciwbakteryjne",
-      "Zmniejsza stres oksydacyjny"
+      "Wstępne badania potwierdzają pozytywny wpływ terpenu na stan zdrowia Pacjentów nowotworowych"
     ],
     description: "Selinadien jest rzadziej spotykanym terpenem seskwiterpenowym. Jego nazwa pochodzi od selera, w którym został po raz pierwszy zidentyfikowany. Nadaje odmianom konopi ziołowy, lekko korzenny charakter z nutami chmielu. Jest dominującym terpenem w odmianie Kush Mints, gdzie odpowiada za jej unikatowy, miętowo-ziołowy profil.",
     color: "emerald"
