@@ -262,7 +262,7 @@ export const TERPENES = [
     ],
     effects: [
       "Silnie uspokajające i nasenne, przeciwgrzybiczne",
-      "Właściwości przeciwpasożytnicze (leiszmanioza, malaria)",
+      "PrzeciwpasoŻytnicze, przykładowo przeciwko zarodźcowi malarycznemu lub pierwotniakami z rodzaju <i>Leishmania</i>",
       "Działanie antybakteryjne i przeciwgrzybicze",
       "Wspomaganie przenikania substancji przez skórę",
       "Właściwości przeciwutleniające",
