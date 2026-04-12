@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Leaf, ArrowRight, GitCompare, Heart } from "lucide-react";
 import AvailabilityBadge from "./AvailabilityBadge";
-import TerpeneBar from "./TerpeneBar";
+import { getTerpeneByShortName } from "../lib/terpenesData";
 
 export default function StrainCard({ strain, similarity, isComparing, onToggleCompare, canAddMore, isFavorite, onToggleFavorite }) {
   const topTerpenes = Object.entries(strain.terpenes)
@@ -41,11 +41,19 @@ export default function StrainCard({ strain, similarity, isComparing, onToggleCo
           )}
         </div>
 
-        {/* Terpene bars */}
-        <div className="space-y-2 mb-4">
-          {topTerpenes.map(([name, value]) => (
-            <TerpeneBar key={name} name={name} value={value} maxValue={10} />
-          ))}
+        {/* Main terpenes */}
+        <div className="mb-4">
+          <p className="text-xs text-muted-foreground mb-2">Główne terpeny</p>
+          <div className="flex flex-wrap gap-1.5">
+            {topTerpenes.map(([name]) => {
+              const t = getTerpeneByShortName(name);
+              return (
+                <span key={name} className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-accent text-xs font-medium text-accent-foreground">
+                  {t?.emoji} {t?.shortName || name}
+                </span>
+              );
+            })}
+          </div>
         </div>
 
 

@@ -4,7 +4,7 @@ import { getTerpeneByShortName } from "../lib/terpenesData";
 import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
-import TerpeneBar from "../components/TerpeneBar";
+import TerpenePieChart from "../components/TerpenePieChart";
 import { ArrowLeft, Leaf, Beaker, Sparkles, MapPin, Phone, Store, Heart } from "lucide-react";
 import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
@@ -101,16 +101,9 @@ export default function StrainDetail() {
           <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy</h2>
         </div>
 
-        {/* Radar chart */}
+        {/* Pie chart */}
         <div className="mb-6">
-          <TerpeneRadarChart strain={strain} />
-        </div>
-
-        {/* Terpene bars */}
-        <div className="space-y-3 mb-6">
-          {sortedTerpenes.map(([name, value]) => (
-            <TerpeneBar key={name} name={name} value={value} maxValue={10} />
-          ))}
+          <TerpenePieChart terpenes={strain.terpenes} />
         </div>
 
         {/* Clickable terpene links */}
