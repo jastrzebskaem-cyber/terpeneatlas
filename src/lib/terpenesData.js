@@ -258,7 +258,7 @@ export const TERPENES = [
       "Imbir",
       "Drzewo herbaciane",
       "Lawenda",
-      "Neroli (kwiat pomarańczy)"
+      "Kwiat pomarańczy"
     ],
     effects: [
       "Działanie: silnie uspokajające i nasenne, przeciwgrzybizcze",
