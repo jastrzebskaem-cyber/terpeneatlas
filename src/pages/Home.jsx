@@ -182,14 +182,21 @@ export default function Home() {
       {compareIds.length > 0 &&
       <div className="mb-4 flex items-center gap-3">
           <button
-          onClick={() => setShowCompare(true)}
-          className="flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors">
+          onClick={() => compareIds.length >= 2 && setShowCompare(true)}
+          disabled={compareIds.length < 2}
+          className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
+            compareIds.length >= 2
+              ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+              : 'bg-muted text-muted-foreground cursor-not-allowed'
+          }`}>
           
             <GitCompare className="w-4 h-4" />
-            Porównaj ({compareIds.length})
+            {compareIds.length < 2
+              ? `Wybierz jeszcze ${2 - compareIds.length} odmian${compareIds.length === 1 ? 'ę' : 'y'}`
+              : `Porównaj (${compareIds.length})`}
           </button>
           <button
-          onClick={() => setCompareIds([])}
+          onClick={() => { setCompareIds([]); setShowCompare(false); }}
           className="text-sm text-muted-foreground hover:text-foreground transition-colors">
           
             Wyczyść wybór
@@ -222,6 +229,17 @@ export default function Home() {
         </div>
       }
 
+    {showCompare && compareStrains.length >= 2 &&
+      <CompareTable
+        strains={compareStrains}
+        onRemove={(id) => {
+          const next = compareIds.filter(x => x !== id);
+          setCompareIds(next);
+          if (next.length < 2) setShowCompare(false);
+        }}
+        onClose={() => setShowCompare(false)}
+      />
+    }
     </div>);
 
 }
