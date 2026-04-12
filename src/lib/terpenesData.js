@@ -214,7 +214,8 @@ export const TERPENES = [
       "Wspomaga udrażnianie dróg oddechowych",
       "Przeciwgrzybicze",
       "Poprawia nastrój, zwiększa poziom energii",
-      "Wpływa na absorpcję kannabinoidów, m.in. THC"
+      "Wpływa na absorpcję kannabinoidów, m.in. THC",
+      "Wykazuje działanie antykonwulsyjne i może mieć zastosowanie u chorych na epilepsję"
     ],
     description: "Ocymen jest terpenem o słodkim, ziołowym aromacie. Często występuje jako składnik olejków eterycznych z mięty i bazylii. Ma jedną z najniższych temperatur parowania wśród terpenów konopnych, dlatego łatwo go wyczuć już przy niskich temperaturach waporyzacji. Wykazuje silne właściwości przeciwwirusowe i przeciwzapalne.",
     color: "lime"
