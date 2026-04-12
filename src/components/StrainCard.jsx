@@ -48,15 +48,7 @@ export default function StrainCard({ strain, similarity, isComparing, onToggleCo
           ))}
         </div>
 
-        {/* Similarity score if provided */}
-        {similarity !== undefined && (
-          <div className="flex items-center justify-between pt-3 border-t border-border">
-            <span className="text-xs text-muted-foreground">Podobieństwo terpenowe</span>
-            <span className="text-sm font-semibold text-primary">
-              {Math.round(similarity * 100)}%
-            </span>
-          </div>
-        )}
+
 
         <div className="flex items-center justify-between pt-3 mt-2">
           <div className="flex items-center gap-2">
