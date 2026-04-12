@@ -7,20 +7,6 @@ const COLORS = [
   "#06b6d4", "#a3e635", "#059669"
 ];
 
-const RADIAN = Math.PI / 180;
-
-function CustomLabel({ cx, cy, midAngle, innerRadius, outerRadius, name, percent }) {
-  if (percent < 0.05) return null;
-  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-  const x = cx + radius * Math.cos(-midAngle * RADIAN);
-  const y = cy + radius * Math.sin(-midAngle * RADIAN);
-  return (
-    <text x={x} y={y} fill="white" textAnchor="middle" dominantBaseline="central" fontSize={11} fontWeight={600}>
-      {Math.round(percent * 100)}%
-    </text>
-  );
-}
-
 export default function TerpenePieChart({ terpenes }) {
   const data = Object.entries(terpenes)
     .filter(([, v]) => v > 0)
@@ -40,7 +26,6 @@ export default function TerpenePieChart({ terpenes }) {
           outerRadius={110}
           dataKey="value"
           labelLine={false}
-          label={CustomLabel}
         >
           {data.map((entry, index) => (
             <Cell key={entry.name} fill={COLORS[index % COLORS.length]} />
@@ -53,7 +38,7 @@ export default function TerpenePieChart({ terpenes }) {
             borderRadius: "0.5rem",
             fontSize: "12px",
           }}
-          formatter={(value, name) => [`${Math.round(value)}%`, name]}
+          formatter={(value, name) => [name]}
         />
         <Legend
           formatter={(value, entry) => (
