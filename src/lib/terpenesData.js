@@ -213,7 +213,7 @@ export const TERPENES = [
       "Przeciwwirusowe, przeciwzapalne i antyseptyczne",
       "Wspomaga udrażnianie dróg oddechowych",
       "Przeciwgrzybicze",
-      "Właściwości dekongestantne (udrażnianie dróg oddechowych)",
+      "Poprawia nastrój, zwiększa poziom energii",
       "Działanie przeciwgrzybicze"
     ],
     description: "Ocymen jest terpenem o słodkim, ziołowym aromacie. Często występuje jako składnik olejków eterycznych z mięty i bazylii. Ma jedną z najniższych temperatur parowania wśród terpenów konopnych, dlatego łatwo go wyczuć już przy niskich temperaturach waporyzacji. Wykazuje silne właściwości przeciwwirusowe i przeciwzapalne.",
