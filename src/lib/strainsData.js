@@ -19,7 +19,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Diesel", "Piżmowy", "Ziemisty"],
     description: "Indica o ciężkim, wyrazistym charakterze, powstała z połączenia genetyki Kryptona i Kush Mints. Intensywnie zielone kwiaty pokryte grubą warstwą trichomów.",
-    terpenes: { mircen: 34.8, limonen: 21.7, kariofilen: 17.4, humulen: 8.7, linalol: 8.7, pinen: 4.3, ocymen: 4.3 },
+    terpenes: { mircen: 34.8, limonen: 21.7, kariofilen: 18, humulen: 8.7, linalol: 8.7, pinen: 4.3, ocymen: 4.3 },
     dominantTerpene: "Mircen",
     packaging: "5g"
   },
