@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { STRAINS, getSimilarStrains } from "../lib/strainsData";
+import { STRAINS, getSimilarStrains, getCbdDisplay } from "../lib/strainsData";
 import { getTerpeneByShortName } from "../lib/terpenesData";
 import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
@@ -70,7 +70,7 @@ export default function StrainDetail() {
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
           <StatBox label="THC" value={`${strain.thc}%`} />
-          <StatBox label="CBD" value={`${strain.cbd}%`} />
+          <StatBox label="CBD" value={getCbdDisplay(strain)} />
           <StatBox label="Genetyka" value={strain.genetics} />
           <StatBox label="Opakowanie" value={strain.packaging} />
           {strain.country && <StatBox label="Kraj pochodzenia" value={strain.country} icon="🌍" />}

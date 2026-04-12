@@ -810,6 +810,64 @@ export const STRAINS = [
   }
 ];
 
+// CBD display labels per strain (accurate operator from producer data)
+const CBD_LABELS = {
+  "snowtorious-krypton": "< 0,5%",
+  "blood-orange-kush": "\u2264 0,5%",
+  "kush-mints": "< 0,5%",
+  "bakerstreet": "< 0,5%",
+  "red-velvet-cake": "< 0,5%",
+  "jack-haze": "\u2264 1%",
+  "delahaze": "\u2264 1%",
+  "pink-kush-aurora-20": "\u2264 1%",
+  "ghost-train-haze": "\u2264 1%",
+  "aurora-electric-honeydew": "< 0,5%",
+  "aurora-27-black-jelly": "< 0,5%",
+  "equiposa": "8%",
+  "s-lab-22-animintz": "\u2264 1%",
+  "s-lab-22-pink-certz": "\u2264 1%",
+  "s-lab-18-pink-certz": "\u2264 1%",
+  "s-lab-18-animal-rntz": "\u2264 1%",
+  "s-lab-18-spiced-latte": "\u2264 1%",
+  "s-lab-22-pink-kush": "\u2264 1%",
+  "s-lab-22-galaxy-walker-og": "\u2264 1%",
+  "s-lab-22-powdered-donuts": "\u2264 1%",
+  "s-lab-22-wappa": "\u2264 1%",
+  "s-lab-22-inzane": "\u2264 1%",
+  "s-lab-18-lilac-diesel": "\u2264 1%",
+  "s-lab-beach-crasher-18": "\u2264 1%",
+  "s-lab-beach-crasher-22": "\u2264 1%",
+  "cosma-22-black-r": "< 1%",
+  "tilray-18-cataract-kush": "\u2264 1%",
+  "tilray-22-cataract-kush": "\u2264 1%",
+  "tilray-22-lilac-diesel": "\u2264 1%",
+  "tilray-18-lilac-diesel": "\u2264 1%",
+  "tilray-22-master-kush": "\u2264 1%",
+  "tilray-22-pink-kush": "\u2264 1%",
+  "synoptis-18-cataract-kush": "\u2264 1%",
+  "synoptis-22-purps": "\u2264 1%",
+  "synoptis-22-master-kush": "\u2264 1%",
+  "synoptis-22-facade": "\u2264 1%",
+  "synoptis-22-galaxy-walker-og": "\u2264 1%",
+  "synoptis-22-pink-kush": "\u2264 1%",
+  "synoptis-22-lilac-diesel": "\u2264 1%",
+  "synoptis-18-lilac-diesel": "\u2264 1%",
+  "synoptis-22-wappa": "\u2264 1%",
+  "synoptis-18-frosted-cherry-cookies": "\u2264 1%",
+  "synoptis-18-pink-kush": "\u2264 1%",
+  "synoptis-22-island-sweet-skunk": "\u2264 1%",
+  "cantourage-gelato-33": "\u2264 1%",
+  "suprobion-mystic-wonder": "\u2264 1%",
+  "suprobion-gorilla-glue": "\u2264 1%",
+  "suprobion-humble-warrior": "\u2264 1%",
+  "phytopur-bio-frosted-lemon-angel": "< 1%",
+  "phytopur-bio-big-purple-dragon": "\u2264 1%",
+};
+
+export function getCbdDisplay(strain) {
+  return CBD_LABELS[strain.id] || `${strain.cbd}%`;
+}
+
 // Calculate cosine similarity between two terpene profiles
 export function cosineSimilarity(profile1, profile2) {
   let dotProduct = 0;

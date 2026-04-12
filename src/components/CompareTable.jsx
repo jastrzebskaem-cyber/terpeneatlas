@@ -1,4 +1,5 @@
 import { X, Leaf } from "lucide-react";
+import { getCbdDisplay } from "../lib/strainsData";
 import { Link } from "react-router-dom";
 import { TERPENES_LIST } from "../lib/strainsData";
 
@@ -74,7 +75,7 @@ export default function CompareTable({ strains, onRemove, onClose }) {
               <tr className="border-t border-border">
                 <td className="pr-4 py-2 text-xs text-muted-foreground font-medium">CBD</td>
                 {strains.map((s) => (
-                  <td key={s.id} className="px-3 py-2 text-foreground">{s.cbd}%</td>
+                  <td key={s.id} className="px-3 py-2 text-foreground">{getCbdDisplay(s)}</td>
                 ))}
               </tr>
               {/* Genetics */}

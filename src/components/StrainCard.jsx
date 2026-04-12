@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Leaf, ArrowRight, GitCompare, Heart } from "lucide-react";
 import AvailabilityBadge from "./AvailabilityBadge";
 import { getTerpeneByShortName } from "../lib/terpenesData";
+import { getCbdDisplay } from "../lib/strainsData";
 
 export default function StrainCard({ strain, similarity, isComparing, onToggleCompare, canAddMore, isFavorite, onToggleFavorite }) {
   const topTerpenes = Object.entries(strain.terpenes)
@@ -35,7 +36,7 @@ export default function StrainCard({ strain, similarity, isComparing, onToggleCo
             THC {strain.thc}%
           </span>
           <span className="text-sm text-muted-foreground">
-            CBD {strain.cbd}%
+            CBD {getCbdDisplay(strain)}
           </span>
         </div>
 
