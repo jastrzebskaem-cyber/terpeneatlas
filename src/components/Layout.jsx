@@ -9,7 +9,7 @@ export default function Layout() {
 
   const navLinks = [
     { to: "/", label: "Baza wiedzy - odmiany", icon: Leaf },
-    { to: "/terpeny", label: "Przewodnik po terpenach", icon: FlaskConical },
+    { to: "/terpeny", label: "Porównaj poszczególne profile", icon: FlaskConical },
   ];
 
   const isActive = (path) => {
