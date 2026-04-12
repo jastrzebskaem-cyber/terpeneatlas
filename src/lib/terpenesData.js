@@ -337,7 +337,7 @@ export const TERPENES = [
       "Kurkuma"
     ],
     effects: [
-      "Działanie: przeciwzapalne, hepatoprotekcyjne i przeciwbakteryjne",
+      "Przeciwzapalne i przeciwbakteryjne",
       "Potencjalne właściwości hepatoprotekcyjne (ochrona wątroby)",
       "Działanie przeciwbakteryjne",
       "Właściwości antyoksydacyjne"
