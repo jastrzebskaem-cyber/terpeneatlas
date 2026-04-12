@@ -19,7 +19,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Diesel", "Piżmowy", "Ziemisty"],
     description: "Indica o ciężkim, wyrazistym charakterze, powstała z połączenia genetyki Kryptona i Kush Mints. Intensywnie zielone kwiaty pokryte grubą warstwą trichomów.",
-    terpenes: { mircen: 0.8, limonen: 0.5, kariofilen: 0.4, linalol: 0.2, pinen: 0.1, humulen: 0.2, ocymen: 0.1 },
+    terpenes: { mircen: 34.8, limonen: 21.7, kariofilen: 17.4, humulen: 8.7, linalol: 8.7, pinen: 4.3, ocymen: 4.3 },
     dominantTerpene: "Mircen",
     packaging: "5g"
   },
@@ -34,7 +34,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Cytrusowy", "Korzenny", "Ziemisty"],
     description: "Odmiana z przewagą genetyki indica, z połączenia Lemon Kush oraz Guava Kush. Charakteryzuje się wysoką zawartością THC i wyraźnym cytrusowym profilem aromatycznym.",
-    terpenes: { limonen: 0.7, mircen: 0.6, linalol: 0.4, kariofilen: 0.3, humulen: 0.1, pinen: 0.1 },
+    terpenes: { limonen: 31.8, mircen: 27.3, linalol: 18.2, kariofilen: 13.6, humulen: 4.5, pinen: 4.5 },
     dominantTerpene: "Limonen",
     packaging: "5g, 15g"
   },
@@ -49,7 +49,7 @@ export const STRAINS = [
     effect: "Zrównoważone",
     aromas: ["Miętowy", "Sosnowy", "Ziemisty", "Ziołowy"],
     description: "Hybryda 50/50 indica/sativa, z połączenia Bubba Kush i Animal Mints. Gęste, żywiczne pąki w odcieniach intensywnej zieleni z fioletowymi refleksami.",
-    terpenes: { selinadien: 0.6, kariofilen: 0.5, mircen: 0.4, pinen: 0.3, humulen: 0.3, limonen: 0.2, linalol: 0.1 },
+    terpenes: { selinadien: 25.0, kariofilen: 20.8, mircen: 16.7, pinen: 12.5, humulen: 12.5, limonen: 8.3, linalol: 4.2 },
     dominantTerpene: "Selinadien",
     packaging: "5g"
   },
@@ -64,7 +64,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Kamfora", "Lawendowy", "Mango", "Miętowy", "Pieprzowy"],
     description: "Odmiana o przewadze indica, mocno relaksujący efekt na ciele. Mircen daje ziołowy aromat, terpinolen nutę cytrusowo-drzewną.",
-    terpenes: { mircen: 0.7, terpinolen: 0.5, ocymen: 0.4, pinen: 0.3, kariofilen: 0.2, linalol: 0.1 },
+    terpenes: { mircen: 31.8, terpinolen: 22.7, ocymen: 18.2, pinen: 13.6, kariofilen: 9.1, linalol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "5g"
   },
@@ -79,7 +79,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Pikantny", "Słodki", "Waniliowy"],
     description: "Sativa o intensywnym profilu aromatycznym, ze skrzyżowania Red Headed Stranger × Cookies N' Cream. Słodkie nuty wanilii, śmietanki i orzechów.",
-    terpenes: { limonen: 0.6, mircen: 0.5, kariofilen: 0.5, linalol: 0.2, humulen: 0.2, pinen: 0.1 },
+    terpenes: { limonen: 28.6, mircen: 23.8, kariofilen: 23.8, linalol: 9.5, humulen: 9.5, pinen: 4.8 },
     dominantTerpene: "Limonen",
     packaging: "5g"
   },
@@ -94,7 +94,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Kamfora", "Sosnowy"],
     description: "Sativa-dominująca odmiana będąca krzyżówką White Widow i Haze. Pobudzająca myśli i kreatywność, działająca energetyzująco.",
-    terpenes: { terpinolen: 0.7, mircen: 0.5, ocymen: 0.4, pinen: 0.3, limonen: 0.2, kariofilen: 0.1 },
+    terpenes: { terpinolen: 31.8, mircen: 22.7, ocymen: 18.2, pinen: 13.6, limonen: 9.1, kariofilen: 4.5 },
     dominantTerpene: "Terpinolen",
     packaging: "5g"
   },
@@ -109,7 +109,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Korzenny", "Miętowy", "Pieprzowy", "Sosnowy", "Ziołowy"],
     description: "Krzyżowanie odmian Mango i Lemon Skunk. Owocowy aromat z nutami sosnowymi. Działanie aktywizujące i stymulujące.",
-    terpenes: { terpinolen: 0.7, mircen: 0.5, pinen: 0.3, kariofilen: 0.2, ocymen: 0.2, limonen: 0.2, linalol: 0.1 },
+    terpenes: { terpinolen: 31.8, mircen: 22.7, pinen: 13.6, kariofilen: 9.1, ocymen: 9.1, limonen: 9.1, linalol: 4.5 },
     dominantTerpene: "Terpinolen",
     packaging: "10g"
   },
@@ -124,7 +124,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Pieprzowy", "Pikantny", "Różany"],
     description: "Indica o klasycznym kushowym charakterze, z połączenia OG Kush i Hindu Kush. Silne działanie przeciwbólowe, zwalczające migreny i nudności.",
-    terpenes: { mircen: 0.8, kariofilen: 0.5, linalol: 0.3, limonen: 0.2, humulen: 0.2, pinen: 0.1, bisabolol: 0.1 },
+    terpenes: { mircen: 36.4, kariofilen: 22.7, linalol: 13.6, limonen: 9.1, humulen: 9.1, pinen: 4.5, bisabolol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -139,7 +139,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Korzenny", "Kwaśny", "Pikantny", "Sosnowy"],
     description: "Bardzo mocna odmiana sativa. Efekty bywają uważane za graniczne z psychodelicznymi. Wysoka zawartość terpinolenu i limonenu.",
-    terpenes: { terpinolen: 0.8, limonen: 0.5, mircen: 0.3, linalol: 0.3, pinen: 0.2, kariofilen: 0.1, ocymen: 0.1 },
+    terpenes: { terpinolen: 34.8, limonen: 21.7, mircen: 13.0, linalol: 13.0, pinen: 8.7, kariofilen: 4.3, ocymen: 4.3 },
     dominantTerpene: "Terpinolen",
     packaging: "10g"
   },
@@ -154,7 +154,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Owocowy", "Paliwowy", "Sosnowy"],
     description: "Sativa oparta na genetyce Girl Scout Cookies × 91 OG Krypt Melon. Wysoka zawartość THC, gęste ciemnozielone kwiaty z pomarańczowymi słupkami. Nuty melona, gazu i sosny.",
-    terpenes: { mircen: 0.8, limonen: 0.7, kariofilen: 0.4, nerolidol: 0.3, linalol: 0.2, pinen: 0.1 },
+    terpenes: { mircen: 32.0, limonen: 28.0, kariofilen: 16.0, nerolidol: 12.0, linalol: 8.0, pinen: 4.0 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -169,7 +169,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Owocowy", "Słodki"],
     description: "Hybryda o dominującym typie sativa, z linii Alien Cake 3030 × MAC (Miracle Alien Cookies). Profil terpenowy o wyraźnej nucie słodkiej czarnej lukrecji z owocowym tłem.",
-    terpenes: { limonen: 0.7, mircen: 0.6, kariofilen: 0.5, linalol: 0.2, pinen: 0.1 },
+    terpenes: { limonen: 33.3, mircen: 28.6, kariofilen: 23.8, linalol: 9.5, pinen: 4.8 },
     dominantTerpene: "Limonen",
     packaging: "10g"
   },
@@ -184,7 +184,7 @@ export const STRAINS = [
     effect: "Zrównoważone",
     aromas: ["Miętowy", "Pieprzowy", "Sosnowy", "Ziemisty"],
     description: "Hybryda o zbalansowanym THC:CBD. Relaksujące efekty z zachowaniem jasności umysłu. Profil terpenów mircen-pinen.",
-    terpenes: { mircen: 0.6, pinen: 0.5, kariofilen: 0.3, limonen: 0.2, linalol: 0.2, terpinolen: 0.1, humulen: 0.1 },
+    terpenes: { mircen: 30.0, pinen: 25.0, kariofilen: 15.0, limonen: 10.0, linalol: 10.0, terpinolen: 5.0, humulen: 5.0 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -199,7 +199,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Ziemisty", "Cytrusowy", "Kwiatowy"],
     description: "Hybryda z dominacją indica (70/30), z połączenia Animal Mintz oraz Purp Skurp. Aromat łączy nuty ziemiste, cytrusowe i kwiatowe.",
-    terpenes: { linalol: 0.7, kariofilen: 0.6, mircen: 0.5, limonen: 0.4, humulen: 0.2, bisabolol: 0.1 },
+    terpenes: { linalol: 28.0, kariofilen: 24.0, mircen: 20.0, limonen: 16.0, humulen: 8.0, bisabolol: 4.0 },
     dominantTerpene: "Linalol",
     packaging: "10g"
   },
@@ -214,7 +214,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Mentolowy", "Diesel", "Chemiczny"],
     description: "Hybryda z dominacją sativa (80/20) z połączenia The Menthol oraz Grape Gasoline. Profil terpenowy z dominacją nerolidolu, limonenu i kariofilenu.",
-    terpenes: { nerolidol: 0.7, limonen: 0.5, kariofilen: 0.5, mircen: 0.2, humulen: 0.2, linalol: 0.1 },
+    terpenes: { nerolidol: 31.8, limonen: 22.7, kariofilen: 22.7, mircen: 9.1, humulen: 9.1, linalol: 4.5 },
     dominantTerpene: "Nerolidol",
     packaging: "10g"
   },
@@ -229,7 +229,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Mentolowy", "Diesel", "Chemiczny"],
     description: "Wersja 18% THC odmiany Pink Certz. Hybryda z dominacją sativa (80/20). Dominacja nerolidolu, limonenu i kariofilenu.",
-    terpenes: { nerolidol: 0.7, limonen: 0.5, kariofilen: 0.5, mircen: 0.2, humulen: 0.2, linalol: 0.1 },
+    terpenes: { nerolidol: 31.8, limonen: 22.7, kariofilen: 22.7, mircen: 9.1, humulen: 9.1, linalol: 4.5 },
     dominantTerpene: "Nerolidol",
     packaging: "15g"
   },
@@ -244,7 +244,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Owocowy", "Słodko-kwaśny", "Ziemisty"],
     description: "Hybryda z dominacją indica (60/40) ze skrzyżowania Animal Cookies oraz Runtz. Dominują kariofilen, limonen oraz linalol.",
-    terpenes: { kariofilen: 0.7, limonen: 0.5, linalol: 0.5, mircen: 0.3, humulen: 0.2, farnezen: 0.1 },
+    terpenes: { kariofilen: 30.4, limonen: 21.7, linalol: 21.7, mircen: 13.0, humulen: 8.7, farnezen: 4.3 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -259,7 +259,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Korzenny", "Ziołowy", "Cytrusowy"],
     description: "Hybryda z przewagą sativa (80/20), ze skrzyżowania Jean Guy i Alien Dawg. Pobudzający profil z nutami korzenno-ziołowymi.",
-    terpenes: { terpinolen: 0.6, mircen: 0.4, kariofilen: 0.3, limonen: 0.3, pinen: 0.2, ocymen: 0.2 },
+    terpenes: { terpinolen: 30.0, mircen: 20.0, kariofilen: 15.0, limonen: 15.0, pinen: 10.0, ocymen: 10.0 },
     dominantTerpene: "Terpinolen",
     packaging: "15g"
   },
@@ -274,7 +274,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Pikantny", "Różany", "Ziemisty"],
     description: "Odmiana powstała z połączenia OG Kush i Hindu Kush. Znana jako skuteczny środek przeciwbólowy i przeciwlękowy. Działa korzystnie w przypadku zaburzeń snu.",
-    terpenes: { mircen: 0.8, kariofilen: 0.5, linalol: 0.3, limonen: 0.2, humulen: 0.2, pinen: 0.1, bisabolol: 0.1 },
+    terpenes: { mircen: 36.4, kariofilen: 22.7, linalol: 13.6, limonen: 9.1, humulen: 9.1, pinen: 4.5, bisabolol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "15g"
   },
@@ -289,7 +289,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Korzenny", "Miętowy", "Pikantny", "Sosnowy"],
     description: "Hybryda z dominacją indica o niezwykle bogatym profilu terpenowym. Silna obecność nerolidolu i kariofilenu przekłada się na właściwości przeciwbólowe i przeciwzapalne.",
-    terpenes: { nerolidol: 0.7, kariofilen: 0.6, limonen: 0.4, linalol: 0.3, mircen: 0.2, pinen: 0.1 },
+    terpenes: { nerolidol: 30.4, kariofilen: 26.1, limonen: 17.4, linalol: 13.0, mircen: 8.7, pinen: 4.3 },
     dominantTerpene: "Nerolidol",
     packaging: "15g"
   },
@@ -304,7 +304,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Cytrusowy", "Słodki", "Waniliowy", "Ziołowy"],
     description: "Hybryda z dominacją indica (60/40), z genetyki Jet Fuel Gelato × Orange Cookies. Słodki, ziołowo-cytrusowy aromat z nutą wanilii. Głębokie odprężenie z poprawą nastroju.",
-    terpenes: { kariofilen: 0.6, mircen: 0.5, limonen: 0.5, linalol: 0.3, humulen: 0.1 },
+    terpenes: { kariofilen: 30.0, mircen: 25.0, limonen: 25.0, linalol: 15.0, humulen: 5.0 },
     dominantTerpene: "Kariofilen",
     packaging: "10g"
   },
@@ -319,7 +319,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Owocowy", "Słodki"],
     description: "Hybryda z dominacją indica (60/40), z genetyki Skunka. Słodko-drzewny aromat z nutami owoców. Wieczorne, relaksujące działanie.",
-    terpenes: { kariofilen: 0.6, mircen: 0.5, pinen: 0.4, humulen: 0.3, linalol: 0.2 },
+    terpenes: { kariofilen: 30.0, mircen: 25.0, pinen: 20.0, humulen: 15.0, linalol: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -334,7 +334,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Sosnowy", "Ziołowy"],
     description: "Energetyczna hybryda o dominujących cechach sativy. Działanie wyraźnie pobudzające z wpływem na motorykę i napięcie mięśniowe. Złożony profil terpenowy z przewagą kariofilenu i terpinolenu.",
-    terpenes: { kariofilen: 0.7, terpinolen: 0.5, humulen: 0.4, ocymen: 0.3, limonen: 0.2, pinen: 0.1 },
+    terpenes: { kariofilen: 31.8, terpinolen: 22.7, humulen: 18.2, ocymen: 13.6, limonen: 9.1, pinen: 4.5 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -349,7 +349,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Diesel", "Kwiatowy", "Lawendowy"],
     description: "Odmiana opisywana jako 'dodająca energii i otuchy'. Uczucie lekkości, lepszy nastrój i redukcja stresu. Kariofilen i linalol odpowiadają za właściwości kojące.",
-    terpenes: { kariofilen: 0.6, linalol: 0.5, limonen: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 30.0, linalol: 25.0, limonen: 20.0, mircen: 15.0, pinen: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -364,7 +364,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Ziemisty", "Cytrusowy", "Korzenny"],
     description: "Hybryda z przewagą indica. Ziemisto-cytrusowy aromat z korzennym tłem. Dominujące kariofilen, humulen, nerolidol i mircen.",
-    terpenes: { kariofilen: 0.6, humulen: 0.5, nerolidol: 0.4, mircen: 0.4, limonen: 0.2, pinen: 0.1 },
+    terpenes: { kariofilen: 27.3, humulen: 22.7, nerolidol: 18.2, mircen: 18.2, limonen: 9.1, pinen: 4.5 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -379,7 +379,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Ziemisty", "Cytrusowy", "Korzenny"],
     description: "Wersja 22% odmiany Beach Crasher. Hybryda z przewagą indica o łagodnym, relaksującym charakterze.",
-    terpenes: { kariofilen: 0.6, humulen: 0.5, nerolidol: 0.4, mircen: 0.4, limonen: 0.2, pinen: 0.1 },
+    terpenes: { kariofilen: 27.3, humulen: 22.7, nerolidol: 18.2, mircen: 18.2, limonen: 9.1, pinen: 4.5 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -394,7 +394,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Korzenny", "Ziemisty", "Drzewny"],
     description: "Hybryda 50/50 indica-sativa o fenotypie Black Russian, oparta na genetyce Black Domina x White Russian. Klasyczny, wytrawny charakter.",
-    terpenes: { kariofilen: 0.8, humulen: 0.6, mircen: 0.4, limonen: 0.3, linalol: 0.1, pinen: 0.1 },
+    terpenes: { kariofilen: 34.8, humulen: 26.1, mircen: 17.4, limonen: 13.0, linalol: 4.3, pinen: 4.3 },
     dominantTerpene: "Kariofilen",
     packaging: "10g"
   },
@@ -409,7 +409,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Owocowy", "Ziołowy", "Pikantny", "Ziemisty", "Drzewny"],
     description: "Indica o klasycznym kushowym charakterze, z połączenia LA Confidential i OG Kush. Gęste kwiaty z umiarkowaną ilością trichomów.",
-    terpenes: { mircen: 0.6, kariofilen: 0.5, humulen: 0.4, limonen: 0.3, linalol: 0.2, pinen: 0.2 },
+    terpenes: { mircen: 27.3, kariofilen: 22.7, humulen: 18.2, limonen: 13.6, linalol: 9.1, pinen: 9.1 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -424,7 +424,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Owocowy", "Ziołowy", "Pikantny", "Ziemisty", "Drzewny"],
     description: "Wersja 22% THC odmiany Cataract Kush od Tilray. Indica z połączenia LA Confidential i OG Kush.",
-    terpenes: { mircen: 0.6, kariofilen: 0.5, humulen: 0.4, limonen: 0.3, linalol: 0.2, pinen: 0.2 },
+    terpenes: { mircen: 27.3, kariofilen: 22.7, humulen: 18.2, limonen: 13.6, linalol: 9.1, pinen: 9.1 },
     dominantTerpene: "Mircen",
     packaging: "15g"
   },
@@ -439,7 +439,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Diesel", "Kwiatowy", "Lawendowy"],
     description: "Odmiana opisywana jako 'dodająca energii i otuchy'. Uczucie lekkości, lepszy nastrój, mniejsze przytłoczenie codziennością. Kariofilen i linalol nadają właściwości kojące.",
-    terpenes: { kariofilen: 0.6, linalol: 0.5, limonen: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 30.0, linalol: 25.0, limonen: 20.0, mircen: 15.0, pinen: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -454,7 +454,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Diesel", "Kwiatowy", "Lawendowy"],
     description: "Wersja 18% odmiany Lilac Diesel. Odmiana 'dodająca energii i otuchy', szczególnie polecana przy przewlekłym stresie.",
-    terpenes: { kariofilen: 0.6, linalol: 0.5, limonen: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 30.0, linalol: 25.0, limonen: 20.0, mircen: 15.0, pinen: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -469,7 +469,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Kamfora", "Korzenny", "Pieprzowy", "Ziemisty"],
     description: "Odmiana tetraploidalna o przewadze genetyki indica. Silna euforia, wspomaganie snu i łagodzenie bólu. Idealna do wieczornego relaksu.",
-    terpenes: { kariofilen: 0.6, mircen: 0.4, pinen: 0.3, humulen: 0.3, linalol: 0.2 },
+    terpenes: { kariofilen: 33.3, mircen: 22.2, pinen: 16.7, humulen: 16.7, linalol: 11.1 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -484,7 +484,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Pikantny", "Różany", "Ziemisty"],
     description: "Odmiana z połączenia OG Kush i Hindu Kush od Tilray. Skuteczny środek przeciwbólowy i przeciwlękowy, wspomaga sen.",
-    terpenes: { mircen: 0.8, kariofilen: 0.5, linalol: 0.3, limonen: 0.2, humulen: 0.2, pinen: 0.1, bisabolol: 0.1 },
+    terpenes: { mircen: 36.4, kariofilen: 22.7, linalol: 13.6, limonen: 9.1, humulen: 9.1, pinen: 4.5, bisabolol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "15g"
   },
@@ -499,7 +499,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Owocowy", "Ziołowy", "Pikantny", "Ziemisty", "Drzewny"],
     description: "Indica o klasycznym kushowym charakterze, z połączenia LA Confidential i OG Kush. Dystrybucja Synoptis Pharma.",
-    terpenes: { mircen: 0.6, kariofilen: 0.5, humulen: 0.4, limonen: 0.3, linalol: 0.2, pinen: 0.2 },
+    terpenes: { mircen: 27.3, kariofilen: 22.7, humulen: 18.2, limonen: 13.6, linalol: 9.1, pinen: 9.1 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -514,7 +514,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Ziemisty", "Kwiatowy", "Pikantny"],
     description: "Hybryda z przewagą indica (70%). Głębokie, uspokajające działanie. Kariofilen, bisabolol i linalol w profilu terpenowym.",
-    terpenes: { kariofilen: 0.6, bisabolol: 0.5, linalol: 0.5, mircen: 0.3, limonen: 0.2, humulen: 0.2 },
+    terpenes: { kariofilen: 26.1, bisabolol: 21.7, linalol: 21.7, mircen: 13.0, limonen: 8.7, humulen: 8.7 },
     dominantTerpene: "Kariofilen",
     packaging: "10g"
   },
@@ -529,7 +529,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Kamfora", "Korzenny", "Pieprzowy", "Ziemisty"],
     description: "Odmiana tetraploidalna o przewadze genetyki indica. Silna euforia, wspomaganie snu i łagodzenie bólu. Idealna do wieczornego relaksu.",
-    terpenes: { kariofilen: 0.6, mircen: 0.4, pinen: 0.3, humulen: 0.3, linalol: 0.2 },
+    terpenes: { kariofilen: 33.3, mircen: 22.2, pinen: 16.7, humulen: 16.7, linalol: 11.1 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -544,7 +544,7 @@ export const STRAINS = [
     effect: "Zrównoważone",
     aromas: ["Cytrusowy", "Owocowy", "Pieprzowy", "Sosnowy", "Ziołowy"],
     description: "Hybryda ze skrzyżowania Eye Candy × Apples & Bananas. Zbalansowane działanie — zaczyna od uniesienia nastroju i koncentracji, przechodzi w relaks. Limonen i kariofilen w profilu.",
-    terpenes: { limonen: 0.6, kariofilen: 0.6, mircen: 0.4, linalol: 0.3, pinen: 0.2, humulen: 0.1 },
+    terpenes: { limonen: 27.3, kariofilen: 27.3, mircen: 18.2, linalol: 13.6, pinen: 9.1, humulen: 4.5 },
     dominantTerpene: "Limonen",
     packaging: "15g"
   },
@@ -559,7 +559,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Korzenny", "Miętowy", "Pikantny", "Sosnowy"],
     description: "Hybryda z dominacją indica o bogatym profilu terpenowym. Nerolidol i kariofilen przekładają się na działanie przeciwbólowe i przeciwzapalne.",
-    terpenes: { nerolidol: 0.7, kariofilen: 0.6, limonen: 0.4, linalol: 0.3, mircen: 0.2, pinen: 0.1 },
+    terpenes: { nerolidol: 30.4, kariofilen: 26.1, limonen: 17.4, linalol: 13.0, mircen: 8.7, pinen: 4.3 },
     dominantTerpene: "Nerolidol",
     packaging: "15g"
   },
@@ -574,7 +574,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Pikantny", "Różany", "Ziemisty"],
     description: "Odmiana z połączenia OG Kush i Hindu Kush od Synoptis. Skuteczny środek przeciwbólowy i przeciwlękowy, wspomaga sen.",
-    terpenes: { mircen: 0.8, kariofilen: 0.5, linalol: 0.3, limonen: 0.2, humulen: 0.2, pinen: 0.1, bisabolol: 0.1 },
+    terpenes: { mircen: 36.4, kariofilen: 22.7, linalol: 13.6, limonen: 9.1, humulen: 9.1, pinen: 4.5, bisabolol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "15g"
   },
@@ -589,7 +589,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Diesel", "Kwiatowy", "Lawendowy"],
     description: "Odmiana 'dodająca energii i otuchy'. Uczucie lekkości, lepszy nastrój i redukcja stresu. Wersja 22% od Synoptis Pharma.",
-    terpenes: { kariofilen: 0.6, linalol: 0.5, limonen: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 30.0, linalol: 25.0, limonen: 20.0, mircen: 15.0, pinen: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -604,7 +604,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Diesel", "Kwiatowy", "Lawendowy"],
     description: "Wersja 18% odmiany Lilac Diesel od Synoptis Pharma. Pobudzający profil z właściwościami kojącymi.",
-    terpenes: { kariofilen: 0.6, linalol: 0.5, limonen: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 30.0, linalol: 25.0, limonen: 20.0, mircen: 15.0, pinen: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -619,7 +619,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Owocowy", "Skunk", "Słodki"],
     description: "Hybryda z dominacją indica (60/40) z genetyki Skunka. Słodko-drzewny aromat. Sprzyja relaksowi, senności i poprawie nastroju.",
-    terpenes: { kariofilen: 0.6, mircen: 0.5, pinen: 0.4, humulen: 0.3, linalol: 0.2 },
+    terpenes: { kariofilen: 30.0, mircen: 25.0, pinen: 20.0, humulen: 15.0, linalol: 10.0 },
     dominantTerpene: "Kariofilen",
     packaging: "15g"
   },
@@ -634,7 +634,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Jagodowy", "Cytrusowy", "Słodki", "Żywiczny"],
     description: "Hybryda z dominacją indica (70/30) o intensywnym aromacie i kompleksowym profilu terpenowym. Aromat jagód, cytrusów i żywicy. Wyciszające działanie wieczorne.",
-    terpenes: { linalol: 0.6, kariofilen: 0.5, mircen: 0.4, limonen: 0.4, bisabolol: 0.2, humulen: 0.1 },
+    terpenes: { linalol: 27.3, kariofilen: 22.7, mircen: 18.2, limonen: 18.2, bisabolol: 9.1, humulen: 4.5 },
     dominantTerpene: "Linalol",
     packaging: "15g"
   },
@@ -649,7 +649,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Drzewny", "Pikantny", "Różany", "Ziemisty"],
     description: "Wersja 18% odmiany Pink Kush od Synoptis Pharma. Z połączenia OG Kush i Hindu Kush, skuteczna przy bólu i bezsennicy.",
-    terpenes: { mircen: 0.8, kariofilen: 0.5, linalol: 0.3, limonen: 0.2, humulen: 0.2, pinen: 0.1, bisabolol: 0.1 },
+    terpenes: { mircen: 36.4, kariofilen: 22.7, linalol: 13.6, limonen: 9.1, humulen: 9.1, pinen: 4.5, bisabolol: 4.5 },
     dominantTerpene: "Mircen",
     packaging: "15g"
   },
@@ -664,7 +664,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Owocowy", "Słodki", "Tropikalny"],
     description: "Energetyzująca odmiana typu sativa o tropikalnym aromacie. Kwiaty jasnozielone, cytrusowo-owocowy zapach z akcentami sosny. Dominuje pinen, kariofilen i terpinolen.",
-    terpenes: { pinen: 0.6, kariofilen: 0.4, terpinolen: 0.4, limonen: 0.4, ocymen: 0.2, mircen: 0.2 },
+    terpenes: { pinen: 27.3, kariofilen: 18.2, terpinolen: 18.2, limonen: 18.2, ocymen: 9.1, mircen: 9.1 },
     dominantTerpene: "Pinen",
     packaging: "15g"
   },
@@ -679,7 +679,7 @@ export const STRAINS = [
     effect: "Zrównoważone",
     aromas: ["Cytrusowy", "Słodki", "Waniliowy"],
     description: "Hybryda 50/50 Indica/Sativa z krzyżówki Sunset Sherbert × Thin Mint Girl Scout Cookies, uprawiana przez LOT420 w Kanadzie. Słodko-kwaśny aromat cytrusów.",
-    terpenes: { limonen: 0.7, kariofilen: 0.5, linalol: 0.4, mircen: 0.3, pinen: 0.2 },
+    terpenes: { limonen: 33.3, kariofilen: 23.8, linalol: 19.0, mircen: 14.3, pinen: 9.5 },
     dominantTerpene: "Limonen",
     packaging: "10g"
   },
@@ -694,7 +694,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Cytrusowy", "Drzewny", "Owocowy", "Ziemisty"],
     description: "Hybryda z dominacją indica (60/40). Profil aromatyczny z nutami cytrusowymi, ziemistymi, owocowymi i drzewnymi. Mircen, limonen i kariofilen w profilu terpenowym.",
-    terpenes: { mircen: 0.7, limonen: 0.5, kariofilen: 0.4, linalol: 0.2, pinen: 0.1 },
+    terpenes: { mircen: 36.8, limonen: 26.3, kariofilen: 21.1, linalol: 10.5, pinen: 5.3 },
     dominantTerpene: "Mircen",
     packaging: "10g"
   },
@@ -709,7 +709,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Diesel", "Sosnowy", "Ziemisty", "Żywiczny"],
     description: "Klasyczna hybryda z dominacją indici (65/35), o wysokiej zawartości THC. Intensywny relaks fizyczny. Ciężki, lepki aromat — nuty ziemiste, sosnowe, dieslowe. Kariofilen, mircen i limonen w profilu.",
-    terpenes: { kariofilen: 0.7, mircen: 0.6, limonen: 0.4, humulen: 0.3, pinen: 0.2 },
+    terpenes: { kariofilen: 31.8, mircen: 27.3, limonen: 18.2, humulen: 13.6, pinen: 9.1 },
     dominantTerpene: "Kariofilen",
     packaging: "10g"
   },
@@ -724,7 +724,7 @@ export const STRAINS = [
     effect: "Pobudzające",
     aromas: ["Cytrusowy", "Mentolowy", "Sosnowy"],
     description: "Hybryda z dominacją sativy (60/40) z rodowodu Alaska MTF. Wyraźnie pobudzający profil działania. Aromat z nutami sosny, cytrusów, skunka i mentolu.",
-    terpenes: { pinen: 0.6, terpinolen: 0.5, limonen: 0.5, kariofilen: 0.3, ocymen: 0.2 },
+    terpenes: { pinen: 28.6, terpinolen: 23.8, limonen: 23.8, kariofilen: 14.3, ocymen: 9.5 },
     dominantTerpene: "Pinen",
     packaging: "10g"
   },
@@ -739,7 +739,7 @@ export const STRAINS = [
     effect: "Relaksujące",
     aromas: ["Cytrusowy", "Kwiatowy", "Słodki"],
     description: "Hybryda z przewagą indica z rodowodu Lemon Skunk × Kosher Kush. Jasnozielone kwiaty z obfitą warstwą trichomów. Dostępna w opakowaniach 10g, sterylizowana beta-promieniowaniem.",
-    terpenes: { limonen: 0.7, mircen: 0.5, linalol: 0.3, kariofilen: 0.2, pinen: 0.1 },
+    terpenes: { limonen: 38.9, mircen: 27.8, linalol: 16.7, kariofilen: 11.1, pinen: 5.6 },
     dominantTerpene: "Limonen",
     packaging: "10g"
   },
@@ -754,7 +754,7 @@ export const STRAINS = [
     effect: "Zrównoważone",
     aromas: ["Kwiatowy", "Owocowy", "Słodki"],
     description: "Odmiana oferująca połączenie fizycznego relaksu i klarowności umysłu. Terpeny mogą wykazywać działanie zarówno kojące, jak i ożywcze. Sprawdza się przy wzmacnianiu kreatywności i redukcji stresu.",
-    terpenes: { linalol: 0.5, mircen: 0.5, kariofilen: 0.4, limonen: 0.4, bisabolol: 0.2 },
+    terpenes: { linalol: 25.0, mircen: 25.0, kariofilen: 20.0, limonen: 20.0, bisabolol: 10.0 },
     dominantTerpene: "Linalol",
     packaging: "10g"
   }

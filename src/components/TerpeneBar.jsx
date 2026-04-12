@@ -16,7 +16,7 @@ const TERPENE_COLORS = {
   selinadien: "bg-emerald-600"
 };
 
-export default function TerpeneBar({ name, value, maxValue = 1 }) {
+export default function TerpeneBar({ name, value, maxValue = 100 }) {
   const terpene = getTerpeneByShortName(name);
   const displayName = terpene ? terpene.shortName : name;
   const percentage = (value / maxValue) * 100;

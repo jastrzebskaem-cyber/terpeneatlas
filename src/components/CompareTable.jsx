@@ -105,7 +105,7 @@ export default function CompareTable({ strains, onRemove, onClose }) {
                               <div className="flex-1 h-1.5 bg-muted rounded-full overflow-hidden min-w-[60px]">
                                 <div
                                   className="h-full bg-primary rounded-full"
-                                  style={{ width: `${(val / 1) * 100}%`, opacity: val === maxVal ? 1 : 0.45 }}
+                                  style={{ width: `${val}%`, opacity: val === maxVal ? 1 : 0.45 }}
                                 />
                               </div>
                               <span className={`text-xs w-10 text-right ${val === maxVal && maxVal > 0 ? "text-primary font-semibold" : "text-muted-foreground"}`}>
