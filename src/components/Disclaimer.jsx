@@ -28,7 +28,7 @@ export default function Disclaimer() {
         <div className="mt-8 pt-6 border-t border-border text-xs text-muted-foreground text-center">
           <p>Dane o odmianach pochodzą z publicznie dostępnych źródeł. Strona nie jest powiązana z żadnym producentem ani dystrybutorem. Autorką i właścicielką strony jest Indywidualna Praktyka Lekarska Ewa Jastrzębska</p>
           <p>Przedstawione procentowe wartości terpenów mają charakter orientacyjny i prezentują zawartość poszczególnych terpenów w suszach szacunkowo, obarczone są pewnym marginesem błędu.</p>
-          <p className="mt-1">Strona Terpene Atlas &copy; {new Date().getFullYear()} ma wyłącznie charakter informacyjny.</p>
+
         </div>
       </div>
     </footer>
