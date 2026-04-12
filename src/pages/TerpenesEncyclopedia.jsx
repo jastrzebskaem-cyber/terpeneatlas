@@ -15,7 +15,7 @@ export default function TerpenesEncyclopedia() {
           Terpeny w konopiach
         </h1>
         <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-          Terpeny to naturalne związki aromatyczne, wytwarzane przez konopie i wiele innych roślin. Poznaj niektóre z nich.
+          Za wyjątkowym aromatem i właściwościami konopi stoją terpeny — naturalne związki obecne w świecie roślin od milionów lat. Poznaj je bliżej.
         </p>
       </div>
 
