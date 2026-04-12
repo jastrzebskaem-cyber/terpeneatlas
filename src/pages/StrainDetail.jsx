@@ -76,6 +76,14 @@ export default function StrainDetail() {
           {strain.country && <StatBox label="Kraj pochodzenia" value={strain.country} icon="🌍" />}
         </div>
 
+        {/* Lineage */}
+        {strain.lineage && strain.lineage !== "nieznany rodowód" && (
+          <div className="mb-4 flex items-center gap-2">
+            <span className="text-xs text-muted-foreground font-medium">Krzyżówka:</span>
+            <span className="text-sm font-medium text-foreground">{strain.lineage}</span>
+          </div>
+        )}
+
         {/* Description */}
         <p className="text-sm text-muted-foreground leading-relaxed mb-6">
           {strain.description}
