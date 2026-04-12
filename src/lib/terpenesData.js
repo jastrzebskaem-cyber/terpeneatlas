@@ -185,7 +185,7 @@ export const TERPENES = [
       "Przeciwzapalne, antybakteryjne",
       "Właściwości tłumiące apetyt (w przeciwieństwie do THC)",
       "Hamuje wydzielanie histaminy, co pomaga przy chorobach alergicznych",
-      "Gastroprotekcyjnie (ochronnie na układ pokarmowy)",
+      "Gastroprotekcyjne (ochronne na błonę śluzową żołądka)",
       "Poprawia jakość snu",
       "Przeciwobrzękowe"
     ],
