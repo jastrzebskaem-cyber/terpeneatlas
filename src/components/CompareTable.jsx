@@ -1,12 +1,12 @@
 import { X, Leaf, BarChart2, Radar } from "lucide-react";
+import { Link } from "react-router-dom";
+import { getTerpeneByShortName } from "../lib/terpenesData";
 import { useState } from "react";
 import {
   RadarChart, Radar as ReRadar, PolarGrid, PolarAngleAxis, ResponsiveContainer, Legend, Tooltip,
   BarChart, Bar, XAxis, YAxis, CartesianGrid
 } from "recharts";
-import { getCbdDisplay } from "../lib/strainsData";
-import { Link } from "react-router-dom";
-import { TERPENES_LIST } from "../lib/strainsData";
+import { getCbdDisplay, TERPENES_LIST } from "../lib/strainsData";
 
 const CHART_COLORS = ["hsl(var(--primary))", "hsl(var(--chart-4))", "hsl(var(--chart-2))", "hsl(var(--chart-5))"];
 
@@ -160,11 +160,23 @@ export default function CompareTable({ strains, onRemove, onClose }) {
               </tr>
               {/* Terpenes */}
               {TERPENES_LIST.filter(t => strains.some(s => (s.terpenes[t] || 0) > 0)).map((terpene) => {
+                const terpeneData = getTerpeneByShortName(terpene);
                 const values = strains.map((s) => s.terpenes[terpene] || 0);
                 const maxVal = Math.max(...values);
                 return (
                   <tr key={terpene} className="border-t border-border">
-                    <td className="pr-4 py-2 text-xs text-muted-foreground font-medium capitalize">{terpene}</td>
+                    <td className="pr-4 py-2 text-xs font-medium">
+                      {terpeneData ? (
+                        <Link
+                          to={`/terpeny/${terpeneData.id}`}
+                          className="text-primary hover:underline capitalize"
+                        >
+                          {terpene}
+                        </Link>
+                      ) : (
+                        <span className="text-muted-foreground capitalize">{terpene}</span>
+                      )}
+                    </td>
                     {strains.map((s) => {
                       const val = s.terpenes[terpene] || 0;
                       return (
