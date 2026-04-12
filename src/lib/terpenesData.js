@@ -141,7 +141,7 @@ export const TERPENES = [
     id: "linalol",
     name: "Linalol",
     shortName: "Linalol",
-    emoji: "🪻",
+    emoji: "🤎",
     scent: "Kwiatowy, lawendowy, lekko korzenny z nutami cytrusów",
     boilingPoint: 198,
     boilingPointUnit: "°C",
