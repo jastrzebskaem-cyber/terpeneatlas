@@ -45,7 +45,7 @@ export const TERPENES = [
       "Mięta pieprzowa"
     ],
     effects: [
-      "Poprawia nastrój, redukuje stres i wspomaga trawienie",
+      "Przeciwpasożytnicze nastrój, redukuje stres i wspomaga trawienie",
       "Właściwości przeciwlękowe",
       "Działanie przeciwzapalne",
       "Właściwości przeciwgrzybicze i antybakteryjne",
