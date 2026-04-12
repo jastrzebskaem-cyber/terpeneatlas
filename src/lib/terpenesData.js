@@ -196,7 +196,7 @@ export const TERPENES = [
     id: "ocymen",
     name: "Ocymen",
     shortName: "Ocymen",
-    emoji: "🌟",
+    emoji: "🧷",
     scent: "Słodki, ziołowy, drzewny z nutami cytrusowymi i lekko słodkimi",
     boilingPoint: 65,
     boilingPointUnit: "°C",
