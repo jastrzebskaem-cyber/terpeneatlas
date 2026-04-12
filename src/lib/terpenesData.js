@@ -75,7 +75,7 @@ export const TERPENES = [
     effects: [
       "Przeciwzapalne i przeciwbólowe",
       "Potencjalne działanie neuroprotekcyjne",
-      "Przeciwlękowe, redukujące stres",
+      "Modulator niektórych reakcji zapalnych",
       "Może wspierać ochronę komórek nerwowych, co czyni go obiektem badań w kontekstu zaburzeń neurologicznych",
       "Ma właściwości antyoksydacyjne (przeciwutleniające)",
       "Wiąże się bezpośrednio z receptorami CB2 (odpowiedzialnymi za odporność i ból), omijając receptory CB1"
