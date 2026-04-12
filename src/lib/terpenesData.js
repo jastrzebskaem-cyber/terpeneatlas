@@ -249,7 +249,7 @@ export const TERPENES = [
     id: "nerolidol",
     name: "Nerolidol (trans-nerolidol)",
     shortName: "Nerolidol",
-    emoji: "🫚",
+    emoji: "🍊",
     scent: "Kwiatowy, drzewny, cytrusowy z nutami kory i świeżości",
     boilingPoint: 122,
     boilingPointUnit: "°C",
