@@ -290,7 +290,7 @@ export const TERPENES = [
       "Relaksacyjne, uspokajające",
       "Potencjalne działanie przeciwnowotworowe",
       "Przeciwbólowe",
-      "Właściwości przeciwreumatyczne"
+      "Potwierdzone działanie moczopędne"
     ],
     description: "Guaiol jest alkoholem seskwiterpenowym występującym głównie w drewnie gwajakowym. W przeciwieństwie do większości terpenów, jest ciekły w temperaturze pokojowej. W historii medycyny był stosowany jako lek na kaszel i zapalenie stawów. W konopiach występuje w niewielkich ilościach, ale nadaje odmianom subtelny, sosnowo-różany charakter.",
     color: "cyan"
