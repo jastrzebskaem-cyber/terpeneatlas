@@ -129,7 +129,7 @@ const sections = [
   },
   {
     id: "jak-czytac",
-    title: "4. Jak Czytać Profil Terpenowy na Etykiecie",
+    title: "Jak Czytać Profil Terpenowy na Etykiecie",
     subsections: [
       {
         heading: "Podstawowe Informacje na Etykiecie",
