@@ -205,7 +205,7 @@ const sections = [
       {
         heading: "Częste Błędy w Interpretacji",
         mistakes: [
-          { title: "Skupianie się tylko na typie odmiany (indica/sativa)", text: "Typ odmiany to uproszczenie. Profil terpenowy ma równie duże znaczenie dla działania niż klasyfikacja botaniczna." },
+          { title: "Skupianie się tylko na typie odmiany (indica/sativa)", text: "Typ odmiany to uproszczenie. Profil terpenowy ma równie duże znaczenie dla działania jak i klasyfikacja botaniczna." },
           { title: "Ignorowanie terpenów poza pierwszym", text: "Wszystkie terpeny w profilu przyczyniają się do efektu anturażu. Nawet terpeny występujące w niższych stężeniach mogą znacząco modulować działanie." },
           { title: "Zakładanie, że wyższe THC = lepsze działanie", text: "Wyższe stężenie THC nie zawsze oznacza lepsze efekty terapeutyczne. Dzięki efektowi anturażu, odmiana z 18% THC i bogatym profilem terpenowym może być skuteczniejsza niż odmiana z 27% THC i ubogim profilem terpenowym." },
           { title: "Nieuwzględnianie indywidualnej reakcji", text: "Każdy pacjent reaguje inaczej na różne profile terpenowe. To, co działa dla jednej osoby, może nie działać dla innej. Prowadzenie dziennika pacjenta jest tutaj kluczowe dla skutecznej terapii konopnej." },
