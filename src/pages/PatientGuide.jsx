@@ -243,7 +243,7 @@ const sections = [
         terpenes: [
           "Limonen – silne działanie anksjolityczne i antydepresyjne",
           "Linalol – właściwości uspokajające i przeciwlękowe",
-          "Kariofilen – działanie przeciwlękowe poprzez CB2",
+          "Kariofilen – działanie przeciwlękowe poprzez receptory CB2",
           "Pinen – efekt przeciwlękowy bez sedacji",
           "Bisabolol – łagodne działanie uspokajające",
         ],
