@@ -74,7 +74,7 @@ const sections = [
   },
   {
     id: "efekt-anturazu",
-    title: "3. Efekt Anturażu (Entourage Effect)",
+    title: "Efekt Anturażu (Entourage Effect)",
     subsections: [
       {
         heading: "Czym Jest Efekt Anturażu?",
