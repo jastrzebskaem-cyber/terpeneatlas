@@ -7,12 +7,28 @@ import { useFavorites } from "../hooks/useFavorites";
 
 const GENETICS_OPTIONS = ["Wszystkie", "Indica", "Sativa", "Hybryda", "Hybryda/Indica", "Hybryda/Sativa"];
 const AVAILABILITY_OPTIONS = ["Wszystkie", "Wysoka", "Niska", "Brak", "Wycofana"];
+const THC_RANGES = [
+  { value: "all", label: "Wszystkie" },
+  { value: "low", label: "do 18%" },
+  { value: "mid", label: "18–22%" },
+  { value: "high", label: "22–25%" },
+  { value: "very-high", label: "powyżej 25%" },
+];
+const CBD_OPTIONS = [
+  { value: "all", label: "Wszystkie" },
+  { value: "low", label: "< 1% (tylko THC)" },
+  { value: "balanced", label: "≥ 1% CBD" },
+  { value: "high", label: "≥ 5% CBD" },
+];
 
 const SORT_OPTIONS = [
-{ value: "name-asc", label: "Nazwa (A-Z)" },
-{ value: "name-desc", label: "Nazwa (Z-A)" },
-{ value: "thc-desc", label: "THC (malejąco)" },
-{ value: "thc-asc", label: "THC (rosnąco)" }];
+  { value: "name-asc", label: "Nazwa (A-Z)" },
+  { value: "name-desc", label: "Nazwa (Z-A)" },
+  { value: "thc-desc", label: "THC (malejąco)" },
+  { value: "thc-asc", label: "THC (rosnąco)" },
+  { value: "cbd-desc", label: "CBD (malejąco)" },
+  { value: "cbd-asc", label: "CBD (rosnąco)" },
+];
 
 
 export default function Home() {
@@ -20,6 +36,8 @@ export default function Home() {
   const [genetics, setGenetics] = useState("Wszystkie");
   const [availability, setAvailability] = useState("Wszystkie");
   const [producer, setProducer] = useState("Wszystkie");
+  const [thcRange, setThcRange] = useState("all");
+  const [cbdFilter, setCbdFilter] = useState("all");
 
   const [sortBy, setSortBy] = useState("name-asc");
   const [showFilters, setShowFilters] = useState(false);
@@ -52,7 +70,18 @@ export default function Home() {
       availability === "Wszystkie" || s.availability === availability;
       const matchesProducer =
       producer === "Wszystkie" || s.producer === producer;
-      return matchesSearch && matchesGenetics && matchesAvailability && matchesProducer;
+      const matchesThc =
+        thcRange === "all" ||
+        (thcRange === "low" && s.thc < 18) ||
+        (thcRange === "mid" && s.thc >= 18 && s.thc <= 22) ||
+        (thcRange === "high" && s.thc > 22 && s.thc <= 25) ||
+        (thcRange === "very-high" && s.thc > 25);
+      const matchesCbd =
+        cbdFilter === "all" ||
+        (cbdFilter === "low" && s.cbd < 1) ||
+        (cbdFilter === "balanced" && s.cbd >= 1) ||
+        (cbdFilter === "high" && s.cbd >= 5);
+      return matchesSearch && matchesGenetics && matchesAvailability && matchesProducer && matchesThc && matchesCbd;
     });
 
     results = [...results].sort((a, b) => {
@@ -60,19 +89,22 @@ export default function Home() {
       if (sortBy === "name-desc") return b.name.localeCompare(a.name, "pl");
       if (sortBy === "thc-desc") return b.thc - a.thc;
       if (sortBy === "thc-asc") return a.thc - b.thc;
+      if (sortBy === "cbd-desc") return b.cbd - a.cbd;
+      if (sortBy === "cbd-asc") return a.cbd - b.cbd;
       return 0;
     });
 
     return results;
   }, [search, genetics, availability, producer, sortBy]);
 
-  const hasActiveFilters = genetics !== "Wszystkie" || availability !== "Wszystkie" || producer !== "Wszystkie";
+  const hasActiveFilters = genetics !== "Wszystkie" || availability !== "Wszystkie" || producer !== "Wszystkie" || thcRange !== "all" || cbdFilter !== "all";
 
   const clearFilters = () => {
     setGenetics("Wszystkie");
     setAvailability("Wszystkie");
     setProducer("Wszystkie");
-
+    setThcRange("all");
+    setCbdFilter("all");
     setSearch("");
   };
 
@@ -128,7 +160,7 @@ export default function Home() {
 
         {showFilters &&
         <div className="bg-card rounded-xl border border-border p-4 sm:p-5 space-y-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
               <FilterSelect
               label="Genetyka"
               value={genetics}
@@ -148,6 +180,26 @@ export default function Home() {
               value={availability}
               onChange={setAvailability}
               options={AVAILABILITY_OPTIONS} />
+
+              <div>
+                <label className="block text-xs font-medium text-muted-foreground mb-1.5">Zawartość THC</label>
+                <select
+                  value={thcRange}
+                  onChange={(e) => setThcRange(e.target.value)}
+                  className="w-full px-3 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all">
+                  {THC_RANGES.map(opt => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-xs font-medium text-muted-foreground mb-1.5">Zawartość CBD</label>
+                <select
+                  value={cbdFilter}
+                  onChange={(e) => setCbdFilter(e.target.value)}
+                  className="w-full px-3 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all">
+                  {CBD_OPTIONS.map(opt => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
+                </select>
+              </div>
             
             </div>
             {hasActiveFilters &&
