@@ -135,7 +135,7 @@ const sections = [
         heading: "Podstawowe Informacje na Etykiecie",
         intro: "Etykiety medycznych konopi dostępnych w Polsce zazwyczaj zawierają następujące informacje:",
         numbered: [
-          { title: "Nazwa odmiany i producent", text: "Np. \"Aurora Pink Kush\", \"Bedrocan\", \"Spectrum Therapeutics Red No. 2\"" },
+          { title: "Nazwa odmiany i producent", text: "Np. \"COSMA Gorilla Girl\", \"Spectrum Therapeutics Red No. 2\"" },
           { title: "Typ odmiany", text: "Indica – zazwyczaj działanie relaksujące, sedatywne; Sativa – zazwyczaj działanie pobudzające, stymulujące; Hybrid – mieszanka cech indica i sativa" },
           { title: "Zawartość kannabinoidów", text: "THC (%) – procentowe stężenie tetrahydrokannabinolu; CBD (%) – procentowe stężenie kannabidiolu" },
           { title: "Profil terpenowy", text: "Lista głównych terpenów, zazwyczaj w kolejności od najwyższego do najniższego stężenia. Niektóre etykiety podają również procentową zawartość poszczególnych terpenów." },
