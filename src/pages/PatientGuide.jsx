@@ -157,9 +157,9 @@ const sections = [
             step: "Krok 2: Oceń synergię terpenów",
             text: "Spójrz na całą listę terpenów i oceń, jak mogą działać synergicznie:",
             examples: [
-              "Profil relaksujący/nasenny: Mircen + Linalol + Nerolidol = silne działanie sedatywne i nasenne. Odpowiedni dla: bezsenność, ból przewlekły, lęk",
-              "Profil przeciwzapalny/przeciwbólowy: Kariofilen + Humulen + Mircen = silne działanie przeciwzapalne i analgetyczne. Odpowiedni dla: zapalenie stawów, choroby zapalne jelit, ból neuropatyczny",
-              "Profil pobudzający/poprawiający nastrój: Limonen + Pinen + Terpinolen = działanie pobudzające, przeciwlękowe, poprawiające koncentrację. Odpowiedni dla: zaburzenia depresyjne i lękowe",
+              "Profil relaksujący/nasenny: Mircen + Linalol + Nerolidol = silne działanie sedatywne i nasenne.",
+              "Profil przeciwzapalny/przeciwbólowy: Kariofilen + Humulen + Mircen = silne działanie przeciwzapalne i analgetyczne.",
+              "Profil pobudzający/poprawiający nastrój: Limonen + Pinen + Terpinolen = działanie pobudzające, przeciwlękowe, poprawiające koncentrację.",
             ],
           },
           {
