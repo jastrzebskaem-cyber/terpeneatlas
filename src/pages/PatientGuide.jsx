@@ -14,7 +14,7 @@ const sections = [
   },
   {
     id: "czym-sa-terpeny",
-    title: "2. Czym Są Terpeny i Jak Działają",
+    title: "Czym Są Terpeny i Jak Działają",
     subsections: [
       {
         heading: "Podstawy Chemii Terpenów",
