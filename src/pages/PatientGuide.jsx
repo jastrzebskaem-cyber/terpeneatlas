@@ -10,7 +10,7 @@ const sections = [
       "Wybór odmiany medycznej marihuany wyłącznie na podstawie zawartości THC i CBD to jak kupowanie perfum tylko po procentowej zawartości alkoholu – pomijasz najważniejsze składniki, które decydują o rzeczywistym działaniu produktu. Dwie odmiany o identycznej zawartości 20% THC mogą działać zupełnie inaczej w zależności od profilu terpenowego: jedna może być silnie relaksująca i nasenna, druga – pobudzająca i stymulująca kreatywność.",
     ],
     bullets: [],
-    outro: "Wiedza o terpenach pozwoli Ci świadomie współpracować z lekarzem i optymalizować terapię kannabinoidową, osiągając lepsze efekty przy mniejszych dawkach i mniejszej liczbie działań niepożądanych.",
+    outro: "Wiedza o terpenach pozwoli Ci świadomie współpracować z lekarzem i optymalizować terapię kannabinoidową, osiągając lepsze efekty przy mniejszej liczbie działań niepożądanych.",
   },
   {
     id: "czym-sa-terpeny",
