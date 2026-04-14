@@ -8,14 +8,8 @@ const sections = [
     content: [
       "Badania naukowe coraz wyraźniej pokazują, że terpeny nie tylko wpływają na aromat i smak, ale przede wszystkim modulują działanie kannabinoidów, wzmacniając ich efekty terapeutyczne i redukując potencjalne działania niepożądane.",
       "Wybór odmiany medycznej marihuany wyłącznie na podstawie zawartości THC i CBD to jak kupowanie perfum tylko po procentowej zawartości alkoholu – pomijasz najważniejsze składniki, które decydują o rzeczywistym działaniu produktu. Dwie odmiany o identycznej zawartości 20% THC mogą działać zupełnie inaczej w zależności od profilu terpenowego: jedna może być silnie relaksująca i nasenna, druga – pobudzająca i stymulująca kreatywność.",
-      "Ten przewodnik powstał, aby pomóc Ci zrozumieć:",
     ],
-    bullets: [
-      "Czym są terpeny i jak wpływają na działanie medycznych konopi",
-      "Jakie właściwości lecznicze mają poszczególne terpeny",
-      "Jak czytać profile terpenowe na etykietach produktów dostępnych w Polsce",
-      "Jak dobrać odpowiednią odmianę do Twoich konkretnych potrzeb medycznych",
-    ],
+    bullets: [],
     outro: "Wiedza o terpenach pozwoli Ci świadomie współpracować z lekarzem i optymalizować terapię kannabinoidową, osiągając lepsze efekty przy mniejszych dawkach i mniejszej liczbie działań niepożądanych.",
   },
   {
