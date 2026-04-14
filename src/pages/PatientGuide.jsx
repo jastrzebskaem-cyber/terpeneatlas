@@ -4,7 +4,7 @@ import { ArrowLeft, BookOpen } from "lucide-react";
 const sections = [
   {
     id: "wstep",
-    title: "1. Wstęp: Dlaczego Terpeny Mają Znaczenie",
+    title: "Dlaczego Terpeny Mają Znaczenie",
     content: [
       "Badania naukowe coraz wyraźniej pokazują, że terpeny nie tylko wpływają na aromat i smak, ale przede wszystkim modulują działanie kannabinoidów, wzmacniając ich efekty terapeutyczne i redukując potencjalne działania niepożądane.",
       "Wybór odmiany medycznej marihuany wyłącznie na podstawie zawartości THC i CBD to jak kupowanie perfum tylko po procentowej zawartości alkoholu – pomijasz najważniejsze składniki, które decydują o rzeczywistym działaniu produktu. Dwie odmiany o identycznej zawartości 20% THC mogą działać zupełnie inaczej w zależności od profilu terpenowego: jedna może być silnie relaksująca i nasenna, druga – pobudzająca i stymulująca kreatywność.",
