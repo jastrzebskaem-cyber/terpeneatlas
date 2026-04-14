@@ -149,7 +149,7 @@ const sections = [
             step: "Krok 1: Zidentyfikuj dominujący terpen",
             text: "Pierwszy terpen na liście jest zazwyczaj dominującym składnikiem profilu terpenowego i ma największy wpływ na działanie odmiany.",
             examples: [
-              "Aurora Pink Kush: Mircen, Limonen, Kariofilen, Linalol, Nerolidol, Bisabolol → Dominujący terpen: Mircen → działanie relaksujące, sedatywne, nasenne",
+              "Cosma Mac Monkey: Limonen, Pinen, Kariofilen, Mircen, Linalol, Bisabolol, Terpinolen → Dominujący terpen: Limonen → działanie relaksujące, łagodzące ból",
               "Aurora Ghost Train Haze: Terpinolen, Mircen, Limonen, Pinen, Ocymen, Linalol → Dominujący terpen: Terpinolen → działanie uspokajające mimo charakteru sativa",
             ],
           },
