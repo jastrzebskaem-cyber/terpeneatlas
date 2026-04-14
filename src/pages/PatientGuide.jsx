@@ -116,7 +116,7 @@ const sections = [
           { title: "Profil terpenowy ma znaczenie", text: "Dwie odmiany o identycznej zawartości THC i CBD mogą działać zupełnie inaczej w zależności od profilu terpenowego. Wybór odmiany powinien uwzględniać nie tylko kannabinoidy, ale również terpeny." },
           { title: "Pełnospektrowe ekstrakty mogą być skuteczniejsze", text: "Pełnospektrowe ekstrakty zawierające wszystkie kannabinoidy i terpeny mogą być bardziej skuteczne terapeutycznie niż izolaty lub destylaty pozbawione terpenów." },
           { title: "Niższe dawki mogą być wystarczające", text: "Dzięki efektowi anturażu pacjenci mogą osiągać pożądane efekty terapeutyczne przy niższych dawkach kannabinoidów, co redukuje ryzyko działań niepożądanych i koszty terapii." },
-          { title: "Indywidualizacja terapii jest kluczowa", text: "Każdy pacjent może reagować inaczej na różne profile terpenowe. Prowadzenie dziennika pacjenta i systematyczne testowanie różnych odmian pozwala znaleźć optymalny profil dla konkretnych potrzeb." },
+          { title: "Indywidualizacja terapii jest kluczowa", text: "Każdy pacjent może reagować inaczej na różne profile terpenowe. Prowadzenie dziennika pacjenta i regularne konsultowanie efektów terapii z Lekarzem pozwala zmaksymalizować efekty terapii." },
         ],
       },
       {
