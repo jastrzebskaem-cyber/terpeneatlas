@@ -136,7 +136,7 @@ const sections = [
         intro: "Etykiety medycznych konopi dostępnych w Polsce zazwyczaj zawierają następujące informacje:",
         numbered: [
           { title: "Nazwa odmiany i producent", text: "Np. \"COSMA Gorilla Girl\", \"Spectrum Therapeutics Red No. 2\"" },
-          { title: "Typ odmiany", text: "Indica – zazwyczaj działanie relaksujące, sedatywne; Sativa – zazwyczaj działanie pobudzające, stymulujące; Hybrid – mieszanka cech indica i sativa" },
+          { title: "Typ odmiany", text: "Indica – zazwyczaj działanie relaksujące, sedatywne; Sativa – zazwyczaj działanie pobudzające, stymulujące; Hybryda – mieszanka cech indica i sativa." },
           { title: "Zawartość kannabinoidów", text: "THC (%) – procentowe stężenie tetrahydrokannabinolu; CBD (%) – procentowe stężenie kannabidiolu" },
           { title: "Profil terpenowy", text: "Lista głównych terpenów, zazwyczaj w kolejności od najwyższego do najniższego stężenia. Niektóre etykiety podają również procentową zawartość poszczególnych terpenów." },
           { title: "Aromat i smak", text: "Opis dominujących nut aromatycznych (cytrusowy, ziemisty, korzenny, kwiatowy, itp.)" },
