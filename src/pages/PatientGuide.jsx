@@ -19,7 +19,7 @@ const sections = [
       {
         heading: "Podstawy Chemii Terpenów",
         paragraphs: [
-          "Terpeny (lub terpenoidy, gdy zawierają dodatkowe grupy funkcyjne) to lotne związki organiczne produkowane przez wiele roślin, w tym konopie indyjskie. Cannabis sativa wytwarza ponad 200 różnych terpenów, choć zazwyczaj tylko kilka z nich występuje w znaczących stężeniach w danej odmianie.",
+          "Terpeny (lub terpenoidy, gdy zawierają dodatkowe grupy funkcyjne) to lotne związki produkowane przez wiele roślin, w tym konopie indyjskie. Konopie wytwarzają ponad 200 różnych terpenów, choć zazwyczaj tylko kilka z nich występuje w znaczących stężeniach.",
           "Terpeny są odpowiedzialne za charakterystyczne aromaty roślin – od cytrusowego zapachu limonenu (obecnego w skórkach pomarańczy i cytryn), przez ziemisty aromat mircenu (występujący w chmielu i mangostanie), po korzenny zapach kariofilenu (znany z czarnego pieprzu). W naturze terpeny pełnią funkcje ochronne – odstraszają szkodniki, przyciągają zapylacze i chronią rośliny przed stresem środowiskowym.",
         ],
       },
