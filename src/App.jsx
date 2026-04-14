@@ -12,6 +12,7 @@ import StrainDetail from './pages/StrainDetail';
 import TerpeneDetail from './pages/TerpeneDetail';
 import Favorites from './pages/Favorites';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import PatientGuide from './pages/PatientGuide';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -46,6 +47,7 @@ const AuthenticatedApp = () => {
         <Route path="/terpeny/:id" element={<TerpeneDetail />} />
         <Route path="/ulubione" element={<Favorites />} />
         <Route path="/polityka-prywatnosci" element={<PrivacyPolicy />} />
+        <Route path="/poradnik-pacjenta" element={<PatientGuide />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

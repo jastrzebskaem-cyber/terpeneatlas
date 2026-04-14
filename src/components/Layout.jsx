@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
-import { Leaf, FlaskConical, Heart, Menu, X } from "lucide-react";
+import { Leaf, FlaskConical, BookOpen, Menu, X } from "lucide-react";
 import { useState } from "react";
 import Disclaimer from "./Disclaimer";
 
@@ -10,6 +10,7 @@ export default function Layout() {
   const navLinks = [
     { to: "/", label: "Baza wiedzy - odmiany", icon: Leaf },
     { to: "/terpeny", label: "Przewodnik po terpenach", icon: FlaskConical },
+    { to: "/poradnik-pacjenta", label: "Poradnik Pacjenta", icon: BookOpen },
   ];
 
   const isActive = (path) => {
