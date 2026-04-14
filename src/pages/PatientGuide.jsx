@@ -15,7 +15,6 @@ const sections = [
       "Jakie właściwości lecznicze mają poszczególne terpeny",
       "Jak czytać profile terpenowe na etykietach produktów dostępnych w Polsce",
       "Jak dobrać odpowiednią odmianę do Twoich konkretnych potrzeb medycznych",
-      "Jak monitorować skuteczność terapii poprzez prowadzenie dziennika pacjenta",
     ],
     outro: "Wiedza o terpenach pozwoli Ci świadomie współpracować z lekarzem i optymalizować terapię kannabinoidową, osiągając lepsze efekty przy mniejszych dawkach i mniejszej liczbie działań niepożądanych.",
   },
