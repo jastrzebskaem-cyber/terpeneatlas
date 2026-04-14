@@ -199,7 +199,7 @@ const sections = [
             "Obecność mircenu: Mimo charakteru sativa, mircen może łagodzić nadmierne pobudzenie",
             "Wysoki THC (27%): Silne działanie psychoaktywne, odpowiednie dla doświadczonych pacjentów",
           ],
-          conclusion: "Odmiana odpowiednia dla pacjentów z m.in. zaburzeniami depresyjnymi, lękowymi, dolegliwościami bólowymi, którzy chcą zachować energię i jasność umysłu w ciągu dnia. Nie jest to typowa odmiana nasenna mimo obecności mircenu.",
+          conclusion: "Odmiana odpowiednia dla pacjentów z m.in. zaburzeniami depresyjnymi, lękowymi, dolegliwościami bólowymi.",
         },
       },
       {
