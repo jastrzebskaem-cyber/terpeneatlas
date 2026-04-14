@@ -324,7 +324,7 @@ export default function PatientGuide() {
           </h1>
         </div>
         <p className="text-muted-foreground text-sm mb-10 ml-12">
-          Terpeny, aromat, efekt anturażu — wszystko, co powinieneś wiedzieć o składzie medycznej marihuany zanim wybierzesz odmianę
+          Terpeny, aromat, efekt anturażu — wszystko, co powinieneś wiedzieć o składzie medycznej marihuany
         </p>
 
         <div className="space-y-12">
