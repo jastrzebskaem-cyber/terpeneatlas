@@ -6,7 +6,7 @@ import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpenePieChart from "../components/TerpenePieChart";
-import { ArrowLeft, Leaf, Beaker, Heart, GitCompare, X } from "lucide-react";
+import { ArrowLeft, Leaf, Beaker, Heart, PieChart, Radar } from "lucide-react";
 import CompareTable from "../components/CompareTable";
 import { useFavorites } from "../hooks/useFavorites";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
@@ -18,6 +18,7 @@ export default function StrainDetail() {
   const strain = STRAINS.find((s) => s.id === id);
   const { toggleFavorite, isFavorite } = useFavorites();
   const [compareId, setCompareId] = useState(null);
+  const [chartType, setChartType] = useState("pie");
   const compareStrain = compareId ? STRAINS.find(s => s.id === compareId) : null;
 
   if (!strain) {
@@ -105,14 +106,38 @@ export default function StrainDetail() {
 
       {/* Terpene profile */}
       <div className="bg-card rounded-2xl border border-border p-6 sm:p-8 mb-8">
-        <div className="flex items-center gap-2 mb-6">
-          <Beaker className="w-5 h-5 text-primary" />
-          <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy</h2>
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-2">
+            <Beaker className="w-5 h-5 text-primary" />
+            <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy</h2>
+          </div>
+          <div className="flex gap-1">
+            <button
+              onClick={() => setChartType("pie")}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
+                chartType === "pie" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              <PieChart className="w-3.5 h-3.5" /> Kołowy
+            </button>
+            <button
+              onClick={() => setChartType("radar")}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
+                chartType === "radar" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              <Radar className="w-3.5 h-3.5" /> Radarowy
+            </button>
+          </div>
         </div>
 
-        {/* Pie chart */}
+        {/* Chart */}
         <div className="mb-6">
-          <TerpenePieChart terpenes={strain.terpenes} />
+          {chartType === "pie" ? (
+            <TerpenePieChart terpenes={strain.terpenes} />
+          ) : (
+            <TerpeneRadarChart strain={strain} />
+          )}
         </div>
 
         {/* Clickable terpene links */}
