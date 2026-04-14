@@ -11,6 +11,7 @@ import TerpenesEncyclopedia from './pages/TerpenesEncyclopedia';
 import StrainDetail from './pages/StrainDetail';
 import TerpeneDetail from './pages/TerpeneDetail';
 import Favorites from './pages/Favorites';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -44,10 +45,7 @@ const AuthenticatedApp = () => {
         <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
         <Route path="/terpeny/:id" element={<TerpeneDetail />} />
         <Route path="/ulubione" element={<Favorites />} />
-        <Route path="/odmiana/:id" element={<StrainDetail />} />
-        <Route path="/terpeny" element={<TerpenesEncyclopedia />} />
-        <Route path="/terpeny/:id" element={<TerpeneDetail />} />
-        <Route path="/ulubione" element={<Favorites />} />
+        <Route path="/polityka-prywatnosci" element={<PrivacyPolicy />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

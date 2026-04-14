@@ -1,4 +1,5 @@
 import { AlertTriangle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Disclaimer() {
   return (
@@ -28,7 +29,11 @@ export default function Disclaimer() {
         <div className="mt-8 pt-6 border-t border-border text-xs text-muted-foreground text-center">
           <p>Autorką i właścicielką strony jest Indywidualna Praktyka Lekarska Ewa Jastrzębska</p>
           <p>Przedstawione zawartości terpenów mają charakter orientacyjny i obarczone są ryzykiem błędu, dane o profilach terpenowych pochodzą z publicznie dostępnych źródeł.</p>
-
+          <p className="mt-3">
+            <Link to="/polityka-prywatnosci" className="underline hover:text-foreground transition-colors">
+              Polityka prywatności
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
