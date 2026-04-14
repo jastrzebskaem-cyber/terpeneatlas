@@ -330,7 +330,7 @@ export default function PatientGuide() {
           </h1>
         </div>
         <p className="text-muted-foreground text-sm mb-10 ml-12">
-          Praktyczny przewodnik po terpenach i ich zastosowaniu w terapii medycznej
+          Terpeny, aromat, efekt anturażu — wszystko, co powinieneś wiedzieć o składzie medycznej marihuany zanim wybierzesz odmianę
         </p>
 
         <div className="space-y-12">
