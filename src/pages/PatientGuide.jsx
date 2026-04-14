@@ -215,7 +215,7 @@ const sections = [
   },
   {
     id: "schorzenia",
-    title: "5. Praktyczne Wskazówki Doboru Odmiany do Konkretnych Schorzeń",
+    title: "Praktyczne Wskazówki Doboru Odmiany do Konkretnych Schorzeń",
     conditions: [
       {
         name: "Ból Przewlekły i Zapalny",
