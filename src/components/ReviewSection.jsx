@@ -1,32 +1,40 @@
+// FIX #6: Errors now surface as toasts (not silent console.error)
+// FIX #4: Uses updated useReviews with React Query (isSubmitting from hook)
 import { useState, useEffect } from 'react';
 import { Star, MessageSquare, Trash2, Edit2, X } from 'lucide-react';
 import { useReviews } from '../hooks/useReviews';
-import { base44 } from '@/api/base44Client';
+import ReviewSkeleton from './ReviewSkeleton';
 
 export default function ReviewSection({ strainId }) {
-  const { reviews, loading, userReview, averageRating, addReview, updateReview, deleteReview } = useReviews(strainId);
+  const {
+    reviews,
+    loading,
+    user,
+    userReview,
+    averageRating,
+    addReview,
+    updateReview,
+    deleteReview,
+    isSubmitting,
+  } = useReviews(strainId);
+
   const [isEditing, setIsEditing] = useState(false);
   const [rating, setRating] = useState(5);
   const [opinion, setOpinion] = useState('');
   const [hoverRating, setHoverRating] = useState(0);
-  const [user, setUser] = useState(null);
-  const [submitting, setSubmitting] = useState(false);
-
-  useEffect(() => {
-    base44.auth.me().then(setUser).catch(() => setUser(null));
-  }, []);
 
   useEffect(() => {
     if (userReview) {
       setRating(userReview.rating);
       setOpinion(userReview.opinion || '');
       setIsEditing(true);
+    } else {
+      setIsEditing(false);
     }
   }, [userReview]);
 
   const handleSubmit = async () => {
     if (!user) return;
-    setSubmitting(true);
     try {
       if (userReview) {
         await updateReview(userReview.id, rating, opinion);
@@ -36,30 +44,25 @@ export default function ReviewSection({ strainId }) {
       setOpinion('');
       setRating(5);
       setIsEditing(false);
-    } catch (error) {
-      console.error('Error submitting review:', error);
-    } finally {
-      setSubmitting(false);
+    } catch {
+      // Error toast already handled inside useReviews
     }
   };
 
   const handleDelete = async () => {
     if (!userReview) return;
-    setSubmitting(true);
     try {
       await deleteReview(userReview.id);
       setOpinion('');
       setRating(5);
       setIsEditing(false);
-    } catch (error) {
-      console.error('Error deleting review:', error);
-    } finally {
-      setSubmitting(false);
+    } catch {
+      // Error toast already handled inside useReviews
     }
   };
 
   if (loading) {
-    return <div className="text-sm text-muted-foreground">Ładowanie opinii...</div>;
+    return <ReviewSkeleton />;
   }
 
   return (
@@ -84,7 +87,9 @@ export default function ReviewSection({ strainId }) {
               ))}
             </div>
             <span className="text-sm text-muted-foreground">
-              {averageRating > 0 ? `${averageRating}/5 (${reviews.length} opinii)` : 'Brak opinii'}
+              {averageRating > 0
+                ? `${averageRating}/5 (${reviews.length} ${reviews.length === 1 ? 'opinia' : reviews.length < 5 ? 'opinie' : 'opinii'})`
+                : 'Brak opinii'}
             </span>
           </div>
         </div>
@@ -103,9 +108,7 @@ export default function ReviewSection({ strainId }) {
           ) : isEditing ? (
             <div className="space-y-3">
               <div>
-                <label className="block text-xs font-medium text-muted-foreground mb-2">
-                  Ocena (1-5)
-                </label>
+                <label className="block text-xs font-medium text-muted-foreground mb-2">Ocena (1-5)</label>
                 <div className="flex gap-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <button
@@ -138,23 +141,21 @@ export default function ReviewSection({ strainId }) {
                   maxLength={500}
                   className="w-full px-3 py-2 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none h-20"
                 />
-                <span className="text-xs text-muted-foreground mt-1 block">
-                  {opinion.length}/500
-                </span>
+                <span className="text-xs text-muted-foreground mt-1 block">{opinion.length}/500</span>
               </div>
 
               <div className="flex gap-2">
                 <button
                   onClick={handleSubmit}
-                  disabled={submitting}
+                  disabled={isSubmitting}
                   className="flex-1 px-3 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 disabled:opacity-50 transition-colors"
                 >
-                  {submitting ? 'Wysyłanie...' : userReview ? 'Zaktualizuj' : 'Dodaj opinię'}
+                  {isSubmitting ? 'Wysyłanie...' : userReview ? 'Zaktualizuj' : 'Dodaj opinię'}
                 </button>
                 {userReview && (
                   <button
                     onClick={handleDelete}
-                    disabled={submitting}
+                    disabled={isSubmitting}
                     className="px-3 py-2 rounded-lg bg-destructive text-destructive-foreground text-sm font-medium hover:bg-destructive/90 disabled:opacity-50 transition-colors"
                   >
                     <Trash2 className="w-4 h-4" />
@@ -168,7 +169,7 @@ export default function ReviewSection({ strainId }) {
                       setRating(5);
                     }
                   }}
-                  disabled={submitting}
+                  disabled={isSubmitting}
                   className="px-3 py-2 rounded-lg border border-border text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
                 >
                   <X className="w-4 h-4" />
@@ -185,6 +186,11 @@ export default function ReviewSection({ strainId }) {
 
       {/* Reviews List */}
       <div className="space-y-3">
+        {reviews.length === 0 && (
+          <p className="text-sm text-muted-foreground text-center py-4">
+            Brak opinii. Bądź pierwszy!
+          </p>
+        )}
         {reviews.map((review) => (
           <div key={review.id} className="p-4 bg-accent/20 rounded-xl border border-border">
             <div className="flex items-start justify-between mb-2">
@@ -194,9 +200,7 @@ export default function ReviewSection({ strainId }) {
                     <Star
                       key={star}
                       className={`w-3.5 h-3.5 ${
-                        star <= review.rating
-                          ? 'fill-amber-400 text-amber-400'
-                          : 'text-muted-foreground'
+                        star <= review.rating ? 'fill-amber-400 text-amber-400' : 'text-muted-foreground'
                       }`}
                     />
                   ))}
