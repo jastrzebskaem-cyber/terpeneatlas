@@ -3,8 +3,10 @@ import { useFavorites } from "../hooks/useFavorites";
 import StrainCard from "../components/StrainCard";
 import { Heart, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function Favorites() {
+  usePageTitle("Ulubione Odmiany", "Twoje ulubione odmiany medycznej marihuany dostępne w Polsce.");
   const { favorites, toggleFavorite, isFavorite } = useFavorites();
   const favoriteStrains = STRAINS.filter((s) => favorites.includes(s.id));
 
