@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, BookOpen } from "lucide-react";
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const sections = [
   {
@@ -300,6 +301,7 @@ const bibliography = [
 ];
 
 export default function PatientGuide() {
+  usePageTitle("Poradnik Pacjenta", "Kompleksowy przewodnik dla pacjentów medycznej marihuany w Polsce — dawkowanie, terpeny, odmiany i porady praktyczne.");
   return (
     <div className="min-h-screen bg-background">
       {/* Back button */}
