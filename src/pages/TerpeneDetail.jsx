@@ -1,8 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { getTerpeneByShortName, TERPENES } from "../lib/terpenesData";
 import { STRAINS } from "../lib/strainsData";
-import { ArrowLeft, Leaf } from "lucide-react";
+import { ArrowLeft, Leaf, ArrowRight } from "lucide-react";
 import StrainCard from "../components/StrainCard";
+import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function TerpeneDetail() {
   const { id } = useParams();
@@ -131,11 +132,30 @@ export default function TerpeneDetail() {
               ))}
             </div>
 
+            {/* Always show link to filtered home view */}
+            <div className="text-center mt-10">
+              <Link
+                to={`/?terpene=${terpene.id}`}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-primary text-primary text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <Leaf className="w-4 h-4" />
+                Filtruj wszystkie odmiany po {terpene.shortName}
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+
             {strainsByTerpene.length > 6 && (
               <div className="text-center mt-12">
                 <p className="text-muted-foreground mb-4">
-                  Razem dostępnych odmian z tym terpenem: {strainsByTerpene.length}
+                  Pokazano 6 z {strainsByTerpene.length} odmian zawierających ten terpen.
                 </p>
+                <Link
+                  to={`/?terpene=${terpene.id}`}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+                >
+                  Pokaż wszystkie odmiany z {terpene.shortName}
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
               </div>
             )}
           </div>
