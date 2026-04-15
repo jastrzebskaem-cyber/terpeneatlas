@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Shield } from "lucide-react";
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const sections = [
   {
@@ -87,6 +88,7 @@ const sections = [
 ];
 
 export default function PrivacyPolicy() {
+  usePageTitle("Polityka Prywatności", "Polityka prywatności serwisu Terpene Atlas.");
   return (
     <div className="min-h-screen bg-background">
       {/* Back button */}
