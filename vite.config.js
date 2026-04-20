@@ -42,7 +42,7 @@ export default defineConfig({
     }),
     react(),
     sitemap({
-      hostname: 'https://www.terpeneatlas.com', // ← update to your real domain
+      hostname: 'https://www.terpeneatlas.org', // ← update to your real domain
       dynamicRoutes: [
         '/',
         '/terpeny',
