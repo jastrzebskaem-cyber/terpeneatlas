@@ -2,12 +2,17 @@ import { STRAINS } from "../lib/strainsData";
 import { useFavorites } from "../hooks/useFavorites";
 import StrainCard from "../components/StrainCard";
 import { Heart, Leaf } from "lucide-react";
+import { useSEO } from "../hooks/useSEO";
 import { Link } from "react-router-dom";
-import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function Favorites() {
-  usePageTitle("Ulubione Odmiany", "Twoje ulubione odmiany medycznej marihuany dostępne w Polsce.");
   const { favorites, toggleFavorite, isFavorite } = useFavorites();
+
+  useSEO({
+    title: "Ulubione odmiany",
+    description: "Twoje zapisane odmiany medycznej marihuany. Porównuj profile terpenowe i znajdź zamienniki swoich ulubionych leków.",
+    canonical: "https://www.terpeneatlas.org/ulubione"
+  });
   const favoriteStrains = STRAINS.filter((s) => favorites.includes(s.id));
 
   return (
@@ -18,10 +23,10 @@ export default function Favorites() {
           Twoja kolekcja
         </div>
         <h1 className="font-playfair text-3xl sm:text-4xl font-bold text-foreground mb-3">
-          Ulubione odmiany
+          Twoje ulubione odmiany medycznej marihuany
         </h1>
         <p className="text-muted-foreground text-base max-w-xl mx-auto">
-          Tutaj znajdziesz odmiany, które oznaczyłeś jako ulubione.
+          Zapisane odmiany suszu konopnego — porównuj ich profile terpenowe i szukaj zamienników gdy zioło jest niedostępne.
         </p>
       </div>
 
