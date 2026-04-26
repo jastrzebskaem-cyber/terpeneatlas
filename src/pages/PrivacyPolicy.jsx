@@ -1,6 +1,6 @@
+import { useSEO } from "../hooks/useSEO";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Shield } from "lucide-react";
-import { usePageTitle } from '../hooks/usePageTitle';
 
 const sections = [
   {
@@ -88,7 +88,11 @@ const sections = [
 ];
 
 export default function PrivacyPolicy() {
-  usePageTitle("Polityka Prywatności", "Polityka prywatności serwisu Terpene Atlas.");
+  useSEO({
+    title: "Polityka Prywatności",
+    description: "Polityka prywatności serwisu TerpeneAtlas – bazy wiedzy o terpenach i odmianach medycznej marihuany.",
+    canonical: "https://www.terpeneatlas.org/polityka-prywatnosci"
+  });
   return (
     <div className="min-h-screen bg-background">
       {/* Back button */}
