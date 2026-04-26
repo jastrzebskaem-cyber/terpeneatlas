@@ -1,9 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { getTerpeneByShortName, TERPENES } from "../lib/terpenesData";
 import { STRAINS } from "../lib/strainsData";
-import { ArrowLeft, Leaf, ArrowRight } from "lucide-react";
+import { ArrowLeft, Leaf } from "lucide-react";
+import { useSEO } from "../hooks/useSEO";
 import StrainCard from "../components/StrainCard";
-import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function TerpeneDetail() {
   const { id } = useParams();
@@ -20,6 +20,12 @@ export default function TerpeneDetail() {
       </div>
     );
   }
+
+  useSEO({
+    title: terpene ? `${terpene.name} – właściwości i działanie` : "Terpen",
+    description: terpene ? `Poznaj ${terpene.name} — terpen występujący w medycznej marihuanie. Właściwości, działanie terapeutyczne i odmiany z dominującym ${terpene.name.toLowerCase()}.` : "",
+    canonical: terpene ? `https://www.terpeneatlas.org/terpeny/${terpene.id}` : undefined
+  });
 
   const strainsByTerpene = STRAINS
     .filter(s => s.terpenes[terpene.shortName.toLowerCase()] > 0)
@@ -78,7 +84,7 @@ export default function TerpeneDetail() {
           <div className="space-y-8">
             <div>
               <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
-                O terpenie
+                Czym jest ten terpen w marihuanie medycznej
               </h2>
               <p className="text-lg leading-relaxed text-foreground">
                 {terpene.description}
@@ -87,7 +93,7 @@ export default function TerpeneDetail() {
 
             <div>
               <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
-                Właściwości i efekty
+                Działanie terapeutyczne i właściwości
               </h2>
               <ul className="space-y-3">
                 {terpene.effects.map((effect, idx) => (
@@ -101,7 +107,7 @@ export default function TerpeneDetail() {
 
             <div>
               <h2 className="text-xs uppercase tracking-widest text-muted-foreground mb-4 font-semibold">
-                Naturalne źródła
+                Naturalne źródła terpenu
               </h2>
               <div className="flex flex-wrap gap-2">
                 {terpene.naturalOccurrence.map((source) => (
@@ -123,7 +129,7 @@ export default function TerpeneDetail() {
         <div className="border-t border-border py-16 lg:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <h2 className="font-playfair text-3xl lg:text-4xl font-bold text-foreground mb-12">
-              Odmiany z tym terpenem
+              Susz konopny z dominującym tym terpenem
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -132,30 +138,11 @@ export default function TerpeneDetail() {
               ))}
             </div>
 
-            {/* Always show link to filtered home view */}
-            <div className="text-center mt-10">
-              <Link
-                to={`/?terpene=${terpene.id}`}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-primary text-primary text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Leaf className="w-4 h-4" />
-                Filtruj wszystkie odmiany po {terpene.shortName}
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
             {strainsByTerpene.length > 6 && (
               <div className="text-center mt-12">
                 <p className="text-muted-foreground mb-4">
-                  Pokazano 6 z {strainsByTerpene.length} odmian zawierających ten terpen.
+                  Razem dostępnych odmian z tym terpenem: {strainsByTerpene.length}
                 </p>
-                <Link
-                  to={`/?terpene=${terpene.id}`}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
-                >
-                  Pokaż wszystkie odmiany z {terpene.shortName}
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
               </div>
             )}
           </div>
