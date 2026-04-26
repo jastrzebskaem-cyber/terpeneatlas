@@ -301,6 +301,11 @@ const bibliography = [
 ];
 
 export default function PatientGuide() {
+  useSEO({
+    title: "Przewodnik Pacjenta – Terpeny w Medycznej Marihuanie",
+    description: "Dowiedz się jak terpeny wpływają na działanie medycznej marihuany. Przewodnik dla pacjentów terapii kannabinoidowej w Polsce.",
+    canonical: "https://www.terpeneatlas.org/przewodnik-pacjenta"
+  });
   return (
     <div className="min-h-screen bg-background">
       {/* Back button */}
