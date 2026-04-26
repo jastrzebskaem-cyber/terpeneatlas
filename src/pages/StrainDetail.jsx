@@ -2,17 +2,16 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { STRAINS, getSimilarStrains, getCbdDisplay } from "../lib/strainsData";
 import { getTerpeneByShortName } from "../lib/terpenesData";
-// FIX #3: Removed unused getPharmacies import
+import { getPharmacies } from "../lib/pharmaciesData";
 import StrainCard from "../components/StrainCard";
 import AvailabilityBadge from "../components/AvailabilityBadge";
 import TerpenePieChart from "../components/TerpenePieChart";
 import { ArrowLeft, Leaf, Beaker, Heart, PieChart, Radar } from "lucide-react";
 import CompareTable from "../components/CompareTable";
 import { useFavorites } from "../hooks/useFavorites";
+import { useSEO } from "../hooks/useSEO";
 import TerpeneRadarChart from "../components/TerpeneRadarChart";
-// FIX #2: ReviewSection was imported but never rendered — now used below
 import ReviewSection from "../components/ReviewSection";
-import { usePageTitle } from '../hooks/usePageTitle';
 
 export default function StrainDetail() {
   const { id } = useParams();
@@ -21,7 +20,7 @@ export default function StrainDetail() {
   const { toggleFavorite, isFavorite } = useFavorites();
   const [compareId, setCompareId] = useState(null);
   const [chartType, setChartType] = useState("pie");
-  const compareStrain = compareId ? STRAINS.find((s) => s.id === compareId) : null;
+  const compareStrain = compareId ? STRAINS.find(s => s.id === compareId) : null;
 
   if (!strain) {
     return (
@@ -36,11 +35,18 @@ export default function StrainDetail() {
   }
 
   const similarStrains = getSimilarStrains(strain.id, 6);
+
+  const topTerpenes = sortedTerpenes.slice(0, 3).map(([name]) => name).join(", ");
+  useSEO({
+    title: `${strain.name} – profil terpenowy i działanie`,
+    description: `Poznaj odmianę ${strain.name} (${strain.genetics}, THC ${strain.thc}%). Dominujące terpeny: ${topTerpenes}. Sprawdź podobne odmiany dostępne w Polsce.`,
+    canonical: `https://www.terpeneatlas.org/odmiana/${strain.id}`
+  });
   const sortedTerpenes = Object.entries(strain.terpenes).sort(([, a], [, b]) => b - a);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-      {/* Back button — FIX #12: consistent navigate(-1) pattern like other pages */}
+      {/* Back button */}
       <button
         onClick={() => navigate(-1)}
         className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
@@ -91,10 +97,13 @@ export default function StrainDetail() {
         )}
 
         {/* Description */}
-        <p className="text-sm text-muted-foreground leading-relaxed mb-6">{strain.description}</p>
+        <p className="text-sm text-muted-foreground leading-relaxed mb-6">
+          {strain.description}
+        </p>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
+
           {strain.aromas.map((aroma) => (
             <span key={aroma} className="px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs font-medium">
               {aroma}
@@ -108,15 +117,13 @@ export default function StrainDetail() {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-2">
             <Beaker className="w-5 h-5 text-primary" />
-            <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy</h2>
+            <h2 className="font-playfair text-xl font-semibold text-foreground">Profil terpenowy suszu</h2>
           </div>
           <div className="flex gap-1">
             <button
               onClick={() => setChartType("pie")}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
-                chartType === "pie"
-                  ? "bg-primary text-primary-foreground border-primary"
-                  : "border-border text-muted-foreground hover:text-foreground"
+                chartType === "pie" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
               }`}
             >
               <PieChart className="w-3.5 h-3.5" /> Kołowy
@@ -124,9 +131,7 @@ export default function StrainDetail() {
             <button
               onClick={() => setChartType("radar")}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
-                chartType === "radar"
-                  ? "bg-primary text-primary-foreground border-primary"
-                  : "border-border text-muted-foreground hover:text-foreground"
+                chartType === "radar" ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:text-foreground"
               }`}
             >
               <Radar className="w-3.5 h-3.5" /> Radarowy
@@ -165,17 +170,13 @@ export default function StrainDetail() {
         </div>
       </div>
 
-      {/* FIX #2: ReviewSection now actually rendered */}
-      <div className="mb-8">
-        <ReviewSection strainId={strain.id} />
-      </div>
 
       {/* Similar strains */}
       <div>
         <div className="flex items-center gap-2 mb-6">
           <Leaf className="w-5 h-5 text-primary" />
           <h2 className="font-playfair text-xl font-semibold text-foreground">
-            Odmiany o podobnym profilu terpenowym
+            Zamienniki o podobnym profilu terpenowym
           </h2>
         </div>
 
@@ -186,7 +187,7 @@ export default function StrainDetail() {
               strain={s}
               similarity={s.similarity}
               isComparing={compareId === s.id}
-              onToggleCompare={() => setCompareId((prev) => (prev === s.id ? null : s.id))}
+              onToggleCompare={() => setCompareId(prev => prev === s.id ? null : s.id)}
               canAddMore={!compareId || compareId === s.id}
             />
           ))}
@@ -208,10 +209,7 @@ function StatBox({ label, value, icon }) {
   return (
     <div className="bg-accent/50 rounded-xl p-3.5">
       <span className="block text-xs text-muted-foreground mb-1">{label}</span>
-      <span className="block text-lg font-semibold text-foreground">
-        {icon && <span className="mr-1">{icon}</span>}
-        {value}
-      </span>
+      <span className="block text-lg font-semibold text-foreground">{icon && <span className="mr-1">{icon}</span>}{value}</span>
     </div>
   );
 }
