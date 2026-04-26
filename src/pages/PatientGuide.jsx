@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, BookOpen } from "lucide-react";
-import { usePageTitle } from '../hooks/usePageTitle';
+import { useSEO } from "../hooks/useSEO";
 
 const sections = [
   {
     id: "wstep",
-    title: "Dlaczego Terpeny Mają Znaczenie",
+    title: "Dlaczego terpeny w marihuanie medycznej mają znaczenie",
     content: [
       "Badania naukowe coraz wyraźniej pokazują, że terpeny nie tylko wpływają na aromat i smak, ale przede wszystkim modulują działanie kannabinoidów, wzmacniając ich efekty terapeutyczne i redukując potencjalne działania niepożądane.",
       "Wybór odmiany medycznej marihuany wyłącznie na podstawie zawartości THC i CBD to jak kupowanie perfum tylko po procentowej zawartości alkoholu – pomijasz najważniejsze składniki, które decydują o rzeczywistym działaniu produktu. Dwie odmiany o identycznej zawartości 20% THC mogą działać zupełnie inaczej w zależności od profilu terpenowego: jedna może być silnie relaksująca i nasenna, druga – pobudzająca i stymulująca kreatywność.",
@@ -15,7 +15,7 @@ const sections = [
   },
   {
     id: "czym-sa-terpeny",
-    title: "Czym Są Terpeny i Jak Działają",
+    title: "Czym są terpeny w konopiach i jak działają",
     subsections: [
       {
         heading: "Podstawy Chemii Terpenów",
@@ -75,7 +75,7 @@ const sections = [
   },
   {
     id: "efekt-anturazu",
-    title: "Efekt Anturażu (Entourage Effect)",
+    title: "Efekt anturażu — dlaczego profil terpenowy suszu jest ważny",
     subsections: [
       {
         heading: "Czym Jest Efekt Anturażu?",
@@ -130,7 +130,7 @@ const sections = [
   },
   {
     id: "jak-czytac",
-    title: "Jak Czytać Profil Terpenowy na Etykiecie",
+    title: "Jak czytać profil terpenowy na etykiecie suszu konopnego",
     subsections: [
       {
         heading: "Podstawowe Informacje na Etykiecie",
@@ -216,7 +216,7 @@ const sections = [
   },
   {
     id: "schorzenia",
-    title: "Praktyczne Wskazówki Doboru Odmiany do Konkretnych Schorzeń",
+    title: "Jak dobrać odmianę medycznej marihuany do schorzenia",
     conditions: [
       {
         name: "Ból Przewlekły i Zapalny",
@@ -301,7 +301,6 @@ const bibliography = [
 ];
 
 export default function PatientGuide() {
-  usePageTitle("Poradnik Pacjenta", "Kompleksowy przewodnik dla pacjentów medycznej marihuany w Polsce — dawkowanie, terpeny, odmiany i porady praktyczne.");
   return (
     <div className="min-h-screen bg-background">
       {/* Back button */}
@@ -322,11 +321,11 @@ export default function PatientGuide() {
         <div className="flex items-center gap-4 mb-4">
           <BookOpen className="w-8 h-8 text-muted-foreground flex-shrink-0" />
           <h1 className="font-playfair text-3xl sm:text-4xl font-bold text-foreground">
-            Poradnik Pacjenta
+            Poradnik pacjenta medycznej marihuany
           </h1>
         </div>
         <p className="text-muted-foreground text-sm mb-10 ml-12">
-          Terpeny, aromat, efekt anturażu — wszystko, co powinieneś wiedzieć o składzie medycznej marihuany
+          Terpeny, profil terpenowy, efekt anturażu — wszystko co powinieneś wiedzieć o suszu konopnym i jak znaleźć zamiennik marihuany medycznej
         </p>
 
         <div className="space-y-12">
