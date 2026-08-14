@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-14",
   "source": "BudCare.pl patient reviews",
-  "total_strains": 97,
+  "total_strains": 100,
   "reviews": {
     "cantourage-modified-gas-26": {
       "name": "Modified Gas",
@@ -1698,6 +1698,55 @@
       "quality_neg": [
         "luźne kwiatostany"
       ]
+    },
+    "equiposa": {
+      "name": "Equiposa",
+      "producer": "Aurora",
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "s-lab-22-inzane": {
+      "name": "Inzane in the Membrane",
+      "producer": "S-Lab",
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
+      "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, effective results. A smaller set of reviews (7) provides an initial picture.",
+      "review_count": 7,
+      "effects": [
+        "stymulujące"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "synoptis-22-island-sweet-skunk": {
+      "name": "Island Sweet Skunk",
+      "producer": "Synoptis Pharma",
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
     }
   }
 }
