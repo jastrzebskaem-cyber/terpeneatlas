@@ -1,754 +1,12 @@
 {
   "last_updated": "2026-08-14",
-  "source": "BudCare.pl + Reddit r/medycznamarihuana + Wykop #medycznamarihuana",
-  "total_strains_with_reviews": 110,
+  "source": "BudCare.pl patient reviews",
+  "total_strains": 97,
   "reviews": {
-    "snowtorious-krypton": {
-      "name": "Snowtorious Krypton",
-      "producer": "Spectrum Therapeutics (Canopy Growth)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "blood-orange-kush": {
-      "name": "Blood Orange Kush",
-      "producer": "Spectrum Therapeutics (Canopy Growth)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (16 reviews).",
-      "review_count": 16,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "koncentracja"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "kush-mints": {
-      "name": "Kush Mints",
-      "producer": "Spectrum Therapeutics (Canopy Growth)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma and note loose flowers. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "miorelaksacyjne"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "bakerstreet": {
-      "name": "Bakerstreet",
-      "producer": "Spectrum Therapeutics (Canopy Growth)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (18 opinii).",
-      "summary_en": "Patients most commonly report relaxing, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (18 reviews).",
-      "review_count": 18,
-      "effects": [
-        "relaksujące",
-        "stymulujące",
-        "przeciwlękowe",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "red-velvet-cake": {
-      "name": "Red Velvet Cake",
-      "producer": "Spectrum Therapeutics (Canopy Growth)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na ciemny kolor. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note dark color. Available reviews (13) show a fairly consistent effect profile.",
-      "review_count": 13,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "ciemny kolor"
-      ]
-    },
-    "jack-haze": {
-      "name": "Jack Haze",
-      "producer": "Spectrum Therapeutics (7ACRES)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (18 opinii).",
-      "summary_en": "Patients most commonly report relaxing, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (18 reviews).",
-      "review_count": 18,
-      "effects": [
-        "relaksujące",
-        "stymulujące",
-        "przeciwlękowe",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "delahaze": {
-      "name": "Delahaze",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
-      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (15 reviews).",
-      "review_count": 15,
-      "effects": [
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe",
-        "przeciwbólowe"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "pink-kush-aurora-20": {
-      "name": "Pink Kush (Aurora 20%)",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results and note loose flowers. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "ghost-train-haze": {
-      "name": "Ghost Train Haze",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
-      "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results and note loose flowers. This strain is popular among patients (16 reviews).",
-      "review_count": 16,
-      "effects": [
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "aurora-electric-honeydew": {
-      "name": "Electric Honeydew",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. Available reviews (13) show a fairly consistent effect profile.",
-      "review_count": 13,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "aurora-27-black-jelly": {
-      "name": "Black Jelly",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "equiposa": {
-      "name": "Equiposa",
-      "producer": "Aurora Deutschland GmbH",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "s-lab-22-animintz": {
-      "name": "Animintz",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na suchy susz.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note dry herb.",
-      "review_count": 7,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "suchy susz"
-      ]
-    },
-    "s-lab-22-pink-certz": {
-      "name": "Pink Certz 22",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results and note weak effects. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "s-lab-18-pink-certz": {
-      "name": "Pink Certz 18",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results and note weak effects. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "s-lab-18-animal-rntz": {
-      "name": "Animal Rntz",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci dzielą się różnorodnymi doświadczeniami z tej odmiany. Wielu pacjentów chwalą dobrą jakość. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients report diverse experiences with this strain. Many patients praise good quality. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [],
-      "quality_pos": [
-        "dobrą jakość"
-      ],
-      "quality_neg": []
-    },
-    "s-lab-18-spiced-latte": {
-      "name": "Spiced Latte",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (19 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (19 reviews).",
-      "review_count": 19,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "przeciwlękowe",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "s-lab-22-pink-kush": {
-      "name": "Pink Kush (S-Lab 22%)",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results and note weak effects. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "s-lab-22-galaxy-walker-og": {
-      "name": "Galaxy Walker OG (S-Lab 22%)",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, przeciwbólowe i poprawiające nastrój. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, analgesic, and mood-enhancing effects. Many patients praise good quality, intense aroma and note loose flowers. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "przeciwbólowe",
-        "poprawiające nastrój",
-        "miorelaksacyjne"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "s-lab-22-powdered-donuts": {
-      "name": "Powdered Donuts",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą intensywny aromat, skuteczne działanie oraz zwracają uwagę na słabe działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise intense aroma, effective results and note weak effects. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "intensywny aromat",
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "s-lab-22-wappa": {
-      "name": "Wappa (S-Lab 22%)",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note weak effects. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "s-lab-22-inzane": {
-      "name": "Inzane in the Membrane",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie.",
-      "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, effective results.",
-      "review_count": 7,
-      "effects": [
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "s-lab-18-lilac-diesel": {
-      "name": "Lilac Diesel (S-Lab 18%)",
-      "producer": "S-Lab",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
-      "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results. This strain is popular among patients (16 reviews).",
-      "review_count": 16,
-      "effects": [
-        "relaksujące",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "s-lab-beach-crasher-18": {
-      "name": "Beach Crasher 18%",
-      "producer": "S-Lab (Tilray)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results and note loose flowers. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "przeciwbólowe",
-        "miorelaksacyjne"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "s-lab-beach-crasher-22": {
-      "name": "Beach Crasher 22%",
-      "producer": "S-Lab (Tilray)",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results and note loose flowers. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "przeciwbólowe",
-        "miorelaksacyjne"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "cosma-22-black-r": {
-      "name": "Black R",
-      "producer": "Cosma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "tilray-18-cataract-kush": {
-      "name": "Cataract Kush (Tilray 18%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. Available reviews (13) show a fairly consistent effect profile.",
-      "review_count": 13,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "przeciwlękowe",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "tilray-22-cataract-kush": {
-      "name": "Cataract Kush (Tilray 22%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. Available reviews (13) show a fairly consistent effect profile.",
-      "review_count": 13,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "przeciwlękowe",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "tilray-22-lilac-diesel": {
-      "name": "Lilac Diesel (Tilray 22%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
-      "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results. This strain is popular among patients (15 reviews).",
-      "review_count": 15,
-      "effects": [
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "tilray-18-lilac-diesel": {
-      "name": "Lilac Diesel (Tilray 18%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
-      "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results. This strain is popular among patients (15 reviews).",
-      "review_count": 15,
-      "effects": [
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "tilray-22-master-kush": {
-      "name": "Master Kush (Tilray 22%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results.",
-      "review_count": 7,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwlękowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "tilray-22-pink-kush": {
-      "name": "Pink Kush (Tilray 22%)",
-      "producer": "Tilray",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise effective results and note weak effects. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
-    "synoptis-22-galaxy-walker-og": {
-      "name": "Galaxy Walker OG (Synoptis 22%)",
-      "producer": "Synoptis Pharma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, przeciwbólowe i poprawiające nastrój. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, analgesic, and mood-enhancing effects. Many patients praise good quality, intense aroma and note loose flowers. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "przeciwbólowe",
-        "poprawiające nastrój",
-        "miorelaksacyjne"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": [
-        "luźne kwiatostany"
-      ]
-    },
-    "synoptis-22-lilac-diesel": {
-      "name": "Lilac Diesel (Synoptis 22%)",
-      "producer": "Synoptis Pharma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
-      "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results. This strain is popular among patients (16 reviews).",
-      "review_count": 16,
-      "effects": [
-        "relaksujące",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "synoptis-18-lilac-diesel": {
-      "name": "Lilac Diesel (Synoptis 18%)",
-      "producer": "Synoptis Pharma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
-      "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results. This strain is popular among patients (16 reviews).",
-      "review_count": 16,
-      "effects": [
-        "relaksujące",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "synoptis-18-frosted-cherry-cookies": {
-      "name": "Frosted Cherry Cookies",
-      "producer": "Synoptis Pharma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwbólowe"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": []
-    },
-    "synoptis-22-island-sweet-skunk": {
-      "name": "Island Sweet Skunk",
-      "producer": "Synoptis Pharma",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
-      "review_count": 17,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "suprobion-mystic-wonder": {
-      "name": "Mystic Wonder",
-      "producer": "Suprobion",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą intensywny aromat, gęste kwiatostany oraz zwracają uwagę na ciemny kolor. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise intense aroma, dense flowers and note dark color. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "pobudzenie apetytu"
-      ],
-      "quality_pos": [
-        "intensywny aromat",
-        "gęste kwiatostany"
-      ],
-      "quality_neg": [
-        "ciemny kolor"
-      ]
-    },
-    "suprobion-gorilla-glue": {
-      "name": "Gorilla Glue",
-      "producer": "Suprobion",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą intensywny aromat, gęste kwiatostany oraz zwracają uwagę na ciemny kolor. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise intense aroma, dense flowers and note dark color. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "pobudzenie apetytu"
-      ],
-      "quality_pos": [
-        "intensywny aromat",
-        "gęste kwiatostany"
-      ],
-      "quality_neg": [
-        "ciemny kolor"
-      ]
-    },
-    "suprobion-humble-warrior": {
-      "name": "Humble Warrior",
-      "producer": "Suprobion",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. Available reviews (12) show a fairly consistent effect profile.",
-      "review_count": 12,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "przeciwbólowe"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": []
-    },
-    "phytopur-bio-frosted-lemon-angel": {
-      "name": "Frosted Lemon Angel",
-      "producer": "Phytopur BIO",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na suchy susz, słabe działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma and note dry herb, weak effects. This strain is popular among patients (15 reviews).",
-      "review_count": 15,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące",
-        "poprawiające nastrój"
-      ],
-      "quality_pos": [
-        "dobrą jakość",
-        "intensywny aromat"
-      ],
-      "quality_neg": [
-        "suchy susz",
-        "słabe działanie"
-      ]
-    },
-    "phytopur-bio-big-purple-dragon": {
-      "name": "Big Purple Dragon",
-      "producer": "Phytopur BIO",
-      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Dostępne opinie (8) wskazują na dość spójny obraz działania.",
-      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note weak effects. Available reviews (8) show a fairly consistent effect profile.",
-      "review_count": 8,
-      "effects": [
-        "relaksujące",
-        "nasenne",
-        "stymulujące"
-      ],
-      "quality_pos": [
-        "skuteczne działanie"
-      ],
-      "quality_neg": [
-        "słabe działanie"
-      ]
-    },
     "cantourage-modified-gas-26": {
       "name": "Modified Gas",
       "producer": "Cantourage",
+      "thc": 26.3,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -767,6 +25,7 @@
     "cantourage-orange-cake-279": {
       "name": "Orange Cake",
       "producer": "Cantourage",
+      "thc": 27.9,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -785,6 +44,7 @@
     "tilray-frosted-cherry-cookies-22": {
       "name": "Frosted Cherry Cookies",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -803,6 +63,7 @@
     "tilray-headband-18": {
       "name": "Headband",
       "producer": "Tilray",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie, ale zwraca uwagę na suchy susz. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report mood-enhancing effects. Many patients praise good quality, effective results, but note dry herb. Available reviews (13) show a fairly consistent effect profile.",
       "review_count": 13,
@@ -820,6 +81,7 @@
     "synoptis-frosted-cherry-cookies-22": {
       "name": "Frosted Cherry Cookies",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -838,6 +100,7 @@
     "synoptis-wappa-22": {
       "name": "Wappa",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise good quality, effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -855,6 +118,7 @@
     "slab-wappa-22": {
       "name": "Wappa",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -871,6 +135,7 @@
     "slab-wedding-pie-22": {
       "name": "Wedding Pie",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -889,6 +154,7 @@
     "bliss-og-kush-22": {
       "name": "OG Kush",
       "producer": "Bliss Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie, ale zwraca uwagę na suchy susz, luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results, but note dry herb, loose flowers. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -909,6 +175,7 @@
     "slab-lemon-haze-gelato-18": {
       "name": "Lemon Haze Gelato",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące oraz przeciwbólowe. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na suchy susz. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report stimulating and analgesic effects. Many patients praise good quality, intense aroma, but note dry herb. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -927,6 +194,7 @@
     "slab-jack-herrer-18": {
       "name": "Jack Herrer",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (19 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (19 reviews).",
       "review_count": 19,
@@ -945,6 +213,7 @@
     "slab-rockstar-18": {
       "name": "Rockstar",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na suchy susz. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma, but note dry herb. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -965,6 +234,7 @@
     "slab-rockstar-22": {
       "name": "Rockstar",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na suchy susz. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma, but note dry herb. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -985,6 +255,7 @@
     "slab-master-kush-18": {
       "name": "Master Kush",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1002,6 +273,7 @@
     "slab-master-kush-22": {
       "name": "Master Kush",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1019,6 +291,7 @@
     "slab-biscuit-rntz-22": {
       "name": "Biscuit Rntz",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci dzielą się różnorodnymi doświadczeniami z tej odmiany. Wielu pacjentów chwali dobrą jakość. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients report diverse experiences with this strain. Many patients praise good quality. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1031,6 +304,7 @@
     "slab-frosted-cherry-cookies-22": {
       "name": "Frosted Cherry Cookies",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1049,6 +323,7 @@
     "aurora-electric-honeydew-27": {
       "name": "Electric Honeydew",
       "producer": "Aurora",
+      "thc": 27.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. Available reviews (13) show a fairly consistent effect profile.",
       "review_count": 13,
@@ -1067,6 +342,7 @@
     "slab-island-sweet-skunk-22": {
       "name": "Island Sweet Skunk",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1085,6 +361,7 @@
     "slab-headband-22": {
       "name": "Headband",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, stymulujące i przeciwbólowe. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, stimulating, and analgesic effects. Many patients praise effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1102,6 +379,7 @@
     "slab-northern-berry-22": {
       "name": "Northern Berry",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1120,6 +398,7 @@
     "bliss-strawberry-og-25": {
       "name": "Strawberry OG",
       "producer": "Bliss Pharma",
+      "thc": 25.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie, ale zwraca uwagę na suchy susz, luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results, but note dry herb, loose flowers. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -1140,6 +419,7 @@
     "synoptis-triangle-mints": {
       "name": "Triangle Mints",
       "producer": "Synoptis Pharma",
+      "thc": 25.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1157,6 +437,7 @@
     "synoptis-powdered-donuts": {
       "name": "Powdered Donuts",
       "producer": "Synoptis Pharma",
+      "thc": 25.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1174,6 +455,7 @@
     "synoptis-lilac-diesel": {
       "name": "Lilac Diesel",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise good quality, effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1191,6 +473,7 @@
     "synoptis-lilac-diesel-18": {
       "name": "Lilac Diesel",
       "producer": "Synoptis Pharma",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise good quality, effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1208,6 +491,7 @@
     "synoptis-galaxy-walker-og": {
       "name": "Galaxy Walker OG",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise good quality, effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1225,6 +509,7 @@
     "synoptis-pink-kush": {
       "name": "Pink Kush",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1241,6 +526,7 @@
     "synoptis-pink-kush-18": {
       "name": "Pink Kush",
       "producer": "Synoptis Pharma",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1257,6 +543,7 @@
     "synoptis-facade": {
       "name": "Facade",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Mniejsze zestawienie opinii (8) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, effective results. A smaller set of reviews (8) provides an initial picture of the strain's profile.",
       "review_count": 8,
@@ -1272,6 +559,7 @@
     "synoptis-master-kush": {
       "name": "Master Kush",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1288,6 +576,7 @@
     "synoptis-purps": {
       "name": "Purps",
       "producer": "Synoptis Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise good quality, effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1305,6 +594,7 @@
     "tilray-purps": {
       "name": "Purps",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1322,6 +612,7 @@
     "slab-beach-crasher-22": {
       "name": "Beach Crasher",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie, ale zwraca uwagę na luźne kwiatostany. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results, but note loose flowers. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1342,6 +633,7 @@
     "slab-beach-crasher-18": {
       "name": "Beach Crasher",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie, ale zwraca uwagę na luźne kwiatostany. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results, but note loose flowers. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1362,6 +654,7 @@
     "tilray-beach-crasher-22": {
       "name": "Beach Crasher",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące oraz poprawiające nastrój. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report stimulating and mood-enhancing effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1377,6 +670,7 @@
     "tilray-pink-kush": {
       "name": "Pink Kush",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i poprawiające nastrój. Wielu pacjentów chwali skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and mood-enhancing effects. Many patients praise effective results. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1393,6 +687,7 @@
     "tilray-master-kush-22": {
       "name": "Master Kush",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1410,6 +705,7 @@
     "tilray-lilac-diesel-22": {
       "name": "Lilac Diesel",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -1424,6 +720,7 @@
     "tilray-lilac-diesel-18": {
       "name": "Lilac Diesel",
       "producer": "Tilray",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -1438,6 +735,7 @@
     "tilray-island-sweet-skunk-22": {
       "name": "Island Sweet Skunk",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwali skuteczne działanie, ale zwraca uwagę na suchy susz. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
       "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results, but note dry herb. This strain is popular among patients (16 reviews).",
       "review_count": 16,
@@ -1455,6 +753,7 @@
     "four20-mac-1-22": {
       "name": "Mac 1",
       "producer": "Four 20 Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1473,6 +772,7 @@
     "cantourage-mac-1-25": {
       "name": "Mac 1",
       "producer": "Cantourage",
+      "thc": 25.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1491,6 +791,7 @@
     "cantourage-gelato-33-26": {
       "name": "Gelato 33",
       "producer": "Cantourage",
+      "thc": 26.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1508,6 +809,7 @@
     "cantourage-pave-s1-27": {
       "name": "Pavé S1",
       "producer": "Cantourage",
+      "thc": 27.3,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1526,6 +828,7 @@
     "cosma-hindu-kush-22": {
       "name": "Hindu Kush",
       "producer": "COSMA",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz wspomagające sen. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing and sleep-promoting effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1541,6 +844,7 @@
     "cosma-black-r-22": {
       "name": "Black R",
       "producer": "COSMA",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1556,6 +860,7 @@
     "slab-spiced-latte-22": {
       "name": "Spiced Latte",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (19 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (19 reviews).",
       "review_count": 19,
@@ -1574,6 +879,7 @@
     "slab-pink-certz": {
       "name": "Pink Certz",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1590,6 +896,7 @@
     "slab-pink-certz-22": {
       "name": "Pink Certz",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1606,6 +913,7 @@
     "slab-animal-rntz": {
       "name": "Animal Rntz",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci dzielą się różnorodnymi doświadczeniami z tej odmiany. Wielu pacjentów chwali dobrą jakość. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients report diverse experiences with this strain. Many patients praise good quality. Available reviews (12) show a fairly consistent effect profile.",
       "review_count": 12,
@@ -1618,6 +926,7 @@
     "slab-lilac-diesel": {
       "name": "Lilac Diesel",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
       "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results. This strain is popular among patients (16 reviews).",
       "review_count": 16,
@@ -1633,6 +942,7 @@
     "slab-lilac-diesel-18": {
       "name": "Lilac Diesel",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz stymulujące. Wielu pacjentów chwali skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
       "summary_en": "Patients most commonly report relaxing and stimulating effects. Many patients praise effective results. This strain is popular among patients (16 reviews).",
       "review_count": 16,
@@ -1648,6 +958,7 @@
     "slab-mimosa": {
       "name": "Mimosa",
       "producer": "S-Lab",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i wspomagające koncentrację. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na ciemny kolor. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report sleep-promoting, stimulating, and focus-enhancing effects. Many patients praise good quality, intense aroma, but note dark color. Available reviews (13) show a fairly consistent effect profile.",
       "review_count": 13,
@@ -1667,6 +978,7 @@
     "tilray-cataract-kush": {
       "name": "Cataract Kush",
       "producer": "Tilray",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. Available reviews (13) show a fairly consistent effect profile.",
       "review_count": 13,
@@ -1685,6 +997,7 @@
     "tilray-cataract-kush-22": {
       "name": "Cataract Kush",
       "producer": "Tilray",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. Available reviews (13) show a fairly consistent effect profile.",
       "review_count": 13,
@@ -1703,6 +1016,7 @@
     "tilray-blueberry": {
       "name": "Blueberry",
       "producer": "Tilray",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące oraz rozluźniające mięśnie. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing and muscle-relaxing effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1719,6 +1033,7 @@
     "cosma-mac-monkey": {
       "name": "Blue Monkey",
       "producer": "COSMA",
+      "thc": 21.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1734,6 +1049,7 @@
     "cosma-balasa": {
       "name": "Balasa (Gorilla Girl)",
       "producer": "COSMA",
+      "thc": 20.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1749,6 +1065,7 @@
     "cosma-orange-cream-pop-20": {
       "name": "Orange Cream Pop",
       "producer": "COSMA",
+      "thc": 20.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1764,6 +1081,7 @@
     "four20-gorilla-glue": {
       "name": "Gorilla Glue #4",
       "producer": "Four 20 Pharma",
+      "thc": 22.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1782,6 +1100,7 @@
     "four20-gmo-garlic-cookies": {
       "name": "GMO (Garlic Cookies)",
       "producer": "Four 20 Pharma",
+      "thc": 27.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwbólowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and analgesic effects. Many patients praise good quality, effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1799,6 +1118,7 @@
     "four20-gastro-pop-27": {
       "name": "Gastro Pop",
       "producer": "Four 20 Pharma",
+      "thc": 27.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1817,6 +1137,7 @@
     "four20-masterpiece-27": {
       "name": "Masterpiece",
       "producer": "Four 20 Pharma",
+      "thc": 27.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwali dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
       "review_count": 17,
@@ -1835,6 +1156,7 @@
     "slab-sherbert-scotti-18": {
       "name": "Sherbert Scotti",
       "producer": "S-Lab",
+      "thc": 18.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (7) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (7) provides an initial picture of the strain's profile.",
       "review_count": 7,
@@ -1851,6 +1173,7 @@
     "phytopur-frosted-lemon-angel": {
       "name": "Frosted Lemon Angel",
       "producer": "PhytoPur Bio",
+      "thc": 24.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na suchy susz. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma, but note dry herb. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -1871,6 +1194,7 @@
     "phytopur-gorilla-glue": {
       "name": "Gorilla Glue",
       "producer": "PhytoPur Bio",
+      "thc": 24.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali dobrą jakość, intensywny aromat, ale zwraca uwagę na suchy susz. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma, but note dry herb. This strain is popular among patients (15 reviews).",
       "review_count": 15,
@@ -1891,6 +1215,7 @@
     "phytopur-big-purple-dragon": {
       "name": "Big Purple Dragon",
       "producer": "PhytoPur Bio",
+      "thc": 24.0,
       "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwali skuteczne działanie. Mniejsze zestawienie opinii (8) daje wstępny obraz profilu odmiany.",
       "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. A smaller set of reviews (8) provides an initial picture of the strain's profile.",
       "review_count": 8,
@@ -1903,6 +1228,476 @@
         "skuteczne działanie"
       ],
       "quality_neg": []
+    },
+    "suprobion-humble-warrior": {
+      "name": "Humble Warrior",
+      "producer": "Suprobion",
+      "thc": 23.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. Available reviews (12) show a fairly consistent effect profile.",
+      "review_count": 12,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "przeciwbólowe"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "suprobion-gorilla-glue": {
+      "name": "Gorilla Glue",
+      "producer": "Suprobion",
+      "thc": 23.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą intensywny aromat, gęste kwiatostany oraz zwracają uwagę na ciemny kolor. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise intense aroma, dense flowers and note dark color. Available reviews (12) show a fairly consistent effect profile.",
+      "review_count": 12,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "pobudzenie apetytu"
+      ],
+      "quality_pos": [
+        "intensywny aromat",
+        "gęste kwiatostany"
+      ],
+      "quality_neg": [
+        "ciemny kolor"
+      ]
+    },
+    "suprobion-mystic-wonder": {
+      "name": "Mystic Wonder",
+      "producer": "Suprobion",
+      "thc": 23.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą intensywny aromat, gęste kwiatostany oraz zwracają uwagę na ciemny kolor. Dostępne opinie (12) wskazują na dość spójny obraz działania.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise intense aroma, dense flowers and note dark color. Available reviews (12) show a fairly consistent effect profile.",
+      "review_count": 12,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "pobudzenie apetytu"
+      ],
+      "quality_pos": [
+        "intensywny aromat",
+        "gęste kwiatostany"
+      ],
+      "quality_neg": [
+        "ciemny kolor"
+      ]
+    },
+    "synoptis-cataract-kush-18": {
+      "name": "Cataract Kush",
+      "producer": "Synoptis Pharma",
+      "thc": 18.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "aurora-black-jelly": {
+      "name": "Black Jelly",
+      "producer": "Aurora",
+      "thc": 27.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "przeciwlękowe"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "aurora-farm-gas": {
+      "name": "Farm Gas",
+      "producer": "Aurora",
+      "thc": 27.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "aurora-electric-honeydew": {
+      "name": "Electric Honeydew",
+      "producer": "Aurora",
+      "thc": 29.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. Available reviews (13) show a fairly consistent effect profile.",
+      "review_count": 13,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "poprawiające nastrój"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": []
+    },
+    "aurora-chemango-kush": {
+      "name": "Chemango Kush",
+      "producer": "Aurora",
+      "thc": 29.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "aurora-sourdough": {
+      "name": "Sourdough",
+      "producer": "Aurora",
+      "thc": 29.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "aurora-pink-kush": {
+      "name": "Pink Kush",
+      "producer": "Aurora",
+      "thc": 20.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, effective results and note loose flowers. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "przeciwlękowe"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": [
+        "luźne kwiatostany"
+      ]
+    },
+    "slab-pink-kush": {
+      "name": "Pink Kush",
+      "producer": "S-Lab",
+      "thc": 18.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "slab-cataract-kush-18": {
+      "name": "Cataract Kush",
+      "producer": "S-Lab",
+      "thc": 18.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "slab-pink-kush-22": {
+      "name": "Pink Kush",
+      "producer": "S-Lab",
+      "thc": 22.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na słabe działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise effective results and note weak effects. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "nasenne",
+        "stymulujące",
+        "przeciwlękowe"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": [
+        "słabe działanie"
+      ]
+    },
+    "slab-triangle-mints-22": {
+      "name": "Triangle Mints",
+      "producer": "S-Lab",
+      "thc": 22.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "slab-purps-18": {
+      "name": "Purps",
+      "producer": "S-Lab",
+      "thc": 18.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "slab-galaxy-walker-og-18": {
+      "name": "Galaxy Walker OG",
+      "producer": "S-Lab",
+      "thc": 18.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "slab-galaxy-walker-og-22": {
+      "name": "Galaxy Walker OG",
+      "producer": "S-Lab",
+      "thc": 22.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, przeciwbólowe i poprawiające nastrój. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, analgesic, and mood-enhancing effects. Many patients praise good quality, intense aroma and note loose flowers. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "przeciwbólowe",
+        "poprawiające nastrój",
+        "miorelaksacyjne"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": [
+        "luźne kwiatostany"
+      ]
+    },
+    "slab-animintz-22": {
+      "name": "Animintz",
+      "producer": "S-Lab",
+      "thc": 22.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na suchy susz.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note dry herb.",
+      "review_count": 7,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": [
+        "suchy susz"
+      ]
+    },
+    "slab-spiced-latte": {
+      "name": "Spiced Latte",
+      "producer": "S-Lab",
+      "thc": 18.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (19 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and anxiolytic effects. Many patients praise good quality, effective results. This strain is popular among patients (19 reviews).",
+      "review_count": 19,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "przeciwlękowe",
+        "poprawiające nastrój"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "canopy-snowtorious-krypton": {
+      "name": "Snowtorious Krypton",
+      "producer": "Canopy Growth",
+      "thc": 25.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "poprawiające nastrój"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": []
+    },
+    "canopy-bakerstreet": {
+      "name": "Bakerstreet",
+      "producer": "Canopy Growth",
+      "thc": 20.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (18 opinii).",
+      "summary_en": "Patients most commonly report relaxing, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (18 reviews).",
+      "review_count": 18,
+      "effects": [
+        "relaksujące",
+        "stymulujące",
+        "przeciwlękowe",
+        "poprawiające nastrój"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": []
+    },
+    "canopy-kush-mints": {
+      "name": "Kush Mints",
+      "producer": "Canopy Growth",
+      "thc": 28.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (17 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma and note loose flowers. This strain is popular among patients (17 reviews).",
+      "review_count": 17,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "miorelaksacyjne"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": [
+        "luźne kwiatostany"
+      ]
+    },
+    "canopy-kush-mints-30": {
+      "name": "Kush Mints",
+      "producer": "Canopy Growth",
+      "thc": 30.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "canopy-jack-haze": {
+      "name": "Red No 2 / Jack Haze",
+      "producer": "Canopy Growth",
+      "thc": 19.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (18 opinii).",
+      "summary_en": "Patients most commonly report relaxing, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (18 reviews).",
+      "review_count": 18,
+      "effects": [
+        "relaksujące",
+        "stymulujące",
+        "przeciwlękowe",
+        "poprawiające nastrój"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": []
+    },
+    "canopy-blood-orange-kush": {
+      "name": "Blood Orange Kush",
+      "producer": "Canopy Growth",
+      "thc": 29.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise good quality, intense aroma. This strain is popular among patients (16 reviews).",
+      "review_count": 16,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "koncentracja"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": []
+    },
+    "canopy-red-velvet-cake": {
+      "name": "Red Velvet Cake",
+      "producer": "Canopy Growth",
+      "thc": 27.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie relaksujące, wspomagające sen i stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na ciemny kolor. Dostępne opinie (13) wskazują na dość spójny obraz działania.",
+      "summary_en": "Patients most commonly report relaxing, sleep-promoting, and stimulating effects. Many patients praise effective results and note dark color. Available reviews (13) show a fairly consistent effect profile.",
+      "review_count": 13,
+      "effects": [
+        "relaksujące",
+        "nasenne",
+        "stymulujące",
+        "przeciwlękowe"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": [
+        "ciemny kolor"
+      ]
+    },
+    "canopy-afghan-kush-25": {
+      "name": "Afghan Kush",
+      "producer": "Canopy Growth",
+      "thc": 25.0,
+      "summary_pl": "Brak wystarczającej liczby opinii pacjentów w źródłach społecznościowych. Odmiana wymaga dalszej obserwacji.",
+      "summary_en": "Insufficient patient reviews available from community sources. This strain requires further monitoring.",
+      "review_count": 0,
+      "effects": [],
+      "quality_pos": [],
+      "quality_neg": []
+    },
+    "aurora-delahaze": {
+      "name": "Delahaze",
+      "producer": "Aurora",
+      "thc": 22.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie wspomagające sen, stymulujące i przeciwlękowe. Wielu pacjentów chwalą dobrą jakość, intensywny aromat. Odmiana cieszy się znaczną popularnością wśród pacjentów (15 opinii).",
+      "summary_en": "Patients most commonly report sleep-promoting, stimulating, and anxiolytic effects. Many patients praise good quality, intense aroma. This strain is popular among patients (15 reviews).",
+      "review_count": 15,
+      "effects": [
+        "nasenne",
+        "stymulujące",
+        "przeciwlękowe",
+        "przeciwbólowe"
+      ],
+      "quality_pos": [
+        "dobrą jakość",
+        "intensywny aromat"
+      ],
+      "quality_neg": []
+    },
+    "aurora-ghost-train-haze": {
+      "name": "Ghost Train Haze",
+      "producer": "Aurora",
+      "thc": 22.0,
+      "summary_pl": "Pacjenci najczęściej zgłaszają działanie stymulujące. Wielu pacjentów chwalą skuteczne działanie oraz zwracają uwagę na luźne kwiatostany. Odmiana cieszy się znaczną popularnością wśród pacjentów (16 opinii).",
+      "summary_en": "Patients most commonly report stimulating effects. Many patients praise effective results and note loose flowers. This strain is popular among patients (16 reviews).",
+      "review_count": 16,
+      "effects": [
+        "stymulujące"
+      ],
+      "quality_pos": [
+        "skuteczne działanie"
+      ],
+      "quality_neg": [
+        "luźne kwiatostany"
+      ]
     }
   }
 }
